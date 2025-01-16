@@ -1,4 +1,5 @@
-*Marker PDF to Markdown Conversion*
+***Marker PDF to Markdown Conversion***
+
 This guide outlines the steps to set up the environment and run the script for converting PDFs to Markdown files.
 
 **Prerequisites**
