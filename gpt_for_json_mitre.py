@@ -110,7 +110,7 @@ def main():
             results[os.path.basename(md_file)] = {"error": str(e), "raw_response": raw_response}
 
     # Save the formatted JSON to a file
-    output_file_path = "results.json"
+    output_file_path = "/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience/results-mitre.json"
     with open(output_file_path, "w") as output_file:
         json.dump(results, output_file, indent=4)
     print(f"Results saved to {output_file_path}.")

@@ -186,7 +186,7 @@ def main():
     print(f"\nTotal processing time: {total_elapsed:.2f} seconds.")
 
     # Save the formatted JSON to a file
-    output_file_path = "results.json"
+    output_file_path = "/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience/results-reports.json"
     with open(output_file_path, "w") as output_file:
         json.dump(results, output_file, indent=4)
     print(f"Results saved to {output_file_path}.")
