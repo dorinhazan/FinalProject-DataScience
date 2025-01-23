@@ -1,122 +1,176 @@
-import os
+import json
 import openai
+import pandas as pd
+import os
+from io import StringIO
 
-# Set your API key
+# Set your OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# Define base directories
-base_path = r"/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience"
-
-# Prompt to send to GPT
-prompt_template = """You will be provided with a md file containing rows of data. Each row includes text snippets with specific formatting. Your task is to identify and categorize the observables within each text snippet according to the criteria below. 
-
-Definitions of Observables: 
-1. Fully Described Observables: These are data objects, physical objects, code snippets, or commands that are sufficiently detailed to distinguish them from general references. 
-    Examples include: o Data Elements: Named items with specific details or unique identifiers (e.g., "file name," "hash type"). 
-                      o Physical Objects: Objects explicitly identified with unique descriptions (e.g., "Brand X device"). 
-                      o Code Snippets: Full code snippets included in the text. o Commands: Fully described commands (e.g., shell commands, SQL commands). 
-2. Insufficient Observables: Items mentioned without sufficient detail to uniquely identify them, such as generic references (e.g., "spoofed signals" or "remote controller device") unless additional distinguishing information is provided (e.g., brand names, versions, or specific context). 
-
-Rules for Identifying Observables: 
-1. Step 1: Does the sentence contain information related to attack components? 
-    o If no, it is not an observable. o If yes, proceed to Step 2. 
-2. Step 2: Were the components used, modified, or damaged by malware to achieve the attack's main goal? 
-    o If no, it is not an observable. 
-    o If yes, proceed to Step 3. 
-3. Step 3: Can the usage of these components be detected as irregular behavior during the attack? 
-    o If no, it is not an observable. 
-    o If yes, it qualifies as an observable. 
+# File paths
+input_file_path = "/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience/ics-attack-16.1.json"
+output_folder = "/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience"
+filtered_file_path = f"{output_folder}/filtered_descriptions.json"
+output_csv_path = f"{output_folder}/analyzed_observables.csv"
 
 
-Instructions for Output: For each observable found in the text snippets: 
-1. Observable’s Type: Specify whether the observable is a "Fully Described Observable" or an "Insufficient Observable" based on the provided definitions. 
-2. Observable Value: Provide the exact name or description of the observable from the text. 
-3. Classification: Assign the observable to a high-level category, such as: o "ICS Command," "Software/Tool," "Network Entity," "PLC," "Code Snippet," or specific types like "SHA256" or "MD5" (classified as "Hash Function"). 
-4. Notes: 
-    o If additional details are provided in the text, include them concisely in the Notes field (e.g., associated parameters, identifiers, or use cases). 
-    o If no details are provided but you are familiar with the type, add a brief explanation of its purpose, functionality, or applications. 
-    o Leave the field empty if no details are available or the observable type is unfamiliar. 
-5. Context Text: Add the original text snippet containing the observable for reference. Information to Exclude: • Ignore URLs within parentheses following the observable name in square brackets (e.g., [Backdoor.Oldrea](https://attack.mitre.org/software/S0093)). • Ignore citations in parentheses (e.g., (Citation:...)). 
+# Step 1: Filter the JSON file
+def filter_json(input_path, output_path):
+    if os.path.exists(output_path):
+        print(f"Filtered JSON file already exists at {output_path}. Skipping filtering step.")
+        # Load the existing filtered JSON
+        with open(output_path, "r") as existing_file:
+            return json.load(existing_file)
 
-Output Format: Generate an Excel file with the following columns: 1. Observable’s Type: Either "Fully Described Observable" or "Insufficient Observable." 2. Observable Value: The specific name or description of the observable. 3. Classification: The high-level category of the observable. 4. Notes: Additional details or explanations (if available or applicable). 5. Context Text: The original text snippet from the entry."""
-
-
-def find_md_files(base_path):
-    """Recursively find all .md files in the directory."""
-    md_files = []
-    for root, _, files in os.walk(base_path):
-        for file in files:
-            if file.endswith(".md"):
-                md_files.append(os.path.join(root, file))
-    return md_files
-
-
-def process_md_file(md_file_path):
-    """Read and convert .md file to plain text."""
-    with open(md_file_path, 'r') as file:
-        return file.read()
+    print("Starting to filter the JSON file...")
+    with open(input_path, "r") as file:
+        data = json.load(file)
+    filtered_descriptions = [
+        {"description": obj["description"]}
+        for obj in data.get("objects", [])
+        if obj.get("type") == "relationship" and obj.get("source_ref", "").startswith("malware--")
+    ]
+    with open(output_path, "w") as output_file:
+        json.dump(filtered_descriptions, output_file, indent=4)
+    print(f"Filtering completed. {len(filtered_descriptions)} descriptions were saved to {output_path}.")
+    return filtered_descriptions
 
 
-def send_to_openai(md_content):
-    """Send the content of the markdown file to OpenAI's GPT model."""
-    # Combine the prompt template and markdown content into a single string
-    full_prompt = f"{prompt_template}\n\n{md_content}"
-
+# Step 2: Prepare and send the request to OpenAI
+def analyze_with_openai(filtered_data, prompt_template):
+    print("Preparing to send the filtered data to OpenAI for analysis...")
+    # Convert filtered JSON into text for input
+    filtered_text = json.dumps(filtered_data, indent=4)
+    # Combine the prompt template with the filtered text
+    full_prompt = f"{prompt_template}\n\nJSON Input:\n{filtered_text}"
+    print("Sending the request to OpenAI...")
+    # Send the request to OpenAI
     response = openai.ChatCompletion.create(
         model="o1-mini",
         messages=[
             {"role": "user", "content": full_prompt}
         ],
     )
-    return response
+    print("Received response from OpenAI.")
+    # Extract the result (the CSV content as text)
+    return response["choices"][0]["message"]["content"]
 
 
+# Step 3: Parse and save the result
+def save_as_csv(content, output_path):
+    print("Processing and saving the response content as a CSV file...")
+
+    # Remove code fence lines and empty lines
+    lines = [line for line in content.splitlines() if "```" not in line and line.strip()]
+
+    cleaned_content = "\n".join(lines)
+
+    csv_data = StringIO(cleaned_content)
+
+    try:
+        df = pd.read_csv(csv_data, sep=",", engine="python", quotechar='"', on_bad_lines='skip')
+        if df.shape[1] != 5:
+            print(f"Warning: Expected 5 columns but got {df.shape[1]}. Check for malformed lines.")
+        df.to_csv(output_path, index=False)
+        print(f"CSV file saved to {output_path}.")
+    except Exception as e:
+        print("Error while parsing CSV:", e)
+        print("Full response content:")
+        print(content)
+
+
+# Main function
 def main():
-    import os
-    import json
+    print("Starting the process...")
+    prompt_template = """
+    You will be given a json file from mitre attack site, the file will contain the following key and values:
+    ```{
+    “description”: “…”}```
+    
+    Your mission is to analyze the file, identify, check the context of the element:
+    
+    fully_described_observables: data objects, physical objects, code snippets, commands mentioned in the provided text snippet. Definition for fully_described_observables: Fully described data elements are those for which the snippet provides enough specific details (e.g., name, type, distinctive property) to distinguish them from general mentions. Fully described physical objects are those explicitly identified with sufficient, unique descriptive information (e.g., exact name, location, or specific function) beyond a generic label. Commands – please provide full commands (e.g., shell commands, sql commands, linux commands such as sudo)
+    
+    Insufficient Observables: items that are only mentioned in passing or without sufficient details (e.g., generic references like “remote controller device,” “man-in-the-middle technique,” “spoofed signals,” unless the snippet explicitly provides additional distinguishing data such as brand names, specific versions, unique identifiers, or elaborated context)
+    
+    You must not skip or overlook any observables. If you are unsure whether something is an observable, err on the side of including it as an insufficient_observable if it lacks detail, or as a fully_described_observable if the description provides enough unique identifiers or details.
+    
+    How to Decide the Category:
+    
+    fully_described_observables:
+    
+    They must have enough detail to be uniquely identified. Examples:
+    An IP address or domain name (e.g., 192.168.0.1, malicious-domain.com)
+    A full code block enclosed in triple backticks
+    A registry key path (e.g., HKEY_LOCAL_MACHINE\Software\Microsoft)
+    A specifically named device or model
+    A command or a set of commands that appear in the snippet
+    insufficient_observables:
+    
+    Items referenced only in passing or without enough details to identify them clearly. Examples:
+    Generic mentions like “a remote controller device” with no further details
+    “malware” without name or type
+    “spoofed signals” or “man-in-the-middle technique” without specifics
+    Instructions: Your output will be a csv table with the following columns:
+    
+    Observable Type (insufficient or fully described) – as described above
+    Observable Value
+    Classification
+    Notes
+    context text
+    
+    For each fully described observables data objects, physical objects, code snippets, commands mentioned in the provided text snippet you find:
+    
+    Observable Value: The specific name or description exactly as stated (or closely paraphrased) in the snippet.
+    Classification: it is the high-level category of the observables’s type. For example, "ICS Command", "Software/Tool", "Network Entity", "PLC", "Code snippet", etc. Please pay attention – if the observables are from a speific type for example: “SHA256”, “MD5” you will classify both of them as hash function and provide the specific type in the “notes”.
+    Notes: there are three cases for this files:
+    If additional important details are mentioned in the report: Include these details concisely in the Notes field to provide context or clarify the observable's significance. For example, specify associated parameters, unique identifiers, use cases, or any distinguishing characteristics.
+    If no additional details are provided, but you are familiar with the observable type: Add a brief explanation or description of the observable to enhance understanding.
+    "A PLC (Programmable Logic Controller) is used to automate industrial processes, typically in manufacturing or utility control systems."
+    "ICS commands are instructions executed within industrial control systems to manage operations like controlling valves or monitoring system states."
+    If no details are available and the observable type is unfamiliar or cannot be expanded upon: Leave the Notes field empty to avoid speculative or incorrect information.
+    For each Insufficient Observable you find in the snippet, provide only:
+    
+    Observable’s value: The value of the item exactly as stated in the snippet.
+    Notes: same instructions as in fully described observables, you can also provide a general note if you think it it valuable for this observable
+    Classification:if there is  specific Classification as in the fully described obserevables then write it, else give a general classifiction of this observable. for ex:
+    For the Insufficient Observable does not have a classification – if you find a relevant one please add it, otherwise you keep it null
+    
+    Thoroughness Check (to minimize missing observables)
+    Parse the entire description carefully, line by line, and look for any mention of potential observables, including:
+    Malware references (e.g., generic “malware,” “virus,” “trojan,” “ransomware,” “worm,” or specific malware names).
+    Commands: shell commands, PowerShell commands, SQL statements, Linux commands (e.g., sudo), Windows utilities (e.g., netsh, ipconfig, regedit), or any code snippet references.
+    Protocols (e.g., HTTP, SMB, S7comm, Modbus, OPC UA) and any unique ICS protocol references.
+    Vulnerabilities (e.g., CVE numbers) or references to ICS attacks or CVE IDs.
+    Registry keys or system paths (e.g., HKEY_LOCAL_MACHINE, /etc/passwd).
+    Physical or brand references (e.g., “Omron PLC,” “Siemens S7-1200,” “Rockwell Automation controller”).
+    Unique context references (e.g., “Triton,” “Stuxnet,” “IT networks,” “industrial networks,” or any brand or version detail).
+    If you are not certain whether a mention is an observable, classify it as an Insufficient Observable (unless the snippet provides enough detail to classify it as fully described).
+    
+    context text: Provide a short snippet or sentence from the original description that shows where this observable appears. If it’s a long sentence, you may truncate, but keep enough text to illustrate the reference.
+    
+    Output Format:
+    The final output must be only a CSV table (no extra commentary). The header row must appear exactly as:
+    Observable Type,Observable Value,Classification,Notes,context text
+    Each subsequent row represents one observable, with exactly four columns separated by commas. Important: If Classification or Notes contain commas, wrap that entire field in double quotes to keep CSV structure intact. For example:
+    Fully Described,KillDisk,"Software/Tool, MITRE ID S0067","KillDisk is known destructive malware"
+    Use commas as the delimiter between columns. Include all observables in the output with no truncation (no “...” at the end). Ensure each row is on its own line. No extra commentary or text beyond the CSV table itself is allowed.
+    
+    Important: Do not wrap the CSV output in triple backticks or any code fence. Only return the CSV lines.
+    """
 
-    # Locate all .md files
-    md_files = find_md_files(base_path)
-    print(f"Found {len(md_files)} markdown files.")
 
-    # Process each file
-    results = {}
-    for md_file in md_files:
-        print(f"Processing file: {md_file}")
-        try:
-            # Read the markdown content
-            md_content = process_md_file(md_file)
+    # Step 1: Filter the JSON file
+    filtered_data = filter_json(input_file_path, filtered_file_path)
 
-            # Send the content to OpenAI
-            response = send_to_openai(md_content)
+    # Step 2: Send to OpenAI and get analysis
+    analysis_result = analyze_with_openai(filtered_data, prompt_template)
 
-            # Extract the raw response content
-            raw_response = response['choices'][0]['message']['content']
-
-            # Ensure the response is not empty
-            if not raw_response.strip():
-                raise ValueError(f"Empty response for file: {md_file}")
-
-            # Clean the raw response (remove backticks and surrounding "```json" markers)
-            cleaned_response = raw_response.strip("```").strip("json").strip()
-
-            # Parse the cleaned JSON response
-            parsed_response = json.loads(cleaned_response)
-
-            # Add to results
-            results[os.path.basename(md_file)] = parsed_response
-        except Exception as e:
-            print(f"Error processing file {md_file}: {e}")
-            results[os.path.basename(md_file)] = {"error": str(e), "raw_response": raw_response}
-
-    # Save the formatted JSON to a file
-    output_file_path = "/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience/results-mitre.json"
-    with open(output_file_path, "w") as output_file:
-        json.dump(results, output_file, indent=4)
-    print(f"Results saved to {output_file_path}.")
+    # Step 3: Save result as a CSV file
+    save_as_csv(analysis_result, output_csv_path)
+    print("Process completed successfully!")
 
 
+# Execute the main function
 if __name__ == "__main__":
     main()
-
-

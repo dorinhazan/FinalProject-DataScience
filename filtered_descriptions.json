@@ -1,0 +1,608 @@
+[
+    {
+        "description": "[KillDisk](https://attack.mitre.org/software/S0607) erases the master boot record (MBR) and system logs, leaving the system unusable. (Citation: Booz Allen Hamilton)"
+    },
+    {
+        "description": "[Bad Rabbit](https://attack.mitre.org/software/S0606) initially infected IT networks, but by means of an exploit (particularly the SMBv1-targeting MS17-010 vulnerability) spread to industrial networks. (Citation: Joe Slowik April 2019)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can remotely read the OCP UA structure from devices.(Citation: CISA-AA22-103A) "
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) payload gathers server information that includes CLSID, server name, Program ID, OPC version, vendor information, running state, group count, and server bandwidth. This information helps indicate the role the server has in the control process. (Citation: ICS-CERT August 2018) (Citation: Daavid Hentunen, Antti Tikkanen June 2014)"
+    },
+    {
+        "description": "[Bad Rabbit](https://attack.mitre.org/software/S0606) ransomware spreads through drive-by attacks where insecure websites are compromised. While the target is visiting a legitimate website, a malware dropper is being downloaded from the threat actors infrastructure. (Citation: Orkhan Mamedov, Fedor Sinitsyn, Anton Ivanov October 2017)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can remotely send commands to a malicious agent uploaded on Omron PLCs over HTTP or HTTPS.(Citation: CISA-AA22-103A) "
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) renames s7otbxdx.dll, a dll responsible for handling communications with a PLC. It replaces this dll file with its own version that allows it to intercept any calls that are made to access the PLC. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "Before encrypting the process, [EKANS](https://attack.mitre.org/software/S0605) first kills the process if its name matches one of the processes defined on the kill-list.  (Citation: Daniel Kapellmann Zafra, Keith Lunden, Nathan Brubaker, Jeremy Kennelly July 2020) (Citation: Daniel Kapellmann Zafra, Keith Lunden, Nathan Brubaker, Jeremy Kennelly July 2020) EKANS also utilizes netsh commands to implement firewall rules that blocks any remote communication with the device. (Citation: Ben Hunter and Fred Gutierrez July 2020)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009)'s imain.bin payload takes commands from the TsHi.ExplReadRam(Ex), TsHi.ExplWriteRam(Ex) and TsHi.ExplExec functions to perform operations on controller memory and registers using syscalls written in PowerPC shellcode. (Citation: Jos Wetzels January 2018)"
+    },
+    {
+        "description": "[Duqu](https://attack.mitre.org/software/S0038) downloads additional modules for the collection of data from local systems. The modules are named: infostealer 1, infostealer 2 and reconnaissance. (Citation: Symantec)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can send custom Modbus commands to write register values on Schneider PLCs.(Citation: CISA-AA22-103A) \n\n[INCONTROLLER](https://attack.mitre.org/software/S1045) can send write tag values on OPC UA servers.(Citation: CISA-AA22-103A) "
+    },
+    {
+        "description": "[Fuxnet](https://attack.mitre.org/software/S1157) execution relied upon accessing Internet-accessible devices for initial access and deployment.(Citation: Claroty Fuxnet 2024)"
+    },
+    {
+        "description": "The [Industroyer](https://attack.mitre.org/software/S0604) IEC 61850 payload component has the ability to discover relevant devices in the infected host's network subnet by attempting to connect on port 102.(Citation: Anton Cherepanov, ESET June 2017)\n\n[Industroyer](https://attack.mitre.org/software/S0604) contains an OPC DA module that enumerates all OPC servers using the `ICatInformation::EnumClassesOfCategories` method with `CATID_OPCDAServer20` category identifier and `IOPCServer::GetStatus` to identify the ones running."
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) enumerates and parses the System Data Blocks (SDB) using the s7blk_findfirst and s7blk_findnext API calls in s7otbxdx.dll. Stuxnet must find an SDB with the DWORD at offset 50h equal to 0100CB2Ch. This specifies that the system uses the Profibus communications processor module CP 342-5. In addition, specific values are searched for and counted: 7050h and 9500h. 7050h is assigned to part number KFC750V3 which appears to be a frequency converter drive (also known as variable frequency drive) manufactured by Fararo Paya in Teheran, Iran. 9500h is assigned to Vacon NX frequency converter drives manufactured by Vacon based in Finland.(Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)\n\n[Stuxnet](https://attack.mitre.org/software/S0603) was specifically targeting CPUs 6ES7-315-2 (Series 300) with special system data block characteristics for sequence A or B and 6ES7-315-2 for sequence C. The PLC type can also be checked using the s7ag_read_szl API.(Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[EKANS](https://attack.mitre.org/software/S0605) performs a DNS lookup of an internal domain name associated with its target network to identify if it was deployed on the intended system. (Citation: Ben Hunter and Fred Gutierrez July 2020)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can login to Omron PLCs using hardcoded credentials, which is documented in CVE-2022-34151.(Citation: Wylie-22) "
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) leveraged the TriStation protocol to download programs onto Triconex Safety Instrumented System. (Citation: Jos Wetzels January 2018)"
+    },
+    {
+        "description": "[REvil](https://attack.mitre.org/software/S0496) initially executes when the user clicks on a JavaScript file included in the phishing emails .zip attachment. (Citation: Tom Fakterman August 2019)"
+    },
+    {
+        "description": "[Industroyer2](https://attack.mitre.org/software/S1072) can iterate across a device\u2019s IOAs to modify the ON/OFF value of a given IO state.(Citation: Industroyer2 Mandiant April 2022)(Citation: Industroyer2 Forescout July 2022)"
+    },
+    {
+        "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006)'s code is stored in OB9999. The original code on the target is untouched. The OB is automatically detected by the PLC and executed. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) uses the system function blocks TCON and TDISCON to initiate and destroy TCP connections to arbitrary systems. Buffers may be sent and received on these connections with TRCV und TSEND system function blocks. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "[ACAD/Medre.A](https://attack.mitre.org/software/S1000) can collect AutoCad files with drawings. These drawings may contain operational information. (Citation: ESET)\n"
+    },
+    {
+        "description": "[Flame](https://attack.mitre.org/software/S0143) has built-in modules to gather information from compromised computers. (Citation: Kevin Savage and Branko Spasojevic)"
+    },
+    {
+        "description": "[ACAD/Medre.A](https://attack.mitre.org/software/S1000) collects information related to the AutoCAD application. The worm collects AutoCAD (*.dwg) files with drawings from infected systems. (Citation: ESET)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can use the CODESYS protocol to remotely connect to Schneider PLCs and perform maintenance functions on the device.(Citation: Wylie-22)\n\n[INCONTROLLER](https://attack.mitre.org/software/S1045) can use Telnet to upload payloads and execute commands on Omron PLCs.\t(Citation: Brubaker-Incontroller)(Citation: Dragos-Pipedream) The malware can also use HTTP-based CGI scripts (e.g., cpu.fcgi, ecat.fcgi) to gain administrative access to the device.(Citation: Wylie-22) "
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) copies the input area of an I/O image into data blocks with a one second interval between copies, forming a 21 second recording of the input area. The input area contains information being passed to the PLC from a peripheral. For example, the current state of a valve or the temperature of a device. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) examines fields recorded by the DP_RECV monitor to determine if the target system is in a particular state of operation. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[REvil](https://attack.mitre.org/software/S0496) searches for all processes listed in the prc field within its configuration file and then terminates each process. (Citation: McAfee Labs October 2019)"
+    },
+    {
+        "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) utilizes the PLC communication and management API to load executable Program Organization Units. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) sends an SQL statement that creates a table and inserts a binary value into the table. The binary value is a hex string representation of the main Stuxnet DLL as an executable file (formed using resource 210) and an updated configuration data block. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009)'s injector, inject.bin, masquerades as a standard compiled PowerPC program for the Tricon. (Citation: DHS CISA February 2019)\n\n[Triton](https://attack.mitre.org/software/S1009) was configured to masquerade as trilog.exe, which is the Triconex software for analyzing SIS logs.(Citation: FireEye TRITON)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) uses a Python script that is capable of detecting Triconex controllers on the network by sending a specific UDP broadcast packet over port 1502. (Citation: DHS CISA February 2019)"
+    },
+    {
+        "description": "An enterprise resource planning (ERP) manufacturing server was lost to the [Ryuk](https://attack.mitre.org/software/S0446) attack. The manufacturing process had to rely on paper and existing orders to keep the shop floor open. (Citation: Kelly Jackson Higgins)"
+    },
+    {
+        "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) uses HTTP POST request to contact external command and control servers. (Citation: Booz Allen Hamilton)\n"
+    },
+    {
+        "description": "The name of the [Industroyer](https://attack.mitre.org/software/S0604) payload DLL is supplied by the attackers via a command line parameter supplied in one of the main backdoors execute a shell command commands. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) calls system function blocks which are part of the operating system running on the PLC. Theyre used to execute system tasks, such as reading the system clock (SFC1) and generating data blocks on the fly. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) ICS malware plugin relies on Windows networking (WNet) to discover all the servers, including OPC servers, that are reachable by the compromised machine over the network. (Citation: Julian Rrushi, Hassan Farhangi, Clay Howey, Kelly Carmichael, Joey Dabell December 2015)"
+    },
+    {
+        "description": "The [INCONTROLLER](https://attack.mitre.org/software/S1045) PLCProxy module can add an IP route to the CODESYS gateway running on Schneider PLCs to allow it to route messages through the PLC to other devices on that network. This allows the malware to bypass firewall rules that prevent it from directly communicating with devices on the same network as the PLC.(Citation: Wylie-22)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) attempts to connect with a hardcoded internal proxy on TCP 3128 [default Squid proxy]. If established, the backdoor attempts to reach an external C2 server via the internal proxy. (Citation: Dragos Inc. June 2017)"
+    },
+    {
+        "description": "While Norsk Hydro attempted to recover from a [LockerGoga](https://attack.mitre.org/software/S0372) infection, most of its 160 manufacturing locations switched to manual (non-IT driven) operations. Manual operations can result in a loss of productivity. (Citation: Kevin Beaumont)(Citation: Hydro)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can use the HTTP CGI scripts on Omron PLCs to modify parameters on EtherCat connected servo drives.(Citation: Wylie-22) "
+    },
+    {
+        "description": "In states 3 and 4 [Stuxnet](https://attack.mitre.org/software/S0603) sends two network bursts (done through the DP_SEND primitive). The data in the frames are instructions for the frequency converter drives. For example one of the frames contains records that change the maximum frequency (the speed at which the motor will operate). The frequency converter drives consist of parameters, which can be remotely configured via Profibus. One can write new values to these parameters changing the behavior of the device. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "The [Industroyer](https://attack.mitre.org/software/S0604) SIPROTEC DoS module exploits the CVE-2015-5374 vulnerability in order to render a Siemens SIPROTEC device unresponsive. Once this vulnerability is successfully exploited, the target device stops responding to any commands until it is rebooted manually. (Citation: Anton Cherepanov, ESET June 2017) Once the tool is executed it sends specifically crafted packets to port 50,000 of the target IP addresses using UDP. The UDP packet contains the following 18 byte payload: 0x11 49 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 9E. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can establish a remote HTTP connection to change the operating mode of Omron PLCs.(Citation: Dragos-Pipedream)(Citation: Wylie-22) "
+    },
+    {
+        "description": "A [Conficker](https://attack.mitre.org/software/S0608) infection at a nuclear power plant forced the facility to shutdown and go through security procedures involved with such events, with its staff scanning computer systems and going through all the regular checks and motions before putting the plant back into production. (Citation: Catalin Cimpanu April 2016)"
+    },
+    {
+        "description": "The execution on the PLC can be stopped by violating the cycle time limit. The [PLC-Blaster](https://attack.mitre.org/software/S1006) implements an endless loop triggering an error condition within the PLC with the impact of a DoS. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) modifies the Import Address Tables DLLs to hook specific APIs that are used to open project files. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Industroyer2](https://attack.mitre.org/software/S1072) has the capability to terminate specified processes (i.e., PServiceControl.exe and PService_PDD.exe) and rename each process to prevent restart. These are defined through a hardcoded configuration.(Citation: Industroyer2 Mandiant April 2022)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) would reset the controller to the previous state over TriStation and if this failed it would write a dummy program to memory in what was likely an attempt at anti-forensics. (Citation: Jos Wetzels January 2018)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) leverages a previously-unknown vulnerability affecting Tricon MP3008 firmware versions 10.010.4 allows an insecurely-written system call to be exploited to achieve an arbitrary 2-byte write primitive, which is then used to gain supervisor privileges. (Citation: DHS CISA February 2019)"
+    },
+    {
+        "description": "Execution of [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) relies on a user opening a trojanized installer attached to an email. (Citation: Daavid Hentunen, Antti Tikkanen June 2014) (Citation: Kyle Wilhoit)"
+    },
+    {
+        "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) scans the network to find other Siemens S7 PLC devices to infect. It locates these devices by checking for a service listening on TCP port 102. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "[REvil](https://attack.mitre.org/software/S0496) searches for whether the Ahnlab autoup.exe service is running on the target system and injects its payload into this existing process. (Citation: Tom Fakterman August 2019)"
+    },
+    {
+        "description": "[NotPetya](https://attack.mitre.org/software/S0368) can move laterally through industrial networks by means of the SMB service. (Citation: Joe Slowik April 2019)"
+    },
+    {
+        "description": "The [Industroyer](https://attack.mitre.org/software/S0604) IEC 61850 component sends the domain-specific MMSgetNameList request to determine what logical nodes the device supports. It then searches the logical nodes for the CSW value, which indicates the device performs a circuit breaker or switch control function.(Citation: ESET Industroyer)\n\n[Industroyer](https://attack.mitre.org/software/S0604)'s OPC DA module also uses IOPCBrowseServerAddressSpace to look for items with the following strings: ctlSelOn, ctlOperOn, ctlSelOff, ctlOperOff, Pos and stVal.(Citation: ESET Industroyer)\n\n[Industroyer](https://attack.mitre.org/software/S0604) IEC 60870-5-104 module includes a range mode to discover Information Object Addresses (IOAs) by enumerating through each.(Citation: ESET Industroyer)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009)'s argument-setting and inject.bin shellcode are added to the program table on the Tricon so that they are executed by the firmware once each cycle. (Citation: DHS CISA February 2019) (Citation: Jos Wetzels January 2018)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) uses the first COM port from the configuration file for the communication and the other two COM ports are opened to prevent other processes accessing them. This may block processes or operators from getting reporting messages from a device. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[NotPetya](https://attack.mitre.org/software/S0368) initially infected IT networks, but by means of an exploit (particularly the SMBv1-targeting MS17-010 vulnerability) spread to industrial networks. (Citation: Joe Slowik April 2019)"
+    },
+    {
+        "description": "[Industroyer2](https://attack.mitre.org/software/S1072) modifies specified Information Object Addresses (IOAs) for specified Application Service Data Unit (ASDU) addresses to either the ON or OFF state.(Citation: Industroyer2 Mandiant April 2022)(Citation: Industroyer2 Forescout July 2022)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045)  can brute force password-based authentication to Schneider PLCs over  the CODESYS protocol (UDP port 1740).(Citation: CISA-AA22-103A)\n\n [INCONTROLLER](https://attack.mitre.org/software/S1045)  can perform brute force guessing of passwords to OPC UA servers using a predefined list of passwords.(Citation: CISA-AA22-103A)(Citation: Wylie-22) "
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can perform a UDP multicast scan of UDP port 27127 to identify Schneider PLCs that use that port for the NetManage protocol.(Citation: Dragos-Pipedream)(Citation: Wylie-22)\n\n[INCONTROLLER](https://attack.mitre.org/software/S1045) can use the FINS (Factory Interface Network Service) protocol to scan for and obtain MAC address associated with Omron devices.(Citation: CISA-AA22-103A)(Citation: Wylie-22)\n\n[INCONTROLLER](https://attack.mitre.org/software/S1045) has the ability to perform scans for TCP port 4840 to identify devices running OPC UA servers.(Citation: Wylie-22)"
+    },
+    {
+        "description": "[Fuxnet](https://attack.mitre.org/software/S1157) initial execution relied on accessing external remote services for victim environments.(Citation: Claroty Fuxnet 2024)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) has the capability to stop a service itself, or to login as a user and stop a service as that user. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Industroyer2](https://attack.mitre.org/software/S1072) has the capability to poll a target device about its connection status, data transfer status, Common Address (CA), Information Object Addresses (IOAs), and IO state values across multiple priority levels.(Citation: Industroyer2 Forescout July 2022)(Citation: Industroyer2 ESET April 2022)"
+    },
+    {
+        "description": "[Duqu](https://attack.mitre.org/software/S0038) downloads additional modules for the collection of data in information repositories, including the Infostealer 2 module that can access data from Windows Shares.(Citation: Symantec)"
+    },
+    {
+        "description": "[Industroyer2](https://attack.mitre.org/software/S1072) is capable of sending command messages from the compromised device to target remote stations to open data channels, retrieve the location and values of Information Object Addresses (IOAs), and modify the IO state values through Select Before Operate I/O, Select/Execute, and Invert Default State operations.(Citation: Industroyer2 Mandiant April 2022)(Citation: Industroyer2 Forescout July 2022)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) will store and execute SQL code that will extract and execute Stuxnet from the saved CAB file using xp_cmdshell with the following command: `set @s = master..xp _ cmdshell extrac32 /y +@t+ +@t+x; exec(@s);` (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) RAT is distributed through trojanized installers planted on compromised vendor sites. (Citation: Daavid Hentunen, Antti Tikkanen June 2014)"
+    },
+    {
+        "description": "[REvil](https://attack.mitre.org/software/S0496) sends exfiltrated data from the victims system using HTTPS POST messages sent to the C2 system. (Citation: McAfee Labs October 2019) (Citation: SecureWorks September 2019)"
+    },
+    {
+        "description": "[Fuxnet](https://attack.mitre.org/software/S1157) repeatedly wrote arbitrary data over the Meter-Bus channel from impacted devices to connected sensors to render sensor data acquisition useless.(Citation: Claroty Fuxnet 2024)"
+    },
+    {
+        "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) may manipulate any outputs of the PLC. Using the POU POKE any value within the process image may be modified. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "[Industroyer2](https://attack.mitre.org/software/S1072) leverages a hardcoded list of remote-station IP addresses to iteratively initiate communications and collect information across multiple priority IEC-104 priority levels.(Citation: Industroyer2 Forescout July 2022)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) communicates with Triconex controllers using a custom component framework written entirely in Python. The modules that implement the TriStation communication protocol and other supporting components are found in a separate file -- library.zip -- the main script that employs this functionality is compiled into a standalone py2exe Windows executable -- trilog.exe  which includes a Python environment. (Citation: DHS CISA February 2019)"
+    },
+    {
+        "description": "[Conficker](https://attack.mitre.org/software/S0608) exploits Windows drive shares. Once it has infected a computer, [Conficker](https://attack.mitre.org/software/S0608) automatically copies itself to all visible open drive shares on other computers inside the network. (Citation: Symantec June 2015) Nuclear power plant officials suspect someone brought in [Conficker](https://attack.mitre.org/software/S0608) by accident on a USB thumb drive, either from home or computers found in the power plant's facility. (Citation: Catalin Cimpanu April 2016)"
+    },
+    {
+        "description": "[Fuxnet](https://attack.mitre.org/software/S1157) impaired sensor communication to impacted devices resulting in a loss of view condition for overall system monitoring.(Citation: Claroty Fuxnet 2024)"
+    },
+    {
+        "description": "[NotPetya](https://attack.mitre.org/software/S0368) disrupted manufacturing facilities supplying vaccines, resulting in a halt of production and the inability to meet demand for specific vaccines. (Citation: David Voreacos, Katherine Chinglinsky, Riley Griffin December 2019)"
+    },
+    {
+        "description": "[Industroyer2](https://attack.mitre.org/software/S1072) uses a General Interrogation command to monitor the device\u2019s Information Object Addresses (IOAs) and their IO state values.(Citation: Industroyer2 Forescout July 2022)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) has the ability to halt or run a program through the TriStation protocol. TsHi.py contains instances of halt and run functions being executed. (Citation: MDudek-ICS)"
+    },
+    {
+        "description": "[Duqu](https://attack.mitre.org/software/S0038)'s purpose is to gather intelligence data and assets from entities such as industrial infrastructure and system manufacturers, amongst others not in the industrial sector, in order to more easily conduct a future attack against another third party.(Citation: Symantec)"
+    },
+    {
+        "description": "[Flame](https://attack.mitre.org/software/S0143) can collect AutoCAD design data and visio diagrams as well as other documents that may contain operational information. (Citation: Kevin Savage and Branko Spasojevic)"
+    },
+    {
+        "description": "Some of Norsk Hydro's production systems were impacted by a [LockerGoga](https://attack.mitre.org/software/S0372) infection. This resulted in a loss of view which forced the company to switch to manual operations. (Citation: Kevin Beaumont) (Citation: Hydro)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can use the CODESYS protocol to download programs to Schneider PLCs.(Citation: Wylie-22)(Citation: Brubaker-Incontroller) \n\n[INCONTROLLER](https://attack.mitre.org/software/S1045) can modified program logic on Omron PLCs using either the program download or backup transfer functions available through the HTTP server.(Citation: Wylie-22) "
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) toggles breakers to the open state utilizing unauthorized command messages. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603)'s infection sequence consists of code blocks and data blocks that will be downloaded to the PLC to alter its behavior. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) includes a library that creates Modbus connections with a device to request its device ID.(Citation: CISA-AA22-103A)(Citation: Wylie-22) "
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) was able to self-replicate by being spread through removable drives. A willing insider or unknown third party, such as a contractor, may have brought the removable media into the target environment. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011) The earliest version of Stuxnet relied on physical installation, infecting target systems when an infected configuration file carried by a USB stick was opened. (Citation: Langer Stuxnet)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604)'s OPC and IEC 61850 protocol modules include the ability to send stVal requests to read the status of operational variables. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "The [Industroyer](https://attack.mitre.org/software/S0604) SIPROTEC DoS module places the victim device into firmware update mode. This is a legitimate use case under normal circumstances, but in this case is used the adversary to prevent the SIPROTEC from performing its designed protective functions. As a result the normal safeguards are disabled, leaving an unprotected link in the electric transmission. (Citation: Joe Slowik August 2019)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) contains an IEC 61850 module that enumerates all connected network adapters to determine their TCP/IP subnet masks. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can use a Telnet session to load a malware implant on Omron PLCs.(Citation: CISA-AA22-103A)(Citation: Wylie-22) "
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) uses a hardcoded password in the WinCC software's database server as one of the mechanisms used to propagate to nearby systems. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "The [Industroyer](https://attack.mitre.org/software/S0604) SIPROTEC DoS module exploits the CVE-2015-5374 vulnerability in order to render a Siemens SIPROTEC device unresponsive. While the vulnerability does not directly cause the restart or shutdown of the device, the device must be restarted manually before it can resume operations. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) infects DLL's associated with the WinCC Simatic manager which are responsible for opening project files. If a user opens an uninfected project file using a compromised manager, the file will be infected with Stuxnet code. If an infected project is opened with the Simatic manager, the modified data file will trigger a search for the `xyz.dll` file. If the `xyz.dll` file is not found in any of the specified locations, the malicious DLL will be loaded and executed by the manager. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "In [Industroyer](https://attack.mitre.org/software/S0604) the first COM port from the configuration file is used for the actual communication and the two other COM ports are just opened to prevent other processes accessing them. Thus, the IEC 101 payload component is able to take over and maintain control of the RTU device. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) uses TriStations default UDP port, 1502, to communicate with devices. (Citation: MDudek-ICS)"
+    },
+    {
+        "description": "Using OPC, a component of [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) gathers any details about connected devices and sends them back to the C2 for the attackers to analyze. (Citation: Daavid Hentunen, Antti Tikkanen June 2014)"
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) payload has the capability of enumerating OPC tags, in addition to more generic OPC server information. The server data and tag names can provide information about the names and function of control devices. (Citation: ICS-CERT August 2018) (Citation: Daavid Hentunen, Antti Tikkanen June 2014)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) is able to read, write and execute code in memory on the safety controller at an arbitrary address within the devices firmware region. This allows the malware to make changes to the running firmware in memory and  modify how the device operates. (Citation: DHS CISA February 2019)"
+    },
+    {
+        "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) copies itself to various Program Organization Units (POU) on the target device.  The POUs include the Data Block, Function, and Function Block. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "The [Industroyer](https://attack.mitre.org/software/S0604) IEC 104 module has 3 modes available to perform its attack. These modes are range, shift, and sequence. The range mode operates in 2 stages. The first stage of range mode gathers Information Object Addresses (IOA) and sends select and execute packets to switch the state. The second stage of range mode has an infinite loop where it will switch the state of all of the previously discovered IOAs. Shift mode is similar to range mode, but instead of staying within the same range, it will add a shift value to the default range values. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) is able to block serial COM channels temporarily causing a denial of control. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "A [Conficker](https://attack.mitre.org/software/S0608) infection at a nuclear power plant forced the facility to temporarily shutdown. (Citation: Catalin Cimpanu April 2016)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604)'s data wiper component removes the registry image path throughout the system and overwrites all files, rendering the system unusable. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) contains a file named TS_cnames.py which contains default definitions for program state (TS_progstate). Program state is referenced in TsHi.py.(Citation: MDudek-ICS)\n\n[Triton](https://attack.mitre.org/software/S1009) contains a file named TS_cnames.py which contains default definitions for key state (TS_keystate). Key state is referenced in TsHi.py.(Citation: MDudek-ICS)"
+    },
+    {
+        "description": "Using its protocol payloads, [Industroyer](https://attack.mitre.org/software/S0604) sends unauthorized commands to RTUs to change the state of equipment. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) is able to block serial COM channels temporarily causing a denial of view. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) has a destructive wiper that overwrites all ICS configuration files across the hard drives and all mapped network drives specifically targeting ABB PCM600 configuration files. (Citation: Dragos Inc. June 2017)"
+    },
+    {
+        "description": "[PLC-Blaster](https://attack.mitre.org/software/S1006) stops the execution of the user program on the target to enable the transfer of its own code. The worm then copies itself to the target and subsequently starts the target PLC again. (Citation: Spenneberg, Ralf, Maik Brggemann, and Hendrik Schwartke March 2016)"
+    },
+    {
+        "description": "[Fuxnet](https://attack.mitre.org/software/S1157) shut down remote access services such as SSH, HTTP, telnet, and SNMP to a device along with deleting the routing table for routing devices to inhibit system accessibility and communication.(Citation: Claroty Fuxnet 2024)"
+    },
+    {
+        "description": "[EKANS](https://attack.mitre.org/software/S0605) infection resulted in a temporary production loss within a Honda manufacturing plant. (Citation: Davey Winder June 2020)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604)'s data wiper component removes the registry image path throughout the system and overwrites all files, rendering the system unusable. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) calls the SafeAppendProgramMod to transfer its payloads to the Tricon. Part of this call includes preforming a program upload. (Citation: MDudek-ICS)"
+    },
+    {
+        "description": "The [REvil](https://attack.mitre.org/software/S0496) malware gained access to an organizations network and encrypted sensitive files used by OT equipment. (Citation: Selena Larson, Camille Singleton December 2020)"
+    },
+    {
+        "description": "[KillDisk](https://attack.mitre.org/software/S0607) deletes application, security, setup, and system event logs from Windows systems. (Citation: Anton Cherepanov)"
+    },
+    {
+        "description": "[KillDisk](https://attack.mitre.org/software/S0607) is able to delete system files to make the system unbootable and targets 35 different types of files for deletion. (Citation: Anton Cherepanov)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045)  can use the CODESYS protocol to upload programs from Schneider PLCs.(Citation: Wylie-22)(Citation: Brubaker-Incontroller) \n\n[INCONTROLLER](https://attack.mitre.org/software/S1045)  can obtain existing program logic from Omron PLCs by using either the program upload or backup functions available through the HTTP server.(Citation: Wylie-22) "
+    },
+    {
+        "description": "[KillDisk](https://attack.mitre.org/software/S0607) looks for and terminates two non-standard processes, one of which is an ICS application. (Citation: Anton Cherepanov)"
+    },
+    {
+        "description": "Some of Norsk Hydro's production systems were impacted by a [LockerGoga](https://attack.mitre.org/software/S0372) infection. This resulted in a loss of control which forced the company to switch to manual operations. (Citation: Kevin Beaumont) (Citation: Hydro)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) uses a thread to monitor a data block DB890 of sequence A or B. This thread is constantly running and probing this block (every 5 minutes). On an infected PLC, if block DB890 is found and contains a special magic value (used by Stuxnet to identify his own block DB890), this blocks data can be read and written. This thread is likely used to optimize the way sequences A and B work, and modify their behavior when the Step7 editor is opened. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) attempts to contact command and control servers on port 80 to send basic information about the computer it has compromised. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) executes malicious SQL commands in the WinCC database server to propagate to remote systems. The malicious SQL commands include xp_cmdshell, sp_dumpdbilog, and sp_addextendedproc. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[EKANS](https://attack.mitre.org/software/S0605) masquerades itself as a valid executable with the filename update.exe. Many valid programs use the process name update.exe to perform background software updates. (Citation: Dragos Threat Intelligence February 2020)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) automatically collects protocol object data to learn about control devices in the environment. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[WannaCry](https://attack.mitre.org/software/S0366) initially infected IT networks, but by means of an exploit (particularly the SMBv1-targeting MS17-010 vulnerability) spread to industrial networks. (Citation: Joe Slowik April 2019)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) can reprogram a PLC and change critical parameters in such a way that legitimate commands can be overridden or intercepted. In addition, Stuxnet can apply inappropriate command sequences or parameters to cause damage to property. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "In [Industroyer](https://attack.mitre.org/software/S0604) the first COM port from the configuration file is used for the actual communication and the two other COM ports are just opened to prevent other processes accessing them. Thus, the IEC 101 payload component is able to take over and maintain control of the RTU device. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "The [VPNFilter](https://attack.mitre.org/software/S1010)'s ssler module configures the device's iptables to redirect all traffic destined for port 80 to its local service listening on port 8888. Any outgoing web requests on port 80 are now intercepted by ssler and can be inspected by the ps module and manipulated before being sent to the legitimate HTTP service. (Citation: William Largent June 2018) (Citation: Carl Hurd March 2019)"
+    },
+    {
+        "description": "[REvil](https://attack.mitre.org/software/S0496) sends HTTPS POST messages with randomly generated URLs to communicate with a remote server. (Citation: Tom Fakterman August 2019) (Citation: SecureWorks September 2019)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604)'s OPC module can brute force values and will send out a 0x01 status which for the target systems equates to a Primary Variable Out of Limits misdirecting operators from understanding protective relay status. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "The [VPNFilter](https://attack.mitre.org/software/S1010) packet sniffer looks for basic authentication as well as monitors ICS traffic, and is specific to the TP-LINK R600-VPN. The malware uses a raw socket to look for connections to a pre-specified IP address, only looking at TCP packets that are 150 bytes or larger. Packets that are not on port 502, are scanned for BasicAuth, and that information is logged. This may have allowed credential harvesting from communications between devices accessing a modbus-enabled HMI. (Citation: William Largent June 2018) (Citation: Carl Hurd March 2019)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) infects PLCs with different code depending on the characteristics of the target system. An infection sequence consists of code blocks and data blocks that will be downloaded to the PLC to alter its behavior. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) has the ability to exploit a vulnerable Asrock driver (AsrDrv103.sys) using CVE-2020-15368 to load its own unsigned driver on the system.(Citation: Wylie-22)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) infects OB1 so that its malicious code sequence is executed at the start of a cycle. It also infects OB35. OB35 acts as a watchdog, and on certain conditions, it can stop the execution of OB1. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009)'s injector, inject.bin, changes the function pointer of the 'get main processor diagnostic data' TriStation command to the address of imain.bin so that it is executed prior to the normal handler. (Citation: Jos Wetzels January 2018)"
+    },
+    {
+        "description": "[WannaCry](https://attack.mitre.org/software/S0366) can move laterally through industrial networks by means of the SMB service. (Citation: Joe Slowik April 2019)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) leverages a reconstructed TriStation protocol within its framework to trigger APIs related to program download, program allocation, and program changes. (Citation: Jos Wetzels January 2018)"
+    },
+    {
+        "description": "Several transportation organizations in Ukraine have suffered from being infected by [Bad Rabbit](https://attack.mitre.org/software/S0606), resulting in some computers becoming encrypted, according to media reports. (Citation: Marc-Etienne M.Lveill October 2017)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) has the capability to reprogram the SIS logic to allow unsafe conditions to persist or reprogram the SIS to allow an unsafe state  while using the DCS to create an unsafe state or hazard. (Citation: Blake Johnson, Dan Caban, Marina Krotofil, Dan Scali, Nathan Brubaker, Christopher Glyer December 2017)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can deploy Tcpdump to sniff network traffic and collect PCAP files.(Citation: Wylie-22) "
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) payload has caused multiple common OPC platforms to intermittently crash. This could cause a denial of service effect on applications reliant on OPC communications. (Citation: ICS-CERT August 2018)"
+    },
+    {
+        "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) targeted energy sector organizations in a wide reaching email spearphishing campaign. Adversaries utilized malicious Microsoft Word documents attachments. (Citation: Booz Allen Hamilton)\n"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) copies itself into Step 7 projects in such a way that it automatically executes when the Step 7 project is loaded. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) RAT is distributed through a trojanized installer attached to emails. (Citation: Daavid Hentunen, Antti Tikkanen June 2014)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) manipulates the view of operators replaying process input and manipulating the I/O image to evade detection and inhibit protection functions. (Citation: Langer Stuxnet) (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[REvil](https://attack.mitre.org/software/S0496) uses the SMB protocol to encrypt files located on remotely connected file shares. (Citation: Max Heinemeyer February 2020)"
+    },
+    {
+        "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can wipe the memory of Omron PLCs and reset settings through the remote HTTP service.(Citation: Brubaker-Incontroller)(Citation: Dragos-Pipedream)(Citation: Wylie-22) "
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) disables a firmware RAM/ROM consistency check after injects a payload (imain.bin) into the firmware memory region. (Citation: DHS CISA February 2019) (Citation: ICS-CERT December 2018) (Citation: Schneider Electric January 2018) Triconex systems include continuous means of detection including checksums for firmware and program integrity, memory and memory reference integrity, and configuration. (Citation: The Office of Nuclear Reactor Regulation)"
+    },
+    {
+        "description": "[Stuxnet](https://attack.mitre.org/software/S0603) executes malicious SQL commands in the WinCC database server to propagate to remote systems. The malicious SQL commands include xp_cmdshell, sp_dumpdbilog, and sp_addextendedproc. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Bad Rabbit](https://attack.mitre.org/software/S0606) is disguised as an Adobe Flash installer. When the file is opened it starts locking the infected computer. (Citation: Orkhan Mamedov, Fedor Sinitsyn, Anton Ivanov October 2017)"
+    },
+    {
+        "description": "[REvil](https://attack.mitre.org/software/S0496) utilizes JavaScript, WScript, and PowerShell scripts to execute. The malicious JavaScript attachment has an obfuscated PowerShell script that executes the malware. (Citation: Tom Fakterman August 2019)"
+    },
+    {
+        "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) utilizes valid user and administrator credentials, in addition to creating new administrator accounts to maintain presence. (Citation: Booz Allen Hamilton)\n"
+    },
+    {
+        "description": "When the peripheral output is written to, sequence C intercepts the output and ensures it is not written to the process image output. The output is the instructions the PLC sends to a device to change its operating behavior. By intercepting the peripheral output, [Stuxnet](https://attack.mitre.org/software/S0603) prevents an operator from noticing unauthorized commands sent to the peripheral. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "One of [Stuxnet](https://attack.mitre.org/software/S0603)'s rootkits is contained entirely in the fake s7otbxdx.dll. In order to continue existing undetected on the PLC it needs to account for at least the following situations: read requests for its own malicious code blocks, read requests for infected blocks (OB1, OB35, DP_RECV), and write requests that could overwrite Stuxnets own code. Stuxnet contains code to monitor and intercept these types of requests. The rootkit modifies these requests so that Stuxnets PLC code is not discovered or damaged. (Citation: Langer Stuxnet)"
+    },
+    {
+        "description": "DP_RECV is the name of a standard function block used by network coprocessors. It is used to receive network frames on the Profibus  a standard industrial network bus used for distributed I/O. The original block is copied to FC1869, and then replaced by a malicious block. Each time the function is used to receive a packet, the malicious [Stuxnet](https://attack.mitre.org/software/S0603) block takes control: it will call the original DP_RECV in FC1869 and then perform postprocessing on the packet data. The replaced DP_RECV block (later on referred to as the DP_RECV monitor) is meant to monitor data sent by the frequency converter drives to the 315-2 CPU via CP 342-5 Profibus communication modules. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0604) contained a module which leveraged a vulnerability in the Siemens SIPROTEC relays (CVE-2015-5374) to create a Denial of Service against automated protective relays. (Citation: Joe Slowik August 2019)"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S1009) can communicate with the implant utilizing the TriStation 'get main processor diagnostic data' command and looks for a specifically crafted packet body from which it extracts a command value and its arguments. (Citation: Jos Wetzels January 2018)"
+    },
+    {
+        "description": "[Fuxnet](https://attack.mitre.org/software/S1157) physically destroyed NAND memory chips on impacted devices through repeated bit-flip operations.(Citation: Claroty Fuxnet 2024)"
+    },
+    {
+        "description": "[Bad Rabbit](https://attack.mitre.org/software/S0606) can move laterally through industrial networks by means of the SMB service. (Citation: Joe Slowik April 2019)"
+    },
+    {
+        "description": "[Flame](https://attack.mitre.org/software/S0143) has built-in modules to gather information from compromised computers. (Citation: Kevin Savage and Branko Spasojevic)"
+    },
+    {
+        "description": "[ACAD/Medre.A](https://attack.mitre.org/software/S1000) collects information related to the AutoCAD application. The worm collects AutoCAD (*.dwg) files with drawings from information repositories. (Citation: ESET)\n"
+    },
+    {
+        "description": "[Triton](https://attack.mitre.org/software/S0013) was configured to masquerade as trilog.exe, which is the Triconex software for analyzing SIS logs. (Citation: Blake Johnson, Dan Caban, Marina Krotofil, Dan Scali, Nathan Brubaker, Christopher Glyer December 2017)"
+    },
+    {
+        "description": "The [Industroyer](https://attack.mitre.org/software/S0001)IEC 61850 componentsends the domain-specific MMSgetNameListrequest to determine what logical nodes the device supports. It then searches the logical nodes for the CSW value, which indicates the device performs a circuit breaker or switch control function.  (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0001)'s OPC DA module also uses IOPCBrowseServerAddressSpace to look for items with the following strings: \\ctlSelOn\\, \\ctlOperOn\\, \\ctlSelOff\\, \\ctlOperOff\\, \\\\\\Pos and stVal\\. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "[Industroyer](https://attack.mitre.org/software/S0001) IEC 60870-5-104 module includes a range mode to discover Information Object Addresses (IOAs) by enumerating through each. (Citation: Anton Cherepanov, ESET June 2017)"
+    },
+    {
+        "description": "The [VPNFilter](https://attack.mitre.org/software/S0002)'s ssler module configures the device's iptables to redirect all traffic destined for port 80 to its local service listening on port 8888. Any outgoing web requests on port 80 are now intercepted by ssler and can be inspected by the ps module and manipulated before being sent to the legitimate HTTP service. (Citation: William Largent June 2018) (Citation: Carl Hurd March 2019)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) replaces the DLL responsible for reading projects from a PLC to the step7 software. This allows Stuxnet the ability to upload a program from the PLC.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "[Backdoor.Oldrea](https://collaborate.mitre.org/attackics/index.php/Software/S0003) enumerates all OPC tags and queries for specific fields such as server state, tag name, type, access, and id.(Citation: FireEye Havex Jul 2014)"
+    },
+    {
+        "description": "[Industroyer](https://collaborate.mitre.org/attackics/index.php/Software/S0001)contained a module which leveraged a vulnerability in the Siemens SIPROTEC relays (CVE-2015-5374) to create a Denial of Service against automated protective relays.(Citation: Dragos CRASHOVERRIDE Oct 2018)"
+    },
+    {
+        "description": "[PLC-Blaster](https://collaborate.mitre.org/attackics/index.php/Software/S0009) utilizes the PLC communication and management API to load executable Program Organization Units.(Citation: BlackHat Mar 2016)"
+    },
+    {
+        "description": "[NotPetya](https://collaborate.mitre.org/attackics/index.php/Software/S0006) can utilize exposed SMB services to access industrial networks.(Citation: Dragos Apr 2019)"
+    },
+    {
+        "description": "In the version of [Triton](https://collaborate.mitre.org/attackics/index.php/Software/S0013) available at the time of publication, the component that programs the Triconex controllers is written entirely in Python. The modules that implement the communciation protocol and other supporting components are found in a separate file -- library.zip -- which the main script that employs this functionality is compiled into a standalone Windows executable -- trilog.exe -- that includes a Python environment.(Citation: DHS CISA MAR-17-351-01 HatMan Feb 2019)"
+    },
+    {
+        "description": "[WannaCry](https://collaborate.mitre.org/attackics/index.php/Software/S0007) can utilize exposed SMB services to access industrial networks.(Citation: Dragos Apr 2019)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) utilized an engineering workstation as the initial access point for PLC devices.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "The [Industroyer](https://collaborate.mitre.org/attackics/index.php/Software/S0001) IEC 61850 component\u202fsends the domain-specific MMS\u202fgetNameList\u202frequest to determine what logical nodes the device supports. It then searches the logical nodes for the \u201cCSW\u201d value, which indicates the device performs a circuit breaker or switch control function.(Citation: ESET Win32/Industroyer June 2017)"
+    },
+    {
+        "description": "In [Industroyer](https://collaborate.mitre.org/attackics/index.php/Software/S0001), after pivoting into the ICS environment, the adversary gained [Initial Access](https://collaborate.mitre.org/attackics/index.php/Initial_Access) to devices involved with critical process operations through a Microsoft Windows Server 2003 running a SQL Server.(Citation: Dragos CRASHOVERRIDE Oct 2018)"
+    },
+    {
+        "description": "[Triton](https://collaborate.mitre.org/attackics/index.php/Software/S0013) malware gained remote access to an SIS engineering workstation.(Citation: FireEye TRITON Dec 2017)"
+    },
+    {
+        "description": "[Bad Rabbit](https://collaborate.mitre.org/attackics/index.php/Software/S0005) can utilize exposed SMB services to access industrial networks.(Citation: Dragos Apr 2019)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) enumerates and parses the System Data Blocks (SDB) using the s7blk_findfirst and s7blk_findnext API calls in s7otbxdx.dll. Stuxnet must find an SDB with the DWORD at offset 50h equal to 0100CB2Ch. This specifies that the system uses the Profibus communications processor module CP 342-5. In addition, specific values are searched for and counted: 7050h and 9500h. 7050h is assigned to part number KFC750V3 which appears to be a frequency converter drive (also known as variable frequency drive) manufactured by Fararo Paya in Teheran, Iran. 9500h is assigned to Vacon NX frequency converter drives manufactured by Vacon based in Finland.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "[Industroyer](https://collaborate.mitre.org/attackics/index.php/Software/S0001) s OPC DA module also uses IOPCBrowseServerAddressSpace to look for items with the following strings: 'ctlSelOn', 'ctlOperOn', 'ctlSelOff', 'ctlOperOff', 'Pos and stVal'.(Citation: ESET Win32/Industroyer June 2017)"
+    },
+    {
+        "description": "One of [Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) 's rootkits is contained entirely in the fake s7otbxdx.dll. In order to continue existing undetected on the PLC it needs to account for at least the following situations: read requests for its own malicious code blocks, read requests for infected blocks (OB1, OB35, DP_RECV), and write requests that could overwrite Stuxnet\u2019s own code. Stuxnet contains code to monitor and intercept these types of requests. The rootkit modifies these requests so that Stuxnet\u2019s PLC code is not discovered or damaged.(Citation: Langer Nov 2013)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) de-couples all inputs and signals from the legitimate code on a PLC and chooses what is passed to the original code. STUXNET effectively creates a man in the middle attack with the input and output signals and control logic."
+    },
+    {
+        "description": "Using [Triton](https://collaborate.mitre.org/attackics/index.php/Software/S0013), an adversary can manipulate the process into an unsafe state from the DCS while preventing the SIS from functioning appropriately.(Citation: FireEye TRITON Dec 2017)"
+    },
+    {
+        "description": "[Industroyer](https://collaborate.mitre.org/attackics/index.php/Software/S0001), contains modules for IEC 101 and IEC 104 communications.(Citation: ESET Win32/Industroyer Jun 2017) IEC 101 uses serial for the physical connection and IEC 104 uses Ethernet. Analysis of the malware by Dragos states that both of the modules have equivalent functionality.(Citation: Dragos Industroyer Jun 2017) The IEC 104 module uses Network Connection Enumeration to determine the Ethernet adapters on the device. Since functionality between the two modules are equivalent, this implies that the IEC 101 module is able to detect serial interfaces on the device.(Citation: ESET Win32/Industroyer Jun 2017)"
+    },
+    {
+        "description": "After [PLC-Blaster](https://collaborate.mitre.org/attackics/index.php/Software/S0009) is transferred to a PLC, the PLC begins execution of PLC-Blaster.(Citation: BlackHat Mar 2016)"
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://collaborate.mitre.org/attackics/index.php/Software/S0003) payload has the capability of enumerating OPC tags, in addition to more generic OPC server information. The tag names, depending on the naming convention, can provide information about facilities and locations.(Citation: CISA Advisory (ICSA-14-178-01))(Citation: F-Secure Labs Jun 2014)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) enumerates and parses the System Data Blocks (SDB). [Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) must find an SDB with the DWORD at offset 50h equal to 0100CB2Ch. This specifies that the system uses the Profibus communications processor module CP 342-5. In addition, specific values are searched for and counted: 7050h and 9500h. 7050h is assigned to part number KFC750V3 which appears to be a frequency converter drive (also known as variable frequency drive) manufactured by Fararo Paya in Teheran, Iran. 9500h is assigned to Vacon NX frequency converter drives manufactured by Vacon based in Finland.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "[Triton](https://collaborate.mitre.org/attackics/index.php/Software/S0013) contains a file named TS_cnames.py which contains default definitions for program state (TS_progstate). Program state is referenced in TsHi.py.(Citation: MDudek-ICS TRISIS-TRITON-HATMAN)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) infects PLCs with different code depending on the characteristics of the target system. An infection sequence consists of code blocks and data blocks that will be downloaded to the PLC to alter its behavior.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "[Industroyer](https://collaborate.mitre.org/attackics/index.php/Software/S0001), contains an OPC DA module that enumerates all OPC servers using the ICatInformation::EnumClassesOfCategories method with CATID_OPCDAServer20 category identifier and IOPCServer::GetStatus to identify the ones running. The OPC DA module also uses IOPCBrowseServerAddressSpace to look for items with the following strings: 'ctlSelOn', 'ctlOperOn', 'ctlSelOff', ctlOperOff', 'Pos and stVal'.\n\nIf the target device responds appropriately, the Industroyer IEC 61850 payload then sends an InitiateRequest packet using the Manufacturing Message Specification (MMS). If the expected answer is received, it continues, sending an MMS getNameList request. Thereby, the component compiles a list of object names in a Virtual Manufacturing Device.(Citation: ESET Win32/Industroyer Jun 2017)"
+    },
+    {
+        "description": "The [Triton](https://collaborate.mitre.org/attackics/index.php/Software/S0013) Python script is also capable of autodetecting Triconex controllers on the network by sending a specific UDP broadcast packet over port 1502.(Citation: CISA Advisory (ICSA-18-107-02) Dec 2018)"
+    },
+    {
+        "description": "[Triton](https://collaborate.mitre.org/attackics/index.php/Software/S0013) has the ability to halt or run a program through the TriStation protocol. TsHi.py contains instances of halt and run functions being executed.(Citation: MDudek-ICS TRISIS-TRITON-HATMAN)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) scanned the network to identify the Siemens PLCs that it was targeting.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "The [PLC-Blaster](https://collaborate.mitre.org/attackics/index.php/Software/S0009) worm starts by scanning for probable targets. Siemens SIMATIC PLCs may be identified by the port 102/tcp.(Citation: BlackHat Mar 2016)"
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://collaborate.mitre.org/attackics/index.php/Software/S0003) payload has the capability of enumerating OPC tags, in addition to more generic OPC server information. The server data and tag names can provide information about the names and function of control devices.(Citation: CISA Advisory (ICSA-14-178-01))(Citation: F-Secure Labs Jun 2014)"
+    },
+    {
+        "description": "[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) halts the original PLC code and the malicious PLC code begins sending frames of data based on the recorded values during the DP_RECV monitor phase.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "The [VPNFilter](https://collaborate.mitre.org/attackics/index.php/Software/S0002) packet sniffer monitors ICS traffic, and is specific to the TP-LINK R600-VPN. The malware uses a raw socket to look for connections to a pre-specified IP address, only looking at TCP packets that are 150 bytes or larger. 'ps' identifies and logs on IPs and ports, but not the packet contents on port 502 (Modbus traffic). It does not validate the traffic as Modbus.(Citation: Talos VPNFilter Jun 2018)(Citation: VPNFilter Deep Dive Mar 2019)"
+    },
+    {
+        "description": "The Siemens s7otbxdx.dll is responsible for handling PLC block exchange between the programming device (i.e., a computer running a Simatic manager on Windows) and the PLC. s7db_open function is an export hook that is used to obtain information used to create handles to manage a PLC (such a handle is used by APIs that manipulate the PLC). [Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) utilized this export hook to gain information about targeted PLCs such as model information.[Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) was specifically targeting CPUs 6ES7-315-2 (Series 300) with special system data block characteristics for sequence A or B and 6ES7-315-2 for sequence C. The PLC type can also be checked using the s7ag_read_szl API.(Citation: Wired W32.Stuxnet Feb 2011)"
+    },
+    {
+        "description": "The [Industroyer](https://collaborate.mitre.org/attackics/index.php/Software/S0001), IEC 61850 component enumerates the objects discovered in the previous step and sends the domain-specific getNameList requests with each object name. This enumerates named variables in a specific domain.(Citation: ESET Win32/Industroyer Jun 2017)"
+    },
+    {
+        "description": "[Triton](https://collaborate.mitre.org/attackics/index.php/Software/S0013), can reprogram the SIS logic to cause it to trip and shutdown a process that is, in actuality, in a safe state. In other words, trigger a false positive. Triton also can reprogram the SIS logic to allow unsafe conditions to persist.(Citation: FireEye TRITON Dec 2017)The Triton malware is able to add a malicious program to the execution table of the controller. This action leaves the legitimate programs in place. If the controller failed, Triton would attempt to return it to a running state. If the controller did not recover within a certain time window, the sample would overwrite the malicious program to cover its tracks.(Citation: FireEye TRITON Dec 2017)"
+    },
+    {
+        "description": "[PLC-Blaster](https://collaborate.mitre.org/attackics/index.php/Software/S0009) copies itself to various Program Organization Units (POU) on the target device. The POUs include the Organization Block, Data Block, Function, and Function Block.(Citation: BlackHat Mar 2016)"
+    },
+    {
+        "description": "The [Backdoor.Oldrea](https://collaborate.mitre.org/attackics/index.php/Software/S0003) payload gathers server information that includes CLSID, server name, Program ID, OPC version, vendor information, running state, group count, and server bandwidth. This information helps indicate the role the server has in the control process.(Citation: CISA Advisory (ICSA-14-178-01))(Citation: F-Secure Labs Jun 2014)"
+    },
+    {
+        "description": "In states 3 and 4 [Stuxnet](https://collaborate.mitre.org/attackics/index.php/Software/S0010) sends two network bursts (done through the DP_SEND primitive). The data in the frames are instructions for the frequency converter drives.(Citation: Wired W32.Stuxnet Feb 2011)"
+    }
+]

@@ -1,0 +1,802 @@
+{
+    "Calisto_Trojan.md": {
+        "fully_described_observables": [
+            {
+                "observable_value": "0ec3b65534ef09f83b3f43d93b015a7a2cc2534c5f7f251400c5227fd1cabad9",
+                "classification": "SHA256",
+                "notes": "SHA256 hash of the malware sample file.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| SHA256: |  | 0ec3b65534ef09f83b3f43d93b015a7a2cc2534c5f7f251400c5227fd1cabad9 |  |  |  |"
+            },
+            {
+                "observable_value": "d7ac1b8113c94567be4a26d214964119",
+                "classification": "MD5",
+                "notes": "MD5 hash of the malware sample file.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| MD5 | d7ac1b8113c94567be4a26d214964119 |  |  |  |  |"
+            },
+            {
+                "observable_value": "55800dc173d80a8a4ab7685b0a4f212900778fa0",
+                "classification": "SHA1",
+                "notes": "SHA1 hash of the malware sample file.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| SHA1 | 55800dc173d80a8a4ab7685b0a4f212900778fa0 |  |  |  |  |"
+            },
+            {
+                "observable_value": "98304:Gjq6v/tOjgujjFRpEmvVyxHpDc8uumEuwoeKxv/oQ6lVz4jgFEBOja4GSGepvuE9:GjzcjdvVYHluu",
+                "classification": "ssdeep",
+                "notes": "ssdeep fuzzy hash of the malware sample.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| ssdeep | 98304:Gjq6v/tOjgujjFRpEmvVyxHpDc8uumEuwoeKxv/oQ6lVz4jgFEBOja4GSGepvuE9:GjzcjdvVYHluu |  |  |  |  |"
+            },
+            {
+                "observable_value": "2f38b201f6b368d587323a1bec516e5d",
+                "classification": "MD5",
+                "notes": "MD5 hash of the Mach-O executable.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "DMG image: d7ac1b8113c94567be4a26d214964119 Mach-O executable: 2f38b201f6b368d587323a1bec516e5d"
+            },
+            {
+                "observable_value": "Intego_v9.0.3 websetup.dmg",
+                "classification": "File",
+                "notes": "Name of the malware installation DMG file.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| File name: |  | Intego_v9.0.3 websetup.dmg |  |  |  |"
+            },
+            {
+                "observable_value": "Intego v9.0.3 websetup.dmg",
+                "classification": "File",
+                "notes": "Variant of malware installation file name.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| 000 | d7ac1b8113c94567be4a26d214964119.dmg |  |  |  |"
+            },
+            {
+                "observable_value": "/Library/LaunchAgents/com.intego.Mac-Internet-Security-X9-Installer.plist",
+                "classification": "File Path",
+                "notes": "LaunchAgents plist file used to set malware to start on system boot.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| [/Library/LaunchAgents$ Is |  |  |  |  |"
+            },
+            {
+                "observable_value": ".calisto",
+                "classification": "Directory",
+                "notes": "Hidden directory used by the malware to store data.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "We can see that the Trojan uses a hidden directory named .calisto to store:"
+            },
+            {
+                "observable_value": "/System/Library/CoreServices/launchb.app/Contents/MacOS/launchb",
+                "classification": "File Path",
+                "notes": "Path where the malware copies itself for persistence.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Copies itself to /System/Library/ folder"
+            },
+            {
+                "observable_value": "v323 =  TIFFs5printFTGSaP__9separatorSS10terminatorSS_T_A1_();\n_TFSs5printFTGSaP__9separatorSS10terminatorSS_T_(v317, v318, v320, v322, v323, v324, v325);\nv142 = \"&& zip ~/.calisto/CR.zip ~/Library/Application\\ Support/Google/Chrome/Default/Login\\ Data ~/Library/Application\\ Support/Google/Chrome/Default/Cookies ~/Library/Application\\ Support/Google/Chrome/Default/Bookmarks ~/Library/Application\\ Support/Google/Chrome/Default/History\";\nv143 = 274LL;",
+                "classification": "Code Snippet",
+                "notes": "Code executed by the Trojan to zip Chrome data.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Log of commands executed by the Trojan during its operation"
+            },
+            {
+                "observable_value": "sudo salite3 << EOF\n' /Library / Application Support/com. apple. TCC/TCC. dh\n . open\n                                                                            com.intego.Mac-Internet-Security-X9-Installer', 0,1, 1, NULL, NULL);\n  insert or replace into access values ( ' KTCServiceAccessibility\n       near line 2: attempt to write a readonly database\nError:",
+                "classification": "Command",
+                "notes": "Command attempting to modify TCC database to add Accessibility permissions.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Error message"
+            },
+            {
+                "observable_value": "/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate /bin/launchctl list com.apple.screensharing 2>/dev/null localonly -create /Local/Target/Users/oleq naprivs /usr/bin/dscl ' / var/db/ds local/nodes/Default' /usr/bin/defaults write /Library/Preferences/com.apple.RemoteManagement ARD_AllLocalUsers -boolean YBS /usr/bin/defaults write /Library/Preferences/com.apple.RemoteManagement ARD_AllLocalUsersPrivs -integer 1073742079 -p infected -r aGNOStIC7890 !!! -setcomputersleep Never",
+                "classification": "Command",
+                "notes": "Command to enable remote management and set root password.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "The commands used for this are:"
+            },
+            {
+                "observable_value": "dsenableroot -p infected -r aGNOStIC7890",
+                "classification": "Command",
+                "notes": "Command to enable root user with specified password.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Note that although the user \"root\" exists in macOS, it is disabled by default. Interestingly, after a reboot, Calisto again requests user data, but this time waits for the input of the actual root password, which it previously changed itself (root: aGNOStIC7890!!!)."
+            },
+            {
+                "observable_value": "suao kextunioad / System/Library/Extensions/AppleUSBTopCase.kext\nsudo kextunload /System/Library/Extensions/AppleUSBMultitouch.kext\nsudo kextunload /System/Library/Extensions/IOUSBFamily.kext\nsudo kextunload /System/Library/Extensions/IOUSBMassStorageClass.kext\nsudo kextunload /System/Library/Extensions/IOUSBMassStorageDriver.kext\nsudo cp -f /System/Library/Extensions/AppleUSBTopCase.kext /Library/iTunes/1.mp3\nsudo cp -f /System/Library/Extensions/AppleUSBMultitouch.kext /Library/iTunes/2.mp3\nsudo cp -f /System/Library/Extensions/IOUSBFamily.kext /Library/iTunes/3.mp3\nsudo cp -f /System/Library/Extensions/IOUSBMassStorageDriver.kext /Library/iTunes/4.mp3\nsudo cp -f /System/Library/Extensions/IOUSBMassStorageClass.kext /Library/iTunes/5.mp3\nsudo cp -f /Library/iTunes/1.mp3 /System/Library/Extensions/AppleUSBTopCase.kext\nsudo cp -f /Library/iTunes/2.mp3 /System/Library/Extensions/AppleUSBMultitouch.kext\nsudo cp -f /Library/iTunes/3.mp3 /System/Library/Extensions/IOUSBFamily.kext\nsudo cp -f /Library/iTunes/4.mp3 /System/Library/Extensions/IOUSBMassStorageDriver.kext\nsudo cp -f /Library/iTunes/5.mp3 /System/Library/Extensions/IOUSBMassStorageClass.kext\nsudo kextload /System/Library/Extensions/AppleUSBTopCase.kext\nsudo kextload /System/Library/Extensions/AppleUSBMultitouch.kext\nsudo kextload /System/Library/Extensions/IOUSBFamily.kext\nsudo kextload /System/Library/Extensions/IOUSBMassStorageClass.kext",
+                "classification": "Code Snippet",
+                "notes": "Commands to unload and reload kernel extensions, possibly for malicious purposes.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Loading/unloading of kernel extensions for handling USB devices"
+            },
+            {
+                "observable_value": "sudo kextload /System/Library/Extensions/IOUSBMassStorageDriver.kext\\",
+                "classification": "Command",
+                "notes": "Command to load IOUSBMassStorageDriver kernel extension.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Loading/unloading of kernel extensions"
+            },
+            {
+                "observable_value": "sudo dscl . - passwd /Users/$USER | sudo rm -rf /Users/ /Downloads /Users/ /Documents /Users/ /Desktop /Users/ /Pictures /Users/ /Music /Users/ /Movies /Users/ /* /Users/ /.calisto /Users/ /Library/.cid /Users/ /Users/",
+                "classification": "Command",
+                "notes": "Command attempting to delete various user directories and files, possibly to destroy data.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Working with user directories"
+            },
+            {
+                "observable_value": "/.* && sudo rm -rf ~/.Trash/* && sudo rm -rf /",
+                "classification": "Command",
+                "notes": "Command attempting to clean the trash and possibly delete all files.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "(\"/.* && sudo rm -rf ~/.Trash/* && sudo rm -rf /\","
+            },
+            {
+                "observable_value": "https://www.intego.com/antivirus-mac-internet-security",
+                "classification": "URL",
+                "notes": "Official site of the antivirus developer.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "The software package appears to be invalid. Please download a new package from https:// www.intego.com/antivirus-mac-internet-security"
+            },
+            {
+                "observable_value": "10.63.111.111",
+                "classification": "IP Address",
+                "notes": "Source IP in the network traffic captured during malware activity.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| No. Time | Source | Destination | Protocol | Length Info |\n| --- | --- | --- | --- | --- |\n| 501 39.320482 | 10.63.111.111 | 40.87.56.192 | TCP | 78 49171 \u2192 80 [SYN, ECN, CWR] Seq=0 Win=65535 Len=0 NSS=1460 WS=32 TSval=101028515 TSecr=0 SACK PERM=1 |"
+            },
+            {
+                "observable_value": "40.87.56.192",
+                "classification": "IP Address",
+                "notes": "Destination IP in the network traffic captured during malware activity, likely C&C server.",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "| No. Time | Source | Destination | Protocol | Length Info |\n| --- | --- | --- | --- | --- |\n| 501 39.320482 | 10.63.111.111 | 40.87.56.192 | TCP | 78 49171 \u2192 80 [SYN, ECN, CWR] Seq=0 Win=65535 Len=0 NSS=1460 WS=32 TSval=101028515 TSecr=0 SACK PERM=1 |"
+            }
+        ],
+        "insufficient_observables": [
+            {
+                "mentioned_value": "malware",
+                "notes": "",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Malware for macOS is not that common, and this sample was found to contain some suspiciously familiar features."
+            },
+            {
+                "mentioned_value": "backdoor",
+                "notes": "",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "We recently came across one such sample: a macOS backdoor that we named Calisto."
+            },
+            {
+                "mentioned_value": "Keychain storage data",
+                "notes": "",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Keychain storage data"
+            },
+            {
+                "mentioned_value": "remote access",
+                "notes": "",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "An important feature of Calisto is getting remote access to the user system."
+            },
+            {
+                "mentioned_value": "system",
+                "notes": "",
+                "report_name": "Calisto Trojan for macOS",
+                "text/code_section": "Enables remote access to the system"
+            }
+        ]
+    },
+    "Triton.md": {
+        "fully_described_observables": [
+            {
+                "observable_value": "TRITON",
+                "classification": "Malware",
+                "notes": "Malware framework targeting Schneider Electric Triconex safety controllers",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Introduction"
+            },
+            {
+                "observable_value": "TRISIS",
+                "classification": "Malware",
+                "notes": "Alternative name for the TRITON malware framework",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Introduction"
+            },
+            {
+                "observable_value": "HatMan",
+                "classification": "Malware",
+                "notes": "Alternative name for the TRITON malware framework",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Introduction"
+            },
+            {
+                "observable_value": "Schneider Electric Triconex line of industrial safety systems",
+                "classification": "Industrial Control System",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Introduction"
+            },
+            {
+                "observable_value": "UDP port 1502",
+                "classification": "Network Port",
+                "notes": "Used by the TriStation protocol for sending UDP broadcast messages",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Summary"
+            },
+            {
+                "observable_value": "inject.bin",
+                "classification": "Payload File",
+                "notes": "Binary payload file used by TRITON framework to implant the backdoor",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Stage 2: Implant Installer (inject.bin)"
+            },
+            {
+                "observable_value": "imain.bin",
+                "classification": "Payload File",
+                "notes": "Binary payload file serving as the backdoor implant",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Stage 3: Backdoor Implant (imain.bin)"
+            },
+            {
+                "observable_value": "Py2EXE application",
+                "classification": "Software/Tool",
+                "notes": "Tool used to convert Python scripts to executables, used here to disguise malware as Trilog.exe",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The Incident"
+            },
+            {
+                "observable_value": "Trilog.exe",
+                "classification": "Executable",
+                "notes": "Benign-looking Triconex log reviewing application used to disguise the Py2EXE malware",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The Incident"
+            },
+            {
+                "observable_value": "Ts_cnames.py",
+                "classification": "Script",
+                "notes": "Component of the TRITON framework scripts",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The TRITON Framework"
+            },
+            {
+                "observable_value": "TsHi.pv",
+                "classification": "Script",
+                "notes": "Component of the TRITON framework scripts",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The TRITON Framework"
+            },
+            {
+                "observable_value": "TsBose.pc",
+                "classification": "Script",
+                "notes": "Component of the TRITON framework scripts",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The TRITON Framework"
+            },
+            {
+                "observable_value": "TsLow.py",
+                "classification": "Script",
+                "notes": "Component of the TRITON framework scripts",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The TRITON Framework"
+            },
+            {
+                "observable_value": "script_test.py",
+                "classification": "Script",
+                "notes": "Script using the TRITON framework to connect to a Tricon controller and inject payload",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The TRITON Framework"
+            },
+            {
+                "observable_value": "7riBus TriBus",
+                "classification": "Communication Bus",
+                "notes": "High-speed proprietary communications bus used in Triconex controllers, consisting of three independent serial links.",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Tricon Safety Instrumented Systems (SIS)"
+            },
+            {
+                "observable_value": "PowerQUICC MPC860EN microcontroller",
+                "classification": "Hardware Component",
+                "notes": "32-bit microcontroller used in Tricon 3008 controllers",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Tricon Safety Instrumented Systems (SIS)"
+            },
+            {
+                "observable_value": "Tricon 3008",
+                "classification": "Hardware Component",
+                "notes": "A model of Schneider Electric Triconex safety controllers using PowerPC architecture",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Tricon Safety Instrumented Systems (SIS)"
+            },
+            {
+                "observable_value": "TCxFwm.exe",
+                "classification": "Executable",
+                "notes": "Firmware manager used to upgrade firmware over Ethernet",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Tricon 3008 MP runs the Enhanced Triconex System Executive (ETSX) firmware"
+            },
+            {
+                "observable_value": "PGP (0x9035856DF1D41F73)",
+                "classification": "PGP Key",
+                "notes": "Used for secure communications, associated with Midnight Blue",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Interested in working together?"
+            },
+            {
+                "observable_value": "r2 = 0x800000;\n -\n 2\n   while (true)\n \u0d28\n 4\n    {\n        if ((uint32_t)*(uint32_t*)(r2) == 0x400000)\n 5\n 6\n            {\n                if ((uint32 t)*(uint32 t*)(r2 + 4) == 0x \n 7\n                {\n                     r2 += 0x18; // cp_status.fstat\n0\n                     *(uint32_t*)(r2) = (uint32_t)value;\n10\n                     break;\n11\n12\n                }\n            }\n13\n14\n            if ((r3 & 0xfffffffff) >= 0x800100)\n15\n16\n            {\n17\n                break;\n            }\n18\n19\n            r2 += 4;\n       system call(-1);\n}",
+                "classification": "Code snippet",
+                "notes": "Shellcode for setting arguments in the first stage of the TRITON framework",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Stage 1: Argument-Setter (PresetStatusField)"
+            },
+            {
+                "observable_value": "1  #define M READ RAM  0x17\n 2\n   #define M_WRITE_RAM 0x41\n   #define M_EXECUTE\n0xF9\n4\n   struct arqument struct\n\u0d1f\n   {\n6\n   7\n        uint16_t unknown_ui16_00;\n        uint8 t unknown ui8 02;\n8\n0\n        uint16_t return_value;\n                     // cmd field\n10\n        uint8_t cmd;\n                         // mp field\n11\n        uint8_t mp;\n                      // arqument fi\n12\n       uint32_t field_0;\n        uint32_t field_1;\n13\n                      // arqument fi\n        uint8_t_ field_3[...];\n                     // arqument fi\u0138\n14\n   };\n15\n16\n   void imain(void)\n17 \n18\n        {\n            arq = (struct argument_struct*)get_argument\n19\n            // Retrieve implant command and MP value\n20\n            cmd = arg->cmd;\n21\n            mp = arg->mp;\n22\n}",
+                "classification": "Code snippet",
+                "notes": "Reconstructed shellcode for the backdoor implant imain.bin",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Stage 3: Backdoor Implant (imain.bin)"
+            }
+        ],
+        "insufficient_observables": [
+            {
+                "mentioned_value": "Industrial Control Systems (ICS)",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Background"
+            },
+            {
+                "mentioned_value": "Safety Instrumented Systems (SIS)",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Background"
+            },
+            {
+                "mentioned_value": "Process shutdown",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The Incident"
+            },
+            {
+                "mentioned_value": "Firmware",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The Payload"
+            },
+            {
+                "mentioned_value": "Payload",
+                "notes": "Generic reference without specific details",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Stage 4: Missing OT Payload"
+            },
+            {
+                "mentioned_value": "Actuators",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Background"
+            },
+            {
+                "mentioned_value": "Firmware manager",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The Payload"
+            },
+            {
+                "mentioned_value": "TriBus",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "Tricon Safety Instrumented Systems (SIS)"
+            },
+            {
+                "mentioned_value": "TriStation protocol",
+                "notes": "",
+                "report_name": "30 Minutes January, 2018 Blog",
+                "text/code_section": "The TriStation Protocol"
+            }
+        ]
+    },
+    "cloud-hopper-report-final-v4.md": {
+        "fully_described_observables": [
+            {
+                "observable_value": "Poison Ivy",
+                "classification": "Malware",
+                "notes": "A remote access trojan used by various threat actors including APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 ceased its use of the Poison Ivy malware family after a 2013 FireEye report, which comprehensively detailed the malware's functionality and features..."
+            },
+            {
+                "observable_value": "PlugX",
+                "classification": "Malware",
+                "notes": "A remote access tool used by APT10 from 2014 to 2016.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 primarily used PlugX malware from 2014 to 2016, progressively improving and deploying newer versions..."
+            },
+            {
+                "observable_value": "RedLeaves",
+                "classification": "Malware",
+                "notes": "A bespoke malware family used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Since late 2016, we have seen the threat actor develop several bespoke malware families, such as ChChes and RedLeaves..."
+            },
+            {
+                "observable_value": "Quasar RAT",
+                "classification": "Malware",
+                "notes": "A remote access trojan used by APT10 for long-term remote access.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "The sustained malware, historically Poison Ivy, PlugX and now Quasar RAT, provides a more comprehensive feature set..."
+            },
+            {
+                "observable_value": "ChChes",
+                "classification": "Malware",
+                "notes": "A bespoke malware used by APT10 in targeting Japanese organizations.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "In a separate series of operations, APT10 has been systematically targeting Japanese organisations using bespoke malware referred to in the public domain as 'ChChes'."
+            },
+            {
+                "observable_value": "EvilGrab",
+                "classification": "Malware",
+                "notes": "A tactical malware used by APT10 for lightweight and disposable operations.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "The tactical malware, historically EvilGrab, and now ChChes (and likely also RedLeaves), is designed to be lightweight and disposable..."
+            },
+            {
+                "observable_value": "mimikatz",
+                "classification": "Software/Tool",
+                "notes": "A tool used for credential theft.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 will usually deploy credential theft tools such as mimikatz or PwDump, sometimes using DLL load order hijacking..."
+            },
+            {
+                "observable_value": "PwDump",
+                "classification": "Software/Tool",
+                "notes": "A tool used for dumping password hashes.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 will usually deploy credential theft tools such as mimikatz or PwDump, sometimes using DLL load order hijacking..."
+            },
+            {
+                "observable_value": "Quasar",
+                "classification": "Software/Tool",
+                "notes": "An open-source reverse shell tool extended by APT10 to increase internal version numbers.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Since late 2016, we have seen the threat actor develop several bespoke malware families, such as ChChes and RedLeaves. Additionally, it has taken the open source malware, Quasar, and extended its capabilities..."
+            },
+            {
+                "observable_value": "1102\u6bce\u65e5\u65b0\u805e(\u56de\u7b54)._exe",
+                "classification": "File",
+                "notes": "Japanese language filename used by APT10 in spear phishing campaigns.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 1 shows some example file names being used by APT10 in this campaign."
+            },
+            {
+                "observable_value": "2016\u770c\u7acb\u5927\u5b66\u30b7\u30f3\u30dd\u30b8\u30a6\u30e0A4_1025.exe",
+                "classification": "File",
+                "notes": "Japanese language filename used by APT10 in spear phishing campaigns.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 1 shows some example file names being used by APT10 in this campaign."
+            },
+            {
+                "observable_value": "\u4e8b\u52d9\u9023\u7d61\u6848\u5185\u72b6(28.11.07).exe",
+                "classification": "File",
+                "notes": "Japanese language filename used by APT10 in spear phishing campaigns.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 1 shows some example file names being used by APT10 in this campaign."
+            },
+            {
+                "observable_value": "\u500b\u4eba\u756a\u53f7\u306e\u63d0\u4f9b\u306b\u3064\u3044\u3066.exe",
+                "classification": "File",
+                "notes": "Japanese language filename used by APT10 in spear phishing campaigns.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 1 shows some example file names being used by APT10 in this campaign."
+            },
+            {
+                "observable_value": "\u65e5\u7c73\u62e1\u5927\u6291\u6b62\u5354\u8b70e.exe",
+                "classification": "File",
+                "notes": "Japanese language filename used by APT10 in spear phishing campaigns.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 1 shows some example file names being used by APT10 in this campaign."
+            },
+            {
+                "observable_value": "\u30ed\u30b7\u30a2\u6b74\u53f2\u5354\u4f1a\u306e\u8a2d\u7acb\u3068\u300c\u5358\u4e00\u300d\u56fd\u53f2\u6559\u79d1\u66f8\u306e\u4f5c\u6210.exe",
+                "classification": "File",
+                "notes": "Japanese language filename used by APT10 in spear phishing campaigns.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 1 shows some example file names being used by APT10 in this campaign."
+            },
+            {
+                "observable_value": "bdoncloud[.]com",
+                "classification": "Domain",
+                "notes": "Dynamic-DNS domain used in APT10's command and control infrastructure.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "The command and control (C2) infrastructure chosen by APT10 for Operation Cloud Hopper is predominantly referenced using dynamic-DNS domains such as bdoncloud[.]com..."
+            },
+            {
+                "observable_value": "cloud-kingl[.]com",
+                "classification": "Domain",
+                "notes": "Dynamic-DNS domain used in APT10's command and control infrastructure.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "The command and control (C2) infrastructure chosen by APT10 for Operation Cloud Hopper is predominantly referenced using dynamic-DNS domains such as cloud-kingl[.]com..."
+            },
+            {
+                "observable_value": "cloud-maste[.]com",
+                "classification": "Domain",
+                "notes": "Dynamic-DNS domain used in APT10's command and control infrastructure.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "The command and control (C2) infrastructure chosen by APT10 for Operation Cloud Hopper is predominantly referenced using dynamic-DNS domains such as cloud-maste[.]com..."
+            },
+            {
+                "observable_value": "incloud-go[.]com",
+                "classification": "Domain",
+                "notes": "Dynamic-DNS domain used in APT10's command and control infrastructure.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "The command and control (C2) infrastructure chosen by APT10 for Operation Cloud Hopper is predominantly referenced using dynamic-DNS domains such as incloud-go[.]com..."
+            },
+            {
+                "observable_value": "incloud-obert[.]com",
+                "classification": "Domain",
+                "notes": "Dynamic-DNS domain used in APT10's command and control infrastructure.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "The command and control (C2) infrastructure chosen by APT10 for Operation Cloud Hopper is predominantly referenced using dynamic-DNS domains such as incloud-obert[.]com..."
+            },
+            {
+                "observable_value": "catholicmmb[.]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating Catholic Medical Mission Board used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including catholicmmb[.]com which imitates cmmb.org..."
+            },
+            {
+                "observable_value": "ccfchrist[]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating Christ's Commission Fellowship - based in Philippines, used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including ccfchrist[]com which imitates ccf.org.ph..."
+            },
+            {
+                "observable_value": "cwiinatonal[.]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating Christian Witnesses to Israel used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including cwiinatonal[.]com which imitates cwi.org.uk..."
+            },
+            {
+                "observable_value": "usffunicef[.]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating United States Fund For Unicef used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including usffunicef[.]com which imitates unicefusa.org..."
+            },
+            {
+                "observable_value": "salvaiona[.]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating The Salvation Army used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including salvaiona[.]com which imitates salvationarmy.org..."
+            },
+            {
+                "observable_value": "meiji-ac-jp[.]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating Meiji University in Japan used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including meiji-ac-jp[.]com which imitates meiji.ac.jp..."
+            },
+            {
+                "observable_value": "u-tokyo-ac-jp[.]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating Tokyo University in Japan used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including u-tokyo-ac-jp[.]com which imitates u-tokyo.ac.jp..."
+            },
+            {
+                "observable_value": "jica-go-jp[.]bike",
+                "classification": "Domain",
+                "notes": "Domain impersonating Japan International Cooperation Agency used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including jica-go-jp[.]bike which imitates jica.go.jp..."
+            },
+            {
+                "observable_value": "jica-go-jp[.]biz",
+                "classification": "Domain",
+                "notes": "Domain impersonating Japan International Cooperation Agency used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including jica-go-jp[.]biz which imitates jica.go.jp..."
+            },
+            {
+                "observable_value": "jimin-jp[.]biz",
+                "classification": "Domain",
+                "notes": "Domain impersonating the Liberal Democratic Party of Japan used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including jimin-jp[.]biz which imitates jimin.jp..."
+            },
+            {
+                "observable_value": "mofa-go-jp[.]com",
+                "classification": "Domain",
+                "notes": "Domain impersonating the Ministry of Foreign Affairs used by APT10.",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Table 2 shows a selection of the spoofed domains registered, including mofa-go-jp[.]com which imitates mofa.go.jp..."
+            }
+        ],
+        "insufficient_observables": [
+            {
+                "mentioned_value": "spear phishing",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10's standard compromise methodology begins with a spear phishing email sent to the target..."
+            },
+            {
+                "mentioned_value": "manipulated DLL load order",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "using DLL load order hijacking, to use against a domain controller..."
+            },
+            {
+                "mentioned_value": "t.vbs",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "the compression tools are often launched via a remote command execution script which is regularly named 't.vbs'..."
+            },
+            {
+                "mentioned_value": "net use",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Mounting the target external network share with 'net use' and subsequently using the legitimate Robocopy tool to transfer the data..."
+            },
+            {
+                "mentioned_value": "Robocopy",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "subsequently using the legitimate Robocopy tool to transfer the data..."
+            },
+            {
+                "mentioned_value": "Putty Secure Copy Client (PSCP)",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Using the legitimate Putty Secure Copy Client (PSCP), sometimes named rundll32.exe, to transfer the data directly..."
+            },
+            {
+                "mentioned_value": "rundll32.exe",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "using the legitimate Putty Secure Copy Client (PSCP), sometimes named rundll32.exe, to transfer the data directly..."
+            },
+            {
+                "mentioned_value": "Reverse shell",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 used either a reverse shell or RDP connection to install its malware..."
+            },
+            {
+                "mentioned_value": "RDP connection",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 used either a reverse shell or RDP connection to install its malware..."
+            },
+            {
+                "mentioned_value": "Windows services",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "using scheduled tasks or Windows services in order to ensure the malware remains active..."
+            },
+            {
+                "mentioned_value": "RDP",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "use of RDP to interactively access systems in both the MSP management network and MSP customer networks..."
+            },
+            {
+                "mentioned_value": "ping.exe",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Communication checks are usually conducted using native Windows tools such as ping.exe, net.exe and tcping.exe..."
+            },
+            {
+                "mentioned_value": "net.exe",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Communication checks are usually conducted using native Windows tools such as ping.exe, net.exe and tcping.exe..."
+            },
+            {
+                "mentioned_value": "tcping.exe",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Communication checks are usually conducted using native Windows tools such as ping.exe, net.exe and tcping.exe..."
+            },
+            {
+                "mentioned_value": "supply chain attack",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 has been observed to exfiltrate stolen intellectual property via the MSPs, hence evading local network defenses... similar method of a supply chain attack..."
+            },
+            {
+                "mentioned_value": "scheduled tasks",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "APT10 achieves persistence on its targets primarily by using scheduled tasks or Windows services..."
+            },
+            {
+                "mentioned_value": "interaction between MSP and client networks",
+                "notes": "",
+                "report_name": "Operation Cloud Hopper",
+                "text/code_section": "Systems sharing credentials across the client and the MSP are of particular interest..."
+            }
+        ]
+    },
+    "Configuration-Profile-Reference.md": {
+        "fully_described_observables": [
+            {
+                "observable_value": "https://www.intego.com/antivirus-mac-internet-security",
+                "classification": "URL",
+                "notes": "Official site of the antivirus developer",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "The software package appears to be invalid. Please download a new package from https://www.intego.com/antivirus-mac-internet-security"
+            },
+            {
+                "observable_value": "HKEY_LOCAL_MACHINE\\Software\\Microsoft",
+                "classification": "Registry Key Path",
+                "notes": "Registry key path for Microsoft software",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "A registry key path (e.g., HKEY_LOCAL_MACHINE\\Software\\Microsoft)"
+            },
+            {
+                "observable_value": "```openssl x509 -pubkey -in example_certificate.der -inform der | openssl pkey -pubin - outform der | openssl dgst -sha256 -binary | base64```",
+                "classification": "Code snippet",
+                "notes": "Command to generate the hash of a DER-encoded certificate's subjectPublicKeyInfo",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "If your certificate is DER encoded, use this command:\n\n```\nopenssl x509 -pubkey -in example_certificate.der -inform der | openssl pkey -pubin -\n   outform der | openssl dgst -sha256 -binary | base64\n```"
+            },
+            {
+                "observable_value": "com.apple.security.scep",
+                "classification": "Payload Type",
+                "notes": "SCEP (Simple Certificate Enrollment Protocol) configuration",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "This payload is designated by specifying com.apple.security.scep as the PayloadType value."
+            },
+            {
+                "observable_value": "fd8a6b9e-0fed-406f-9571-8ec98722b713",
+                "classification": "UUID",
+                "notes": "UUID for the SCEP payload",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "<key>PayloadUUID</key>\n<string>fd8a6b9e-0fed-406f-9571-8ec98722b713</string>"
+            },
+            {
+                "observable_value": "/Library/Keychains/FileVaultMaster.keychain",
+                "classification": "File Path",
+                "notes": "Path to the FileVault master keychain",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "The keychain already created at /Library/Keychains/FileVaultMaster.keychain will be used when the"
+            },
+            {
+                "observable_value": "com.apple.configurationprofile.identification",
+                "classification": "Payload Type",
+                "notes": "Identification configuration profile",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "The Identification payload is designated by specifying com.apple.configurationprofile.identification value as the PayloadType value."
+            }
+        ],
+        "insufficient_observables": [
+            {
+                "mentioned_value": "remote controller device",
+                "notes": "",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "\u2026 unless it specifies \u201ca remote controller device\u201d with no further details"
+            },
+            {
+                "mentioned_value": "man-in-the-middle technique",
+                "notes": "",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "\u2026 mencaped techniques like \u201cman-in-the-middle technique\u201d without specifics"
+            },
+            {
+                "mentioned_value": "spoofed signals",
+                "notes": "",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "\u2026 or \u201cspoofed signals\u201d without specifics"
+            },
+            {
+                "mentioned_value": "vipaddress.com",
+                "notes": "",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "An IP address or domain name (e.g., 192.168.0.1, malicious-domain.com)"
+            },
+            {
+                "mentioned_value": "anyscheme://malicious.com",
+                "notes": "",
+                "report_name": "Configuration Profile Reference",
+                "text/code_section": "A URL must begin with HTTP or HTTPS to be considered valid (e.g., anyscheme://malicious.com won\u2019t work)"
+            }
+        ]
+    }
+}
