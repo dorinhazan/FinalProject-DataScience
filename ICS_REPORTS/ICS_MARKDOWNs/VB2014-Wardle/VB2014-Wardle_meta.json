@@ -1,0 +1,1513 @@
+{
+  "table_of_contents": [
+    {
+      "title": "METHODS OF MALWARE\nPERSISTENCE ON MAC OS X",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.25,
+          84.0
+        ],
+        [
+          273.75,
+          84.0
+        ],
+        [
+          273.75,
+          115.435546875
+        ],
+        [
+          74.25,
+          115.435546875
+        ]
+      ]
+    },
+    {
+      "title": "ABSTRACT",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.5,
+          191.25
+        ],
+        [
+          112.5,
+          191.25
+        ],
+        [
+          112.5,
+          202.447265625
+        ],
+        [
+          55.5,
+          202.447265625
+        ]
+      ]
+    },
+    {
+      "title": "BACKGROUND",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.75,
+          401.02734375
+        ],
+        [
+          132.978515625,
+          401.02734375
+        ],
+        [
+          132.978515625,
+          412.62890625
+        ],
+        [
+          54.75,
+          412.62890625
+        ]
+      ]
+    },
+    {
+      "title": "APPLE'S ANTI-MALWARE ENHANCEMENTS\nAND THEIR FLAWS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          307.5,
+          239.958984375
+        ],
+        [
+          531.017578125,
+          239.958984375
+        ],
+        [
+          531.017578125,
+          263.25
+        ],
+        [
+          307.5,
+          263.25
+        ]
+      ]
+    },
+    {
+      "title": "XProtect",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          307.5,
+          422.68359375
+        ],
+        [
+          352.01953125,
+          422.68359375
+        ],
+        [
+          352.01953125,
+          433.51171875
+        ],
+        [
+          307.5,
+          433.51171875
+        ]
+      ]
+    },
+    {
+      "title": "Gatekeeper",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.0,
+          305.89453125
+        ],
+        [
+          122.25,
+          305.89453125
+        ],
+        [
+          122.25,
+          317.49609375
+        ],
+        [
+          66.0,
+          317.49609375
+        ]
+      ]
+    },
+    {
+      "title": "Signed applications",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          321.75,
+          128.8740234375
+        ],
+        [
+          416.56640625,
+          128.8740234375
+        ],
+        [
+          416.56640625,
+          141.4423828125
+        ],
+        [
+          321.75,
+          141.4423828125
+        ]
+      ]
+    },
+    {
+      "title": "i.app/Contents/Ma\n633d043cf9742d6f0787acdee742",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          319.74609375,
+          593.61328125
+        ],
+        [
+          456.01171875,
+          593.61328125
+        ],
+        [
+          456.01171875,
+          609.85546875
+        ],
+        [
+          319.74609375,
+          609.85546875
+        ]
+      ]
+    },
+    {
+      "title": "Signed kernel extensions",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5,
+          140.765625
+        ],
+        [
+          176.607421875,
+          140.765625
+        ],
+        [
+          176.607421875,
+          151.400390625
+        ],
+        [
+          55.5,
+          151.400390625
+        ]
+      ]
+    },
+    {
+      "title": "MAC SYSTEM STARTUP",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.5,
+          119.25
+        ],
+        [
+          433.30078125,
+          119.25
+        ],
+        [
+          433.30078125,
+          130.6142578125
+        ],
+        [
+          310.5,
+          130.6142578125
+        ]
+      ]
+    },
+    {
+      "title": "METHODS OF PERSISTENCE",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.482421875,
+          559.5
+        ],
+        [
+          458.701171875,
+          559.5
+        ],
+        [
+          458.701171875,
+          571.18359375
+        ],
+        [
+          310.482421875,
+          571.18359375
+        ]
+      ]
+    },
+    {
+      "title": "Low-level/pre-OS X",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.5,
+          654.0
+        ],
+        [
+          404.912109375,
+          654.0
+        ],
+        [
+          404.912109375,
+          665.54296875
+        ],
+        [
+          310.5,
+          665.54296875
+        ]
+      ]
+    },
+    {
+      "title": "Kernel extensions",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.75,
+          150.046875
+        ],
+        [
+          153.59765625,
+          150.046875
+        ],
+        [
+          153.59765625,
+          162.03515625
+        ],
+        [
+          66.75,
+          162.03515625
+        ]
+      ]
+    },
+    {
+      "title": "Launch daemons/agents",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.75,
+          527.484375
+        ],
+        [
+          186.3193359375,
+          527.484375
+        ],
+        [
+          186.3193359375,
+          539.859375
+        ],
+        [
+          66.75,
+          539.859375
+        ]
+      ]
+    },
+    {
+      "title": "Cron jobs",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          321.75,
+          420.36328125
+        ],
+        [
+          369.94921875,
+          420.36328125
+        ],
+        [
+          369.94921875,
+          433.51171875
+        ],
+        [
+          321.75,
+          433.51171875
+        ]
+      ]
+    },
+    {
+      "title": "Login/logout hooks",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          321.75,
+          674.82421875
+        ],
+        [
+          417.462890625,
+          674.82421875
+        ],
+        [
+          417.462890625,
+          687.19921875
+        ],
+        [
+          321.75,
+          687.19921875
+        ]
+      ]
+    },
+    {
+      "title": "Login items",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5,
+          319.5
+        ],
+        [
+          112.5,
+          319.5
+        ],
+        [
+          112.5,
+          330.64453125
+        ],
+        [
+          55.5,
+          330.64453125
+        ]
+      ]
+    },
+    {
+      "title": "Sandboxed login items",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          308.689453125,
+          84.75
+        ],
+        [
+          420.75,
+          84.75
+        ],
+        [
+          420.75,
+          94.8427734375
+        ],
+        [
+          308.689453125,
+          94.8427734375
+        ]
+      ]
+    },
+    {
+      "title": "Re-opened applications",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          310.5,
+          498.75
+        ],
+        [
+          425.25,
+          498.75
+        ],
+        [
+          425.25,
+          508.921875
+        ],
+        [
+          310.5,
+          508.921875
+        ]
+      ]
+    },
+    {
+      "title": "Startup items",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.75,
+          140.2822265625
+        ],
+        [
+          132.75,
+          140.2822265625
+        ],
+        [
+          132.75,
+          151.8837890625
+        ],
+        [
+          66.75,
+          151.8837890625
+        ]
+      ]
+    },
+    {
+      "title": "Rc.common",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.75,
+          435.83203125
+        ],
+        [
+          126.0,
+          435.83203125
+        ],
+        [
+          126.0,
+          446.66015625
+        ],
+        [
+          66.75,
+          446.66015625
+        ]
+      ]
+    },
+    {
+      "title": "Launchd.conf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.75,
+          599.4140625
+        ],
+        [
+          134.3232421875,
+          599.4140625
+        ],
+        [
+          134.3232421875,
+          611.015625
+        ],
+        [
+          66.75,
+          611.015625
+        ]
+      ]
+    },
+    {
+      "title": "DYLD INSERT LIBRARIES",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          320.94140625,
+          83.96630859375
+        ],
+        [
+          449.4375,
+          83.96630859375
+        ],
+        [
+          449.4375,
+          94.98779296875
+        ],
+        [
+          320.94140625,
+          94.98779296875
+        ]
+      ]
+    },
+    {
+      "title": "Mach-O binary infection",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          321.75,
+          378.984375
+        ],
+        [
+          439.27734375,
+          378.984375
+        ],
+        [
+          439.27734375,
+          390.5859375
+        ],
+        [
+          321.75,
+          390.5859375
+        ]
+      ]
+    },
+    {
+      "title": "Application-specific persistence",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.5,
+          84.75
+        ],
+        [
+          210.0,
+          84.75
+        ],
+        [
+          210.0,
+          95.0361328125
+        ],
+        [
+          55.5,
+          95.0361328125
+        ]
+      ]
+    },
+    {
+      "title": "Rest in peace",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.5,
+          441.0
+        ],
+        [
+          121.7724609375,
+          441.0
+        ],
+        [
+          121.7724609375,
+          451.30078125
+        ],
+        [
+          55.5,
+          451.30078125
+        ]
+      ]
+    },
+    {
+      "title": "PERSISTENT OS X MALWARE",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          310.5,
+          177.0
+        ],
+        [
+          461.25,
+          177.0
+        ],
+        [
+          461.25,
+          188.4287109375
+        ],
+        [
+          310.5,
+          188.4287109375
+        ]
+      ]
+    },
+    {
+      "title": "OSX/CallMe",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          310.5,
+          248.25
+        ],
+        [
+          369.3515625,
+          248.25
+        ],
+        [
+          369.3515625,
+          259.294921875
+        ],
+        [
+          310.5,
+          259.294921875
+        ]
+      ]
+    },
+    {
+      "title": "OSX/Flashback",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          310.5,
+          406.5
+        ],
+        [
+          386.384765625,
+          406.5
+        ],
+        [
+          386.384765625,
+          418.04296875
+        ],
+        [
+          310.5,
+          418.04296875
+        ]
+      ]
+    },
+    {
+      "title": "OSX/Crisis",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.75,
+          139.5
+        ],
+        [
+          120.0,
+          139.5
+        ],
+        [
+          120.0,
+          150.5302734375
+        ],
+        [
+          66.75,
+          150.5302734375
+        ]
+      ]
+    },
+    {
+      "title": "OSX/Janicab",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.75,
+          275.25
+        ],
+        [
+          129.75,
+          275.25
+        ],
+        [
+          129.75,
+          286.55859375
+        ],
+        [
+          66.75,
+          286.55859375
+        ]
+      ]
+    },
+    {
+      "title": "OSX/Kitmos",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.75,
+          411.75
+        ],
+        [
+          126.75,
+          411.75
+        ],
+        [
+          126.75,
+          422.68359375
+        ],
+        [
+          66.75,
+          422.68359375
+        ]
+      ]
+    },
+    {
+      "title": "OSX/Yontoo",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.5,
+          84.0
+        ],
+        [
+          369.75,
+          84.0
+        ],
+        [
+          369.75,
+          94.69775390625
+        ],
+        [
+          310.5,
+          94.69775390625
+        ]
+      ]
+    },
+    {
+      "title": "OSX/Renepo",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.5,
+          234.0
+        ],
+        [
+          373.236328125,
+          234.0
+        ],
+        [
+          373.236328125,
+          245.373046875
+        ],
+        [
+          310.5,
+          245.373046875
+        ]
+      ]
+    },
+    {
+      "title": "OSX/MacProtector",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.5,
+          329.25
+        ],
+        [
+          402.0,
+          329.25
+        ],
+        [
+          402.0,
+          339.345703125
+        ],
+        [
+          310.5,
+          339.345703125
+        ]
+      ]
+    },
+    {
+      "title": "OSX/Clapzok",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          310.18359375,
+          465.609375
+        ],
+        [
+          375.0,
+          465.609375
+        ],
+        [
+          375.0,
+          476.4375
+        ],
+        [
+          310.18359375,
+          476.4375
+        ]
+      ]
+    },
+    {
+      "title": "\u041a\u0418\u041e\u0421\u041a\u041a\u0418\u041e\u0421\u041a",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.75,
+          120.0
+        ],
+        [
+          146.25,
+          120.0
+        ],
+        [
+          146.25,
+          131.291015625
+        ],
+        [
+          66.75,
+          131.291015625
+        ]
+      ]
+    },
+    {
+      "title": "CONCLUSION",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          321.75,
+          468.0
+        ],
+        [
+          394.453125,
+          468.0
+        ],
+        [
+          394.453125,
+          479.14453125
+        ],
+        [
+          321.75,
+          479.14453125
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.5,
+          149.25
+        ],
+        [
+          127.5,
+          149.25
+        ],
+        [
+          127.5,
+          161.068359375
+        ],
+        [
+          55.5,
+          161.068359375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          108
+        ],
+        [
+          "Span",
+          108
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          111
+        ],
+        [
+          "Span",
+          111
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          110
+        ],
+        [
+          "Span",
+          110
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          102
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          53
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          88
+        ],
+        [
+          "Span",
+          88
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          73
+        ],
+        [
+          "Span",
+          73
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          91
+        ],
+        [
+          "Span",
+          91
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PictureGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          46
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          77
+        ],
+        [
+          "Span",
+          77
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          104
+        ],
+        [
+          "Span",
+          104
+        ],
+        [
+          "ListItem",
+          24
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/VB2014-Wardle"
+}

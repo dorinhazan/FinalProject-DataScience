@@ -1,0 +1,701 @@
+{
+  "table_of_contents": [
+    {
+      "title": "PREFACE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          271.41793784806947,
+          71.63308967649937
+        ],
+        [
+          324.6518427851218,
+          71.63308967649937
+        ],
+        [
+          324.6518427851218,
+          87.46019987761974
+        ],
+        [
+          271.41793784806947,
+          87.46019987761974
+        ]
+      ]
+    },
+    {
+      "title": "DROPPER ANALYSIS",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          239.23260059952736,
+          72.81498426944017
+        ],
+        [
+          355.39254845299706,
+          72.81498426944017
+        ],
+        [
+          355.39254845299706,
+          86.89494594186544
+        ],
+        [
+          239.23260059952736,
+          86.89494594186544
+        ]
+      ]
+    },
+    {
+      "title": "FIRST STAGE TROJAN EXECUTION",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          199.40894776582718,
+          72.86637099087238
+        ],
+        [
+          395.6203759610653,
+          72.86637099087238
+        ],
+        [
+          395.6203759610653,
+          86.84355922043324
+        ],
+        [
+          199.40894776582718,
+          86.84355922043324
+        ]
+      ]
+    },
+    {
+      "title": "Original Entrypoint",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          260.92111152245354,
+          71.2219959050417
+        ],
+        [
+          333.6491224927926,
+          71.2219959050417
+        ],
+        [
+          333.6491224927926,
+          80.98547297716141
+        ],
+        [
+          260.92111152245354,
+          80.98547297716141
+        ]
+      ]
+    },
+    {
+      "title": "USER MODE HOOKS",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          236.90713182091713,
+          383.8495658949243
+        ],
+        [
+          356.14232176196964,
+          383.8495658949243
+        ],
+        [
+          356.14232176196964,
+          397.7332238852978
+        ],
+        [
+          236.90713182091713,
+          397.7332238852978
+        ]
+      ]
+    },
+    {
+      "title": "Original ZwQueryDirectoryFile",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.48322486397001,
+          505.23424512147903
+        ],
+        [
+          170.94831444574544,
+          505.23424512147903
+        ],
+        [
+          170.94831444574544,
+          515.1004956364632
+        ],
+        [
+          55.48322486397001,
+          515.1004956364632
+        ]
+      ]
+    },
+    {
+      "title": "Hijacked ZwQueryDirectoryFile",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.48322486397001,
+          623.7555445792519
+        ],
+        [
+          172.44786106369057,
+          623.7555445792519
+        ],
+        [
+          172.44786106369057,
+          633.4955018162727
+        ],
+        [
+          55.48322486397001,
+          633.4955018162727
+        ]
+      ]
+    },
+    {
+      "title": "COMMUNICATION",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          229.0586746931076,
+          485.91283786296844
+        ],
+        [
+          368.5868014097214,
+          485.91283786296844
+        ],
+        [
+          368.5868014097214,
+          499.8900260925293
+        ],
+        [
+          229.0586746931076,
+          499.8900260925293
+        ]
+      ]
+    },
+    {
+      "title": "CONCLUSIONS",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          254.63883125782013,
+          72.24973033368587
+        ],
+        [
+          340.6811760663986,
+          72.24973033368587
+        ],
+        [
+          340.6811760663986,
+          86.84355922043324
+        ],
+        [
+          254.63883125782013,
+          86.84355922043324
+        ]
+      ]
+    },
+    {
+      "title": "ABOUT PREVX",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.48322486397001,
+          457.1362738609314
+        ],
+        [
+          124.41257965564728,
+          457.1362738609314
+        ],
+        [
+          124.41257965564728,
+          469.46908700466156
+        ],
+        [
+          55.48322486397001,
+          469.46908700466156
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          7
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          23
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          84
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          43
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          121
+        ],
+        [
+          "Span",
+          121
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          113
+        ],
+        [
+          "Span",
+          113
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          71
+        ],
+        [
+          "Span",
+          71
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          33
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          77
+        ],
+        [
+          "Span",
+          77
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          57
+        ],
+        [
+          "Span",
+          57
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          30
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/carberp-a_modular_information_stealing_trojan"
+}

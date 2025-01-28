@@ -1,0 +1,1844 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Operation\nCloud Hopper",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          170.18266531825066,
+          248.29178166389465
+        ],
+        [
+          405.5973759802523,
+          248.29178166389465
+        ],
+        [
+          405.5973759802523,
+          325.57465410232544
+        ],
+        [
+          170.18266531825066,
+          325.57465410232544
+        ]
+      ]
+    },
+    {
+      "title": "Contents",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          173.1848315183702,
+          208.41088519346894
+        ],
+        [
+          283.393360666424,
+          208.41088519346894
+        ],
+        [
+          283.393360666424,
+          238.39806291914795
+        ],
+        [
+          173.1848315183702,
+          238.39806291914795
+        ]
+      ]
+    },
+    {
+      "title": "Foreword",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          36.73617638268459,
+          82.57551596313715
+        ],
+        [
+          156.6910380404302,
+          82.57551596313715
+        ],
+        [
+          156.6910380404302,
+          108.42211492359638
+        ],
+        [
+          36.73617638268459,
+          108.42211492359638
+        ]
+      ]
+    },
+    {
+      "title": "Executive summary",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          37.4858942680455,
+          82.11305196583271
+        ],
+        [
+          278.16363912820816,
+          82.11305196583271
+        ],
+        [
+          278.16363912820816,
+          109.14150336384773
+        ],
+        [
+          37.4858942680455,
+          109.14150336384773
+        ]
+      ]
+    },
+    {
+      "title": "APT10 has recently unleashed a sustained campaign\nagainst MSPs. The compromise of MSP networks has\nprovided broad and unprecedented access to MSP customer\nnetworks.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          37.4858942680455,
+          264.3238669037819
+        ],
+        [
+          295.38884683219857,
+          264.3238669037819
+        ],
+        [
+          295.38884683219857,
+          313.2422808408737
+        ],
+        [
+          37.4858942680455,
+          313.2422808408737
+        ]
+      ]
+    },
+    {
+      "title": "APT10 has significantly increased its scale and capability\nsince early 2016, including the addition of new custom\ntools.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          37.4858942680455,
+          403.06306609511375
+        ],
+        [
+          289.39110374931124,
+          403.06306609511375
+        ],
+        [
+          289.39110374931124,
+          439.8546463251114
+        ],
+        [
+          37.4858942680455,
+          439.8546463251114
+        ]
+      ]
+    },
+    {
+      "title": "Infrastructure observed in APT10's most recent campaigns\nlinks to previous activities undertaken by the threat actor.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          307.3843329979731,
+          266.136202315401
+        ],
+        [
+          565.6284657716751,
+          266.136202315401
+        ],
+        [
+          565.6284657716751,
+          290.016311198473
+        ],
+        [
+          307.3843329979731,
+          290.016311198473
+        ]
+      ]
+    },
+    {
+      "title": "APT10 focuses on espionage activity, targeting intellectual\nproperty and other sensitive data.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          307.3843329979731,
+          450.95378226041794
+        ],
+        [
+          564.4658173322678,
+          450.95378226041794
+        ],
+        [
+          564.4658173322678,
+          475.6185287833214
+        ],
+        [
+          307.3843329979731,
+          475.6185287833214
+        ]
+      ]
+    },
+    {
+      "title": "PwC UK and BAE Systems assess APT10 as highly likely to\nbe a China-based threat actor.",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          307.2298501133919,
+          589.0763627886772
+        ],
+        [
+          558.9432372450829,
+          589.0763627886772
+        ],
+        [
+          558.9432372450829,
+          612.9189510941505
+        ],
+        [
+          307.2298501133919,
+          612.9189510941505
+        ]
+      ]
+    },
+    {
+      "title": "APT10 as a China-based threat actor",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          36.73617638268459,
+          81.49643330276012
+        ],
+        [
+          480.56916451634333,
+          81.49643330276012
+        ],
+        [
+          480.56916451634333,
+          109.03873358666897
+        ],
+        [
+          36.73617638268459,
+          109.03873358666897
+        ]
+      ]
+    },
+    {
+      "title": "APT10 as a China-based threat actor",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          36.73617638268459,
+          157.43268305981468
+        ],
+        [
+          335.13341265916824,
+          157.43268305981468
+        ],
+        [
+          335.13341265916824,
+          176.3529376387596
+        ],
+        [
+          36.73617638268459,
+          176.3529376387596
+        ]
+      ]
+    },
+    {
+      "title": "Time-based analysis of APT10's operations",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          38.23561215340641,
+          156.00452175736427
+        ],
+        [
+          383.3833228945732,
+          156.00452175736427
+        ],
+        [
+          383.3833228945732,
+          175.94185853004456
+        ],
+        [
+          38.23561215340641,
+          175.94185853004456
+        ]
+      ]
+    },
+    {
+      "title": "Identifying a change in APT10's\ntargeting",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          36.73617638268459,
+          155.69621242582798
+        ],
+        [
+          295.0220414996147,
+          155.69621242582798
+        ],
+        [
+          295.0220414996147,
+          195.9819650799036
+        ],
+        [
+          36.73617638268459,
+          195.9819650799036
+        ]
+      ]
+    },
+    {
+      "title": "MSP focused campaign",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          36.73617638268459,
+          403.2686056494713
+        ],
+        [
+          227.16451926435573,
+          403.2686056494713
+        ],
+        [
+          227.16451926435573,
+          422.589323759079
+        ],
+        [
+          36.73617638268459,
+          422.589323759079
+        ]
+      ]
+    },
+    {
+      "title": "APT10 has almost certainly been undertaking a\nglobal operation of unprecedented size and scale\ntargeting a number of MSPs.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          37.4858942680455,
+          428.75551038980484
+        ],
+        [
+          290.66210985183716,
+          428.75551038980484
+        ],
+        [
+          290.66210985183716,
+          470.6855794787407
+        ],
+        [
+          37.4858942680455,
+          470.6855794787407
+        ]
+      ]
+    },
+    {
+      "title": "Figure 8: High-level view of infrastructure used by APT10 throughout 2016",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          36.7687568962574,
+          70.65422181040049
+        ],
+        [
+          363.6131744000414,
+          70.65422181040049
+        ],
+        [
+          363.6131744000414,
+          83.21441818875918
+        ],
+        [
+          36.7687568962574,
+          83.21441818875918
+        ]
+      ]
+    },
+    {
+      "title": "Japan focused campaign",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          36.73617638268459,
+          156.00452175736427
+        ],
+        [
+          240.95888906717303,
+          156.00452175736427
+        ],
+        [
+          240.95888906717303,
+          176.76401674747467
+        ],
+        [
+          36.73617638268459,
+          176.76401674747467
+        ]
+      ]
+    },
+    {
+      "title": "Table 1: Japanese language filenames used by APT10",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          38.98533003876732,
+          385.5922039747238
+        ],
+        [
+          275.83834224939346,
+          385.5922039747238
+        ],
+        [
+          275.83834224939346,
+          397.1024190187454
+        ],
+        [
+          38.98533003876732,
+          397.1024190187454
+        ]
+      ]
+    },
+    {
+      "title": "Table 3: Known APT10 registration details showing a common name server",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          38.98533003876732,
+          566.7576590153328
+        ],
+        [
+          368.8611995975677,
+          566.7576590153328
+        ],
+        [
+          368.8611995975677,
+          577.1550686359406
+        ],
+        [
+          38.98533003876732,
+          577.1550686359406
+        ]
+      ]
+    },
+    {
+      "title": "Figure 11: Infrastructure graph linking early PlugX domains to recent ChChes domains",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          34.87945318222046,
+          266.136202315401
+        ],
+        [
+          422.6227077245712,
+          266.136202315401
+        ],
+        [
+          422.6227077245712,
+          279.73933348059654
+        ],
+        [
+          34.87945318222046,
+          279.73933348059654
+        ]
+      ]
+    },
+    {
+      "title": "Motivations behind APT10's targeting",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          36.73617638268459,
+          80.36596575379372
+        ],
+        [
+          497.06295799428335,
+          80.36596575379372
+        ],
+        [
+          497.06295799428335,
+          109.86089180409908
+        ],
+        [
+          36.73617638268459,
+          109.86089180409908
+        ]
+      ]
+    },
+    {
+      "title": "A short history of China-based hacking",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          36.73617638268459,
+          156.62114042043686
+        ],
+        [
+          353.1171240049886,
+          156.62114042043686
+        ],
+        [
+          353.1171240049886,
+          176.55847719311714
+        ],
+        [
+          36.73617638268459,
+          176.55847719311714
+        ]
+      ]
+    },
+    {
+      "title": "APT10 alignment with previous China-based hacking",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          36.73617638268459,
+          155.18236353993416
+        ],
+        [
+          466.324524694486,
+          155.18236353993416
+        ],
+        [
+          466.324524694486,
+          175.94185853004456
+        ],
+        [
+          36.73617638268459,
+          175.94185853004456
+        ]
+      ]
+    },
+    {
+      "title": "Shining a light on APT10's methodology",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          37.05941900610924,
+          81.49643330276012
+        ],
+        [
+          517.3053408990279,
+          81.49643330276012
+        ],
+        [
+          517.3053408990279,
+          109.75812202692032
+        ],
+        [
+          37.05941900610924,
+          109.75812202692032
+        ]
+      ]
+    },
+    {
+      "title": "Reconnaissance and targeting",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          37.4858942680455,
+          529.880971133709
+        ],
+        [
+          287.1419500932285,
+          529.880971133709
+        ],
+        [
+          287.1419500932285,
+          548.7906101346016
+        ],
+        [
+          37.4858942680455,
+          548.7906101346016
+        ]
+      ]
+    },
+    {
+      "title": "Initial compromise and lateral\nmovement",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          37.4858942680455,
+          406.3516989648342
+        ],
+        [
+          291.640257405394,
+          406.3516989648342
+        ],
+        [
+          291.640257405394,
+          443.14327919483185
+        ],
+        [
+          37.4858942680455,
+          443.14327919483185
+        ]
+      ]
+    },
+    {
+      "title": "Network hopping and\nexfiltration",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          36.73617638268459,
+          420.5339282155037
+        ],
+        [
+          215.961947619915,
+          420.5339282155037
+        ],
+        [
+          215.961947619915,
+          458.35320621728897
+        ],
+        [
+          36.73617638268459,
+          458.35320621728897
+        ]
+      ]
+    },
+    {
+      "title": "APT10 malware",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          306.6346151126122,
+          361.7496156692505
+        ],
+        [
+          437.08552716541055,
+          361.7496156692505
+        ],
+        [
+          437.08552716541055,
+          380.24817556142807
+        ],
+        [
+          306.6346151126122,
+          380.24817556142807
+        ]
+      ]
+    },
+    {
+      "title": "Timeline",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          38.69439337402582,
+          160.11531284451485
+        ],
+        [
+          87.71699258722647,
+          160.11531284451485
+        ],
+        [
+          87.71699258722647,
+          171.83106744289398
+        ],
+        [
+          38.69439337402582,
+          171.83106744289398
+        ]
+      ]
+    },
+    {
+      "title": "Figure 17: Timeline of APT10 malware use",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          38.98533003876732,
+          175.11970031261444
+        ],
+        [
+          222.66621195219028,
+          175.11970031261444
+        ],
+        [
+          222.66621195219028,
+          185.6022175848484
+        ],
+        [
+          38.98533003876732,
+          185.6022175848484
+        ]
+      ]
+    },
+    {
+      "title": "Retooling Efforts",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          38.98533003876732,
+          363.59947165846825
+        ],
+        [
+          131.5246047079563,
+          363.59947165846825
+        ],
+        [
+          131.5246047079563,
+          375.93184491991997
+        ],
+        [
+          38.98533003876732,
+          375.93184491991997
+        ]
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          38.294732972979546,
+          82.11305196583271
+        ],
+        [
+          175.43398517445294,
+          82.11305196583271
+        ],
+        [
+          175.43398517445294,
+          109.14150336384773
+        ],
+        [
+          38.294732972979546,
+          109.14150336384773
+        ]
+      ]
+    },
+    {
+      "title": "Appendix A",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          36.11476714909077,
+          76.87179332971573
+        ],
+        [
+          189.221033513546,
+          76.87179332971573
+        ],
+        [
+          189.221033513546,
+          110.78581979870796
+        ],
+        [
+          36.11476714909077,
+          110.78581979870796
+        ]
+      ]
+    },
+    {
+      "title": "Collaboration between PwC UK and BAE Systems",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          38.23561215340641,
+          157.03221952915192
+        ],
+        [
+          430.33806619716233,
+          157.03221952915192
+        ],
+        [
+          430.33806619716233,
+          176.14739808440208
+        ],
+        [
+          38.23561215340641,
+          176.14739808440208
+        ]
+      ]
+    },
+    {
+      "title": "Probabilistic language",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          36.73617638268459,
+          240.48127859830856
+        ],
+        [
+          224.1656477229121,
+          240.48127859830856
+        ],
+        [
+          224.1656477229121,
+          260.2130758166313
+        ],
+        [
+          36.73617638268459,
+          260.2130758166313
+        ]
+      ]
+    },
+    {
+      "title": "Table 4: Probabilistic language\n..",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          38.23561215340641,
+          312.83120173215866
+        ],
+        [
+          320.8792549344695,
+          312.83120173215866
+        ],
+        [
+          320.8792549344695,
+          327.60991665304294
+        ],
+        [
+          38.23561215340641,
+          327.60991665304294
+        ]
+      ]
+    },
+    {
+      "title": "Appendix B",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          36.47809478640556,
+          78.51610976457596
+        ],
+        [
+          188.20371612906456,
+          78.51610976457596
+        ],
+        [
+          188.20371612906456,
+          110.06643135845661
+        ],
+        [
+          36.47809478640556,
+          110.06643135845661
+        ]
+      ]
+    },
+    {
+      "title": "PwC UK reporting",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          36.73617638268459,
+          157.23775908350945
+        ],
+        [
+          185.18031768414477,
+          157.23775908350945
+        ],
+        [
+          185.18031768414477,
+          176.76401674747467
+        ],
+        [
+          36.73617638268459,
+          176.76401674747467
+        ]
+      ]
+    },
+    {
+      "title": "Third party reports",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          37.4858942680455,
+          513.4378067851067
+        ],
+        [
+          197.92552173528023,
+          513.4378067851067
+        ],
+        [
+          197.92552173528023,
+          530.7031293511391
+        ],
+        [
+          37.4858942680455,
+          530.7031293511391
+        ]
+      ]
+    },
+    {
+      "title": "About PwC",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          54.72940563134643,
+          151.5854213386774
+        ],
+        [
+          145.4763859808445,
+          151.5854213386774
+        ],
+        [
+          145.4763859808445,
+          169.87844167649746
+        ],
+        [
+          54.72940563134643,
+          169.87844167649746
+        ]
+      ]
+    },
+    {
+      "title": "PIRED",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          292.6967446208,
+          350.4449401795864
+        ],
+        [
+          411.2868854403496,
+          350.4449401795864
+        ],
+        [
+          411.2868854403496,
+          380.08747767298115
+        ],
+        [
+          292.6967446208,
+          380.08747767298115
+        ]
+      ]
+    },
+    {
+      "title": "We are BAE Systems",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          55.47912351670734,
+          391.7583906054497
+        ],
+        [
+          208.25940170884132,
+          391.7583906054497
+        ],
+        [
+          208.25940170884132,
+          409.8458713889122
+        ],
+        [
+          55.47912351670734,
+          409.8458713889122
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          11
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          17
+        ],
+        [
+          "Span",
+          17
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          29
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          77
+        ],
+        [
+          "Span",
+          77
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          55
+        ],
+        [
+          "Span",
+          55
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          86
+        ],
+        [
+          "Span",
+          86
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          69
+        ],
+        [
+          "Span",
+          69
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          76
+        ],
+        [
+          "Span",
+          76
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          186
+        ],
+        [
+          "Span",
+          186
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          67
+        ],
+        [
+          "Span",
+          67
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          98
+        ],
+        [
+          "Span",
+          98
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          91
+        ],
+        [
+          "Span",
+          91
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          94
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          53
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          44
+        ],
+        [
+          "Span",
+          44
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          84
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          90
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          53
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Line",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          35
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          101
+        ],
+        [
+          "Span",
+          101
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          22
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          8
+        ],
+        [
+          "Span",
+          8
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/cloud-hopper-report-final-v4"
+}

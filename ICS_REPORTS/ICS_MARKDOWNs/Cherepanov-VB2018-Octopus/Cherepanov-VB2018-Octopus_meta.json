@@ -1,0 +1,2343 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Nomadic Octopus",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          51.75,
+          128.14453125
+        ],
+        [
+          456.75,
+          128.14453125
+        ],
+        [
+          456.75,
+          181.73583984375
+        ],
+        [
+          51.75,
+          181.73583984375
+        ]
+      ]
+    },
+    {
+      "title": "Discovery: spearphishing email",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          200.25,
+          28.30352783203125
+        ],
+        [
+          519.0,
+          28.30352783203125
+        ],
+        [
+          519.0,
+          52.701416015625
+        ],
+        [
+          200.25,
+          52.701416015625
+        ]
+      ]
+    },
+    {
+      "title": "Decoy document",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          270.75,
+          28.20465087890625
+        ],
+        [
+          449.296875,
+          28.20465087890625
+        ],
+        [
+          449.296875,
+          53.096923828125
+        ],
+        [
+          270.75,
+          53.096923828125
+        ]
+      ]
+    },
+    {
+      "title": "Kazakhstan - Executive Summary - export.gov",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          200.25,
+          140.20751953125
+        ],
+        [
+          510.46875,
+          140.20751953125
+        ],
+        [
+          510.46875,
+          156.42333984375
+        ],
+        [
+          200.25,
+          156.42333984375
+        ]
+      ]
+    },
+    {
+      "title": "https://www.export.gov/apex/article2?id=Kazakhstan-Executive-Summary \u25bc",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          201.0,
+          158.302001953125
+        ],
+        [
+          588.0,
+          158.302001953125
+        ],
+        [
+          588.0,
+          171.749267578125
+        ],
+        [
+          201.0,
+          171.749267578125
+        ]
+      ]
+    },
+    {
+      "title": "\u20aa\u00baF] Executive Summary Kazakhstan has made significant progress towa...\nhttps://www.state.gov/documents/organization/229094.pdf \u25bc",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          200.25,
+          223.26416015625
+        ],
+        [
+          691.875,
+          223.26416015625
+        ],
+        [
+          691.875,
+          255.69580078125
+        ],
+        [
+          200.25,
+          255.69580078125
+        ]
+      ]
+    },
+    {
+      "title": "Cable: 07ASTANA173  a - WikiLeaks",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          200.7421875,
+          336.181640625
+        ],
+        [
+          453.515625,
+          336.181640625
+        ],
+        [
+          453.515625,
+          354.375
+        ],
+        [
+          200.7421875,
+          354.375
+        ]
+      ]
+    },
+    {
+      "title": "https://wikileaks.org/plusd/cables/07ASTANA173 a.html \u25bc",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          201.0,
+          355.36376953125
+        ],
+        [
+          500.25,
+          355.36376953125
+        ],
+        [
+          500.25,
+          368.41552734375
+        ],
+        [
+          201.0,
+          368.41552734375
+        ]
+      ]
+    },
+    {
+      "title": "Malicious Macro",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          273.75,
+          27.7349853515625
+        ],
+        [
+          445.5,
+          27.7349853515625
+        ],
+        [
+          445.5,
+          53.5418701171875
+        ],
+        [
+          273.75,
+          53.5418701171875
+        ]
+      ]
+    },
+    {
+      "title": "Timeline",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          313.5,
+          27.586669921875
+        ],
+        [
+          405.75,
+          27.586669921875
+        ],
+        [
+          405.75,
+          53.8385009765625
+        ],
+        [
+          313.5,
+          53.8385009765625
+        ]
+      ]
+    },
+    {
+      "title": "Spreading",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          306.0,
+          27.586669921875
+        ],
+        [
+          414.0,
+          27.586669921875
+        ],
+        [
+          414.0,
+          55.1239013671875
+        ],
+        [
+          306.0,
+          55.1239013671875
+        ]
+      ]
+    },
+    {
+      "title": "Spreading",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          303.75,
+          26.25
+        ],
+        [
+          415.5,
+          26.25
+        ],
+        [
+          415.5,
+          55.17333984375
+        ],
+        [
+          303.75,
+          55.17333984375
+        ]
+      ]
+    },
+    {
+      "title": "The malware: Delphi",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          250.5,
+          27.4383544921875
+        ],
+        [
+          469.5,
+          27.4383544921875
+        ],
+        [
+          469.5,
+          53.294677734375
+        ],
+        [
+          250.5,
+          53.294677734375
+        ]
+      ]
+    },
+    {
+      "title": "The malware: internal name and version",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          150.75,
+          28.64959716796875
+        ],
+        [
+          567.75,
+          28.64959716796875
+        ],
+        [
+          567.75,
+          53.19580078125
+        ],
+        [
+          150.75,
+          53.19580078125
+        ]
+      ]
+    },
+    {
+      "title": "The malware: internal name and version",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          150.75,
+          28.575439453125
+        ],
+        [
+          568.5,
+          28.575439453125
+        ],
+        [
+          568.5,
+          53.294677734375
+        ],
+        [
+          150.75,
+          53.294677734375
+        ]
+      ]
+    },
+    {
+      "title": "The malware: functionality",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          220.5,
+          28.60015869140625
+        ],
+        [
+          497.25,
+          28.60015869140625
+        ],
+        [
+          497.25,
+          53.096923828125
+        ],
+        [
+          220.5,
+          53.096923828125
+        ]
+      ]
+    },
+    {
+      "title": "The malware: network communication",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          160.83984375,
+          27.982177734375
+        ],
+        [
+          558.0,
+          27.982177734375
+        ],
+        [
+          558.0,
+          53.1463623046875
+        ],
+        [
+          160.83984375,
+          53.1463623046875
+        ]
+      ]
+    },
+    {
+      "title": "Exfiltration websites",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          255.0,
+          28.7237548828125
+        ],
+        [
+          465.75,
+          28.7237548828125
+        ],
+        [
+          465.75,
+          53.4429931640625
+        ],
+        [
+          255.0,
+          53.4429931640625
+        ]
+      ]
+    },
+    {
+      "title": "File sharing hosting:",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          53.25,
+          81.3262939453125
+        ],
+        [
+          302.25,
+          81.3262939453125
+        ],
+        [
+          302.25,
+          113.115234375
+        ],
+        [
+          53.25,
+          113.115234375
+        ]
+      ]
+    },
+    {
+      "title": "The malware: data compression",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          195.0,
+          27.95745849609375
+        ],
+        [
+          522.75,
+          27.95745849609375
+        ],
+        [
+          522.75,
+          53.1463623046875
+        ],
+        [
+          195.0,
+          53.1463623046875
+        ]
+      ]
+    },
+    {
+      "title": "Abbrevia: Advanced data compression toolkit",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          47.25,
+          220.10009765625
+        ],
+        [
+          431.71875,
+          220.10009765625
+        ],
+        [
+          431.71875,
+          234.33837890625
+        ],
+        [
+          47.25,
+          234.33837890625
+        ]
+      ]
+    },
+    {
+      "title": "TurboPower Abbrevia",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          47.25,
+          241.6552734375
+        ],
+        [
+          289.6875,
+          241.6552734375
+        ],
+        [
+          289.6875,
+          270.1318359375
+        ],
+        [
+          47.25,
+          270.1318359375
+        ]
+      ]
+    },
+    {
+      "title": "The malware: naming scheme",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          204.0,
+          28.377685546875
+        ],
+        [
+          513.0,
+          28.377685546875
+        ],
+        [
+          513.0,
+          53.6407470703125
+        ],
+        [
+          204.0,
+          53.6407470703125
+        ]
+      ]
+    },
+    {
+      "title": "SessionTime is used as filename:",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          57.0,
+          77.7667236328125
+        ],
+        [
+          273.0,
+          77.7667236328125
+        ],
+        [
+          273.0,
+          94.1802978515625
+        ],
+        [
+          57.0,
+          94.1802978515625
+        ]
+      ]
+    },
+    {
+      "title": "Fayloobmennik.net",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          247.1484375,
+          26.400146484375
+        ],
+        [
+          473.25,
+          26.400146484375
+        ],
+        [
+          473.25,
+          54.580078125
+        ],
+        [
+          247.1484375,
+          54.580078125
+        ]
+      ]
+    },
+    {
+      "title": "1 2 3 4 ... 9",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          342.0,
+          97.4432373046875
+        ],
+        [
+          405.75,
+          97.4432373046875
+        ],
+        [
+          405.75,
+          109.35791015625
+        ],
+        [
+          342.0,
+          109.35791015625
+        ]
+      ]
+    },
+    {
+      "title": "Exfiltration data",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          276.0,
+          27.85858154296875
+        ],
+        [
+          444.375,
+          27.85858154296875
+        ],
+        [
+          444.375,
+          53.59130859375
+        ],
+        [
+          276.0,
+          53.59130859375
+        ]
+      ]
+    },
+    {
+      "title": "Upload dates: Weekdays",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          216.75,
+          26.7462158203125
+        ],
+        [
+          504.0,
+          26.7462158203125
+        ],
+        [
+          504.0,
+          54.38232421875
+        ],
+        [
+          216.75,
+          54.38232421875
+        ]
+      ]
+    },
+    {
+      "title": "Upload dates: Hours (GMT)",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          200.21484375,
+          26.89453125
+        ],
+        [
+          515.25,
+          26.89453125
+        ],
+        [
+          515.25,
+          54.38232421875
+        ],
+        [
+          200.21484375,
+          54.38232421875
+        ]
+      ]
+    },
+    {
+      "title": "Suspected timezones",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          237.75,
+          26.4495849609375
+        ],
+        [
+          481.5,
+          26.4495849609375
+        ],
+        [
+          481.5,
+          55.8160400390625
+        ],
+        [
+          237.75,
+          55.8160400390625
+        ]
+      ]
+    },
+    {
+      "title": "UTC+5",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          12.75,
+          61.3037109375
+        ],
+        [
+          65.25,
+          61.3037109375
+        ],
+        [
+          65.25,
+          79.69482421875
+        ],
+        [
+          12.75,
+          79.69482421875
+        ]
+      ]
+    },
+    {
+      "title": "Central Asia [edit]",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          9.0,
+          139.21875
+        ],
+        [
+          121.5,
+          139.21875
+        ],
+        [
+          121.5,
+          155.23681640625
+        ],
+        [
+          9.0,
+          155.23681640625
+        ]
+      ]
+    },
+    {
+      "title": "South Asia [edit]",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          9.0,
+          263.60595703125
+        ],
+        [
+          114.0,
+          263.60595703125
+        ],
+        [
+          114.0,
+          278.63525390625
+        ],
+        [
+          9.0,
+          278.63525390625
+        ]
+      ]
+    },
+    {
+      "title": "Antarctica [edit]",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          9.0,
+          332.02880859375
+        ],
+        [
+          109.51171875,
+          332.02880859375
+        ],
+        [
+          109.51171875,
+          346.66259765625
+        ],
+        [
+          9.0,
+          346.66259765625
+        ]
+      ]
+    },
+    {
+      "title": "UTC+6",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          423.0,
+          64.171142578125
+        ],
+        [
+          474.75,
+          64.171142578125
+        ],
+        [
+          474.75,
+          82.265625
+        ],
+        [
+          423.0,
+          82.265625
+        ]
+      ]
+    },
+    {
+      "title": "Central Asia [edit]",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          426.0,
+          136.64794921875
+        ],
+        [
+          537.0,
+          136.64794921875
+        ],
+        [
+          537.0,
+          151.67724609375
+        ],
+        [
+          426.0,
+          151.67724609375
+        ]
+      ]
+    },
+    {
+      "title": "South Asia [edit]",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          426.0,
+          224.84619140625
+        ],
+        [
+          529.5,
+          224.84619140625
+        ],
+        [
+          529.5,
+          239.47998046875
+        ],
+        [
+          426.0,
+          239.47998046875
+        ]
+      ]
+    },
+    {
+      "title": "Victims",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          315.0,
+          26.3507080078125
+        ],
+        [
+          404.25,
+          26.3507080078125
+        ],
+        [
+          404.25,
+          54.481201171875
+        ],
+        [
+          315.0,
+          54.481201171875
+        ]
+      ]
+    },
+    {
+      "title": "Victims",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          315.0,
+          26.4990234375
+        ],
+        [
+          405.0,
+          26.4990234375
+        ],
+        [
+          405.0,
+          54.2340087890625
+        ],
+        [
+          315.0,
+          54.2340087890625
+        ]
+      ]
+    },
+    {
+      "title": "Nomadic Octopus: Victimology",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          181.5,
+          26.77093505859375
+        ],
+        [
+          537.75,
+          26.77093505859375
+        ],
+        [
+          537.75,
+          55.469970703125
+        ],
+        [
+          181.5,
+          55.469970703125
+        ]
+      ]
+    },
+    {
+      "title": "Malicious Tools",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          268.5,
+          26.02935791015625
+        ],
+        [
+          448.9453125,
+          26.02935791015625
+        ],
+        [
+          448.9453125,
+          54.678955078125
+        ],
+        [
+          268.5,
+          54.678955078125
+        ]
+      ]
+    },
+    {
+      "title": "Password generation algorithm",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          180.0,
+          26.57318115234375
+        ],
+        [
+          537.75,
+          26.57318115234375
+        ],
+        [
+          537.75,
+          54.9755859375
+        ],
+        [
+          180.0,
+          54.9755859375
+        ]
+      ]
+    },
+    {
+      "title": "@System@@LStrClr$garpv ; System ::  linkproc   LStrClr(void *)\n; CODE XREF: generate_password+62\u2193j\n; BDS 2005-2007 and Delphi6-7 Visual Component Library",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          264.75,
+          133.978271484375
+        ],
+        [
+          695.25,
+          133.978271484375
+        ],
+        [
+          695.25,
+          208.828125
+        ],
+        [
+          264.75,
+          208.828125
+        ]
+      ]
+    },
+    {
+      "title": "Delphi random implementation",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          178.5,
+          26.12823486328125
+        ],
+        [
+          540.0,
+          26.12823486328125
+        ],
+        [
+          540.0,
+          54.876708984375
+        ],
+        [
+          178.5,
+          54.876708984375
+        ]
+      ]
+    },
+    {
+      "title": "loc_402C44:",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          119.25,
+          303.3544921875
+        ],
+        [
+          192.3046875,
+          303.3544921875
+        ],
+        [
+          192.3046875,
+          316.8017578125
+        ],
+        [
+          119.25,
+          316.8017578125
+        ]
+      ]
+    },
+    {
+      "title": "Password generation routine",
+      "heading_level": null,
+      "page_id": 29,
+      "polygon": [
+        [
+          194.25,
+          26.400146484375
+        ],
+        [
+          525.0,
+          26.400146484375
+        ],
+        [
+          525.0,
+          55.3216552734375
+        ],
+        [
+          194.25,
+          55.3216552734375
+        ]
+      ]
+    },
+    {
+      "title": "Tools",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          327.75,
+          26.6473388671875
+        ],
+        [
+          390.9375,
+          26.6473388671875
+        ],
+        [
+          390.9375,
+          53.7890625
+        ],
+        [
+          327.75,
+          53.7890625
+        ]
+      ]
+    },
+    {
+      "title": "Password: iM2d$xP(84Y!YV49uFO@kJm5O&2l5AFs",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          46.5,
+          69.906005859375
+        ],
+        [
+          549.0,
+          69.906005859375
+        ],
+        [
+          549.0,
+          94.822998046875
+        ],
+        [
+          46.5,
+          94.822998046875
+        ]
+      ]
+    },
+    {
+      "title": "Tools",
+      "heading_level": null,
+      "page_id": 31,
+      "polygon": [
+        [
+          328.5,
+          26.69677734375
+        ],
+        [
+          392.34375,
+          26.69677734375
+        ],
+        [
+          392.34375,
+          54.283447265625
+        ],
+        [
+          328.5,
+          54.283447265625
+        ]
+      ]
+    },
+    {
+      "title": "Password: iM2d$xP(84Y!YV49uFO@kJm5O&2l5AFs",
+      "heading_level": null,
+      "page_id": 31,
+      "polygon": [
+        [
+          46.5,
+          70.20263671875
+        ],
+        [
+          549.0,
+          70.20263671875
+        ],
+        [
+          549.0,
+          94.32861328125
+        ],
+        [
+          46.5,
+          94.32861328125
+        ]
+      ]
+    },
+    {
+      "title": "Documents collector",
+      "heading_level": null,
+      "page_id": 32,
+      "polygon": [
+        [
+          240.0,
+          27.0428466796875
+        ],
+        [
+          479.25,
+          27.0428466796875
+        ],
+        [
+          479.25,
+          54.38232421875
+        ],
+        [
+          240.0,
+          54.38232421875
+        ]
+      ]
+    },
+    {
+      "title": "Nomadic Octopus",
+      "heading_level": null,
+      "page_id": 33,
+      "polygon": [
+        [
+          267.0,
+          28.35296630859375
+        ],
+        [
+          454.5,
+          28.35296630859375
+        ],
+        [
+          454.5,
+          54.085693359375
+        ],
+        [
+          267.0,
+          54.085693359375
+        ]
+      ]
+    },
+    {
+      "title": "Anton Cherepanov",
+      "heading_level": null,
+      "page_id": 34,
+      "polygon": [
+        [
+          247.5,
+          237.0
+        ],
+        [
+          483.0,
+          237.0
+        ],
+        [
+          483.0,
+          268.5
+        ],
+        [
+          247.5,
+          268.5
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          11
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          18
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          24
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          15
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          9
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          10
+        ],
+        [
+          "Span",
+          10
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          8
+        ],
+        [
+          "Span",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          13
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          29
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          23
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          20
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          13
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          14
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          6
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          15
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          15
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          33
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          36
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          22
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          69
+        ],
+        [
+          "Span",
+          69
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 28,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "Table",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 29,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          16
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 30,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 31,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          64
+        ],
+        [
+          "Span",
+          64
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 32,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          18
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 33,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          6
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 34,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Cherepanov-VB2018-Octopus"
+}

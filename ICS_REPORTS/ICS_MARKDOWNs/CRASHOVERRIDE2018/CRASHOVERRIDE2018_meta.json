@@ -1,0 +1,1565 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DRAGCS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          255.0,
+          32.121826171875
+        ],
+        [
+          358.294921875,
+          32.121826171875
+        ],
+        [
+          358.294921875,
+          60.134765625
+        ],
+        [
+          255.0,
+          60.134765625
+        ]
+      ]
+    },
+    {
+      "title": "Anatomy of an Attack: Detecting and\nDefeating CRASHOVERRIDE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          75.603515625,
+          110.21484375
+        ],
+        [
+          540.0,
+          110.21484375
+        ],
+        [
+          540.0,
+          175.376953125
+        ],
+        [
+          75.603515625,
+          175.376953125
+        ]
+      ]
+    },
+    {
+      "title": "Executive Summary",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.25,
+          287.525390625
+        ],
+        [
+          223.5234375,
+          287.525390625
+        ],
+        [
+          223.5234375,
+          306.087890625
+        ],
+        [
+          71.25,
+          306.087890625
+        ]
+      ]
+    },
+    {
+      "title": "Contents",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.25,
+          71.6396484375
+        ],
+        [
+          142.83984375,
+          71.6396484375
+        ],
+        [
+          142.83984375,
+          93.005859375
+        ],
+        [
+          71.25,
+          93.005859375
+        ]
+      ]
+    },
+    {
+      "title": "Background",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.25,
+          73.71826171875
+        ],
+        [
+          163.9072265625,
+          73.71826171875
+        ],
+        [
+          163.9072265625,
+          92.37744140625
+        ],
+        [
+          71.25,
+          92.37744140625
+        ]
+      ]
+    },
+    {
+      "title": "Adversarv",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.5,
+          321.75
+        ],
+        [
+          150.4599609375,
+          321.75
+        ],
+        [
+          150.4599609375,
+          339.5390625
+        ],
+        [
+          70.5,
+          339.5390625
+        ]
+      ]
+    },
+    {
+      "title": "Initial Intrusion",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.5,
+          562.2890625
+        ],
+        [
+          188.859375,
+          562.2890625
+        ],
+        [
+          188.859375,
+          580.078125
+        ],
+        [
+          70.5,
+          580.078125
+        ]
+      ]
+    },
+    {
+      "title": "Pivoting to ICS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.5,
+          136.318359375
+        ],
+        [
+          184.67578125,
+          136.318359375
+        ],
+        [
+          184.67578125,
+          155.267578125
+        ],
+        [
+          70.5,
+          155.267578125
+        ]
+      ]
+    },
+    {
+      "title": "From recovered log and system data, the adversary initially accessed a device in early\nDecember that was either dual-homed on the IT and ICS networks or featured connectivity to\nthe IT network.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.25,
+          167.0625
+        ],
+        [
+          541.4765625,
+          167.0625
+        ],
+        [
+          541.4765625,
+          208.44140625
+        ],
+        [
+          71.25,
+          208.44140625
+        ]
+      ]
+    },
+    {
+      "title": "Movement within ICS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.5,
+          458.6484375
+        ],
+        [
+          234.28125,
+          458.6484375
+        ],
+        [
+          234.28125,
+          477.2109375
+        ],
+        [
+          70.5,
+          477.2109375
+        ]
+      ]
+    },
+    {
+      "title": "ELECTRUM used a variety of native system commands, known utilities, and custom scripts\nfrom the core server hosts.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.25,
+          488.8125
+        ],
+        [
+          531.9140625,
+          488.8125
+        ],
+        [
+          531.9140625,
+          517.4296875
+        ],
+        [
+          71.25,
+          517.4296875
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.5,
+          253.6875
+        ],
+        [
+          205.59375,
+          253.6875
+        ],
+        [
+          205.59375,
+          271.4765625
+        ],
+        [
+          70.5,
+          271.4765625
+        ]
+      ]
+    },
+    {
+      "title": "ELECTRUM creates and starts CRASHOVERRIDE as a system service.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.25,
+          284.044921875
+        ],
+        [
+          420.75,
+          284.044921875
+        ],
+        [
+          420.75,
+          297.193359375
+        ],
+        [
+          71.25,
+          297.193359375
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE Modules",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.25,
+          182.4345703125
+        ],
+        [
+          249.22265625,
+          182.4345703125
+        ],
+        [
+          249.22265625,
+          197.5166015625
+        ],
+        [
+          71.25,
+          197.5166015625
+        ]
+      ]
+    },
+    {
+      "title": "Launcher Module",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.25,
+          413.25
+        ],
+        [
+          171.9755859375,
+          412.2421875
+        ],
+        [
+          171.9755859375,
+          425.390625
+        ],
+        [
+          71.25,
+          426.9375
+        ]
+      ]
+    },
+    {
+      "title": "Brief Review of Grid Operations Protocols",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          71.25,
+          73.23486328125
+        ],
+        [
+          304.8046875,
+          73.23486328125
+        ],
+        [
+          304.8046875,
+          87.44677734375
+        ],
+        [
+          71.25,
+          87.44677734375
+        ]
+      ]
+    },
+    {
+      "title": "IEC-101",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          71.25,
+          428.09765625
+        ],
+        [
+          114.75,
+          428.09765625
+        ],
+        [
+          114.75,
+          442.01953125
+        ],
+        [
+          71.25,
+          442.01953125
+        ]
+      ]
+    },
+    {
+      "title": "IEC-104",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.25,
+          74.49169921875
+        ],
+        [
+          117.439453125,
+          74.49169921875
+        ],
+        [
+          117.439453125,
+          86.96337890625
+        ],
+        [
+          71.25,
+          86.96337890625
+        ]
+      ]
+    },
+    {
+      "title": "IEC-61850",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          72.0,
+          323.876953125
+        ],
+        [
+          133.4267578125,
+          323.876953125
+        ],
+        [
+          133.4267578125,
+          335.478515625
+        ],
+        [
+          72.0,
+          335.478515625
+        ]
+      ]
+    },
+    {
+      "title": "\u041e\u0420\u0421",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.25,
+          303.1875
+        ],
+        [
+          98.98681640625,
+          303.1875
+        ],
+        [
+          98.98681640625,
+          317.109375
+        ],
+        [
+          71.25,
+          317.109375
+        ]
+      ]
+    },
+    {
+      "title": "Hybrid Payload: OPC + 61850",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          71.25,
+          355.78125
+        ],
+        [
+          236.671875,
+          355.78125
+        ],
+        [
+          236.671875,
+          369.31640625
+        ],
+        [
+          71.25,
+          369.31640625
+        ]
+      ]
+    },
+    {
+      "title": "Wiper Module",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.25,
+          73.04150390625
+        ],
+        [
+          152.5517578125,
+          73.04150390625
+        ],
+        [
+          152.5517578125,
+          86.77001953125
+        ],
+        [
+          71.25,
+          86.77001953125
+        ]
+      ]
+    },
+    {
+      "title": "Table 1: Targeted File Extensions",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          236.07421875,
+          89.912109375
+        ],
+        [
+          374.25,
+          89.912109375
+        ],
+        [
+          374.25,
+          101.8037109375
+        ],
+        [
+          236.07421875,
+          101.8037109375
+        ]
+      ]
+    },
+    {
+      "title": "Primary Backdoor Module",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          71.25,
+          377.244140625
+        ],
+        [
+          246.83203125,
+          377.244140625
+        ],
+        [
+          246.83203125,
+          392.712890625
+        ],
+        [
+          71.25,
+          392.712890625
+        ]
+      ]
+    },
+    {
+      "title": "Impeding Recovery",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          70.5,
+          599.4140625
+        ],
+        [
+          203.0537109375,
+          599.4140625
+        ],
+        [
+          203.0537109375,
+          614.8828125
+        ],
+        [
+          70.5,
+          614.8828125
+        ]
+      ]
+    },
+    {
+      "title": "Alternate Backdoor",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.25,
+          254.07421875
+        ],
+        [
+          202.306640625,
+          254.07421875
+        ],
+        [
+          202.306640625,
+          268.76953125
+        ],
+        [
+          71.25,
+          268.76953125
+        ]
+      ]
+    },
+    {
+      "title": "Context and Mitigation",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.25,
+          532.8984375
+        ],
+        [
+          247.130859375,
+          532.8984375
+        ],
+        [
+          247.130859375,
+          551.4609375
+        ],
+        [
+          71.25,
+          551.4609375
+        ]
+      ]
+    },
+    {
+      "title": "ELECTRUM's CRASHOVERRIDE attack represents both a sophisticated event (in terms of\ndesigning ICS-specific malicious payloads) and an example of fairly standard intrusion\nactivities such as \"living off the land\".",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.25,
+          563.8359375
+        ],
+        [
+          522.94921875,
+          563.8359375
+        ],
+        [
+          522.94921875,
+          603.28125
+        ],
+        [
+          71.25,
+          603.28125
+        ]
+      ]
+    },
+    {
+      "title": "APPENDICES",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          71.25,
+          73.62158203125
+        ],
+        [
+          172.72265625,
+          73.62158203125
+        ],
+        [
+          172.72265625,
+          92.76416015625
+        ],
+        [
+          71.25,
+          92.76416015625
+        ]
+      ]
+    },
+    {
+      "title": "APPENDIX A - List of Sample Hashes",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          71.25,
+          104.994140625
+        ],
+        [
+          314.96484375,
+          104.994140625
+        ],
+        [
+          314.96484375,
+          120.65625
+        ],
+        [
+          71.25,
+          120.65625
+        ]
+      ]
+    },
+    {
+      "title": "APPENDIX B - Remote Execution and Survey Script",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          71.25,
+          74.25
+        ],
+        [
+          409.5,
+          74.25
+        ],
+        [
+          409.5,
+          89.18701171875
+        ],
+        [
+          71.25,
+          89.18701171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          43
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          49
+        ],
+        [
+          "Span",
+          49
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PictureGroup",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          42
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          46
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          43
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          56
+        ],
+        [
+          "Span",
+          56
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          50
+        ],
+        [
+          "Span",
+          50
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          110
+        ],
+        [
+          "Span",
+          110
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          41
+        ],
+        [
+          "Span",
+          41
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Footnote",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          79
+        ],
+        [
+          "Span",
+          79
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          61
+        ],
+        [
+          "Span",
+          61
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          51
+        ],
+        [
+          "Span",
+          51
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          30
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          42
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          47
+        ],
+        [
+          "Span",
+          47
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          127
+        ],
+        [
+          "Span",
+          127
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          46
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          16
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CRASHOVERRIDE2018"
+}

@@ -1,0 +1,986 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Calisto Trojan for macOS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          182.0847235614767,
+          393.4167107641697
+        ],
+        [
+          412.5210666656494,
+          393.4167107641697
+        ],
+        [
+          412.5210666656494,
+          416.8490540385246
+        ],
+        [
+          182.0847235614767,
+          416.8490540385246
+        ]
+      ]
+    },
+    {
+      "title": "The first member of the Proton malware family?",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          41.96191160264484,
+          454.2585845291615
+        ],
+        [
+          380.65448382399245,
+          454.2585845291615
+        ],
+        [
+          380.65448382399245,
+          472.3467091619969
+        ],
+        [
+          41.96191160264484,
+          472.3467091619969
+        ]
+      ]
+    },
+    {
+      "title": "Propagation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          41.96191160264484,
+          518.8003019690514
+        ],
+        [
+          122.8884554077456,
+          518.8003019690514
+        ],
+        [
+          122.8884554077456,
+          535.2440516352654
+        ],
+        [
+          41.96191160264484,
+          535.2440516352654
+        ]
+      ]
+    },
+    {
+      "title": "Installation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          41.21259175259761,
+          432.8817099630833
+        ],
+        [
+          116.49362516403198,
+          432.8817099630833
+        ],
+        [
+          116.49362516403198,
+          449.3254596292973
+        ],
+        [
+          41.21259175259761,
+          449.3254596292973
+        ]
+      ]
+    },
+    {
+      "title": "Installation failed",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          159.60512806005983,
+          48.45767479762435
+        ],
+        [
+          282.80933690071106,
+          48.45767479762435
+        ],
+        [
+          282.80933690071106,
+          65.51806507632136
+        ],
+        [
+          159.60512806005983,
+          65.51806507632136
+        ]
+      ]
+    },
+    {
+      "title": "Analysis of the Trojan",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          42.71123145269207,
+          282.42140051722527
+        ],
+        [
+          182.0847235614767,
+          282.42140051722527
+        ],
+        [
+          182.0847235614767,
+          299.68733766674995
+        ],
+        [
+          42.71123145269207,
+          299.68733766674995
+        ]
+      ]
+    },
+    {
+      "title": "With SIP enabled",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          41.96191160264484,
+          328.25835271179676
+        ],
+        [
+          152.22608375549316,
+          328.25835271179676
+        ],
+        [
+          152.22608375549316,
+          344.70210237801075
+        ],
+        [
+          41.96191160264484,
+          344.70210237801075
+        ]
+      ]
+    },
+    {
+      "title": "Log of commands executed by the Trojan during its operation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          129.5664758682251,
+          669.6717051565647
+        ],
+        [
+          463.94094610214233,
+          669.6717051565647
+        ],
+        [
+          463.94094610214233,
+          684.4710798561573
+        ],
+        [
+          129.5664758682251,
+          684.4710798561573
+        ]
+      ]
+    },
+    {
+      "title": "Error message",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          258.5153482662941,
+          485.5017088949681
+        ],
+        [
+          339.31310272216797,
+          485.5017088949681
+        ],
+        [
+          339.31310272216797,
+          498.6567086279393
+        ],
+        [
+          258.5153482662941,
+          498.6567086279393
+        ]
+      ]
+    },
+    {
+      "title": "With SIP disabled/not available",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          41.96191160264484,
+          529.8998329937458
+        ],
+        [
+          243.44553089141846,
+          529.8998329937458
+        ],
+        [
+          243.44553089141846,
+          545.5213951766491
+        ],
+        [
+          41.96191160264484,
+          545.5213951766491
+        ]
+      ]
+    },
+    {
+      "title": "Extra functions",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          41.96191160264484,
+          476.86874032020575
+        ],
+        [
+          142.37077150897355,
+          476.86874032020575
+        ],
+        [
+          142.37077150897355,
+          493.31248998641973
+        ],
+        [
+          41.96191160264484,
+          493.31248998641973
+        ]
+      ]
+    },
+    {
+      "title": "Connections with Backdoor.OSX.Proton",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          42.34151089191437,
+          643.3617056906223
+        ],
+        [
+          297.7704882621765,
+          643.3617056906223
+        ],
+        [
+          297.7704882621765,
+          658.1610803902149
+        ],
+        [
+          42.34151089191437,
+          658.1610803902149
+        ]
+      ]
+    },
+    {
+      "title": "MD5",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          41.96191160264484,
+          329.08054019510746
+        ],
+        [
+          69.79449737071991,
+          329.08054019510746
+        ],
+        [
+          69.79449737071991,
+          343.05772741138935
+        ],
+        [
+          41.96191160264484,
+          343.05772741138935
+        ]
+      ]
+    },
+    {
+      "title": "Authors",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          41.96191160264484,
+          435.3482724130154
+        ],
+        [
+          101.53247380256653,
+          435.3482724130154
+        ],
+        [
+          101.53247380256653,
+          451.7920220792294
+        ],
+        [
+          41.96191160264484,
+          451.7920220792294
+        ]
+      ]
+    },
+    {
+      "title": "Calisto Troian for macOS",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          41.96191160264484,
+          522.0890519022942
+        ],
+        [
+          220.20490741729736,
+          522.0890519022942
+        ],
+        [
+          220.20490741729736,
+          540.9993640184402
+        ],
+        [
+          41.96191160264484,
+          540.9993640184402
+        ]
+      ]
+    },
+    {
+      "title": "// LATEST POSTS",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          41.96191160264484,
+          51.69503801316023
+        ],
+        [
+          170.81858253479004,
+          51.69503801316023
+        ],
+        [
+          170.81858253479004,
+          76.0523422062397
+        ],
+        [
+          41.96191160264484,
+          76.0523422062397
+        ]
+      ]
+    },
+    {
+      "title": "Whispers from the Dark Web Cave. Cyberthreats\nin the Middle East",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          304.2238591191751,
+          471.56515516517214
+        ],
+        [
+          549.251450084619,
+          471.56515516517214
+        ],
+        [
+          549.251450084619,
+          500.3010835945607
+        ],
+        [
+          304.2238591191751,
+          500.3010835945607
+        ]
+      ]
+    },
+    {
+      "title": "// LATEST WEBINARS",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          41.21259175259761,
+          565.2784212949758
+        ],
+        [
+          202.04817032814026,
+          565.2784212949758
+        ],
+        [
+          202.04817032814026,
+          590.3306130170822
+        ],
+        [
+          41.21259175259761,
+          590.3306130170822
+        ]
+      ]
+    },
+    {
+      "title": "Inside the Dark Web: exploring the human side of\ncybercriminals",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          41.96191160264484,
+          30.677870471030477
+        ],
+        [
+          285.85966873168945,
+          30.677870471030477
+        ],
+        [
+          285.85966873168945,
+          60.07107299938799
+        ],
+        [
+          41.96191160264484,
+          60.07107299938799
+        ]
+      ]
+    },
+    {
+      "title": "The Cybersecurity Buyer's Dilemma: Hype vs\n(True) Expertise",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          304.2238591191751,
+          29.855682987719778
+        ],
+        [
+          529.5957074165344,
+          29.855682987719778
+        ],
+        [
+          529.5957074165344,
+          59.09472536295653
+        ],
+        [
+          304.2238591191751,
+          59.09472536295653
+        ]
+      ]
+    },
+    {
+      "title": "// REPORTS",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          40.162702441215515,
+          346.34647734463215
+        ],
+        [
+          135.88502037525177,
+          346.34647734463215
+        ],
+        [
+          135.88502037525177,
+          371.83428932726383
+        ],
+        [
+          40.162702441215515,
+          371.83428932726383
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          403.5153250694275,
+          392.18342953920364
+        ],
+        [
+          516.2323489189148,
+          392.18342953920364
+        ],
+        [
+          516.2323489189148,
+          403.69405430555344
+        ],
+        [
+          403.5153250694275,
+          403.69405430555344
+        ]
+      ]
+    },
+    {
+      "title": "// SUBSCRIBE TO OUR WEEKLY E-MAILS",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          41.96191160264484,
+          636.7842058241367
+        ],
+        [
+          336.4446126712059,
+          636.7842058241367
+        ],
+        [
+          336.4446126712059,
+          661.4498303234577
+        ],
+        [
+          41.96191160264484,
+          661.4498303234577
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          10
+        ],
+        [
+          "Span",
+          10
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          55
+        ],
+        [
+          "Span",
+          55
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          15
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          27
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          36
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          17
+        ],
+        [
+          "Span",
+          17
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          35
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          22
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          42
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          27
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          21
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          42
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          26
+        ],
+        [
+          "SectionHeader",
+          5
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          16
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Calisto_Trojan"
+}

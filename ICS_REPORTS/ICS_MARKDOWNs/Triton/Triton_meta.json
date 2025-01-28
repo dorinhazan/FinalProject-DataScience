@@ -1,0 +1,725 @@
+{
+  "table_of_contents": [
+    {
+      "title": "ANALYZING THE TRITON INDUSTRIAL\nMALWARE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.82894694805145,
+          135.69680935595574
+        ],
+        [
+          402.3847594753621,
+          135.69680935595574
+        ],
+        [
+          402.3847594753621,
+          171.22054339945316
+        ],
+        [
+          123.82894694805145,
+          171.22054339945316
+        ]
+      ]
+    },
+    {
+      "title": "Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.13623201847076,
+          374.1033583901763
+        ],
+        [
+          155.42166948318481,
+          374.1033583901763
+        ],
+        [
+          155.42166948318481,
+          379.6450704187155
+        ],
+        [
+          125.13623201847076,
+          379.6450704187155
+        ]
+      ]
+    },
+    {
+      "title": "Summary",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          124.38709510784005,
+          568.5426447093487
+        ],
+        [
+          241.28099171520782,
+          568.5426447093487
+        ],
+        [
+          241.28099171520782,
+          596.4970191419125
+        ],
+        [
+          124.38709510784005,
+          596.4970191419125
+        ]
+      ]
+    },
+    {
+      "title": "Background",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.13641495788728,
+          716.7190593607386
+        ],
+        [
+          269.7551460170025,
+          716.7190593607386
+        ],
+        [
+          269.7551460170025,
+          744.079672396183
+        ],
+        [
+          125.13641495788728,
+          744.079672396183
+        ]
+      ]
+    },
+    {
+      "title": "The Incident",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          124.38709510784005,
+          411.91592913866043
+        ],
+        [
+          275.5466420650482,
+          411.91592913866043
+        ],
+        [
+          275.5466420650482,
+          439.87030357122427
+        ],
+        [
+          124.38709510784005,
+          439.87030357122427
+        ]
+      ]
+    },
+    {
+      "title": "Triconex Safety\nInstrumented Systems (SIS)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          125.13641495788728,
+          614.9962375164032
+        ],
+        [
+          454.3541889190674,
+          614.9962375164032
+        ],
+        [
+          454.3541889190674,
+          670.0827988982201
+        ],
+        [
+          125.13641495788728,
+          670.0827988982201
+        ]
+      ]
+    },
+    {
+      "title": "Work with us",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          470.0416097640991,
+          38.74558515101671
+        ],
+        [
+          506.64559173583984,
+          38.74558515101671
+        ],
+        [
+          506.64559173583984,
+          45.22031158208847
+        ],
+        [
+          470.0416097640991,
+          45.22031158208847
+        ]
+      ]
+    },
+    {
+      "title": "The TRITON Framework",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          124.38709510784005,
+          405.59101580979035
+        ],
+        [
+          410.4875121116638,
+          405.59101580979035
+        ],
+        [
+          410.4875121116638,
+          433.2928037047387
+        ],
+        [
+          124.38709510784005,
+          433.2928037047387
+        ]
+      ]
+    },
+    {
+      "title": "The TriStation Protocol",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          125.13641495788728,
+          594.5169603274746
+        ],
+        [
+          400.8861197752676,
+          594.5169603274746
+        ],
+        [
+          400.8861197752676,
+          621.9848311245441
+        ],
+        [
+          125.13641495788728,
+          621.9848311245441
+        ]
+      ]
+    },
+    {
+      "title": "The Payload",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          123.90157389640808,
+          82.32152176648378
+        ],
+        [
+          270.898517370224,
+          82.32152176648378
+        ],
+        [
+          270.898517370224,
+          110.27589619904758
+        ],
+        [
+          123.90157389640808,
+          110.27589619904758
+        ]
+      ]
+    },
+    {
+      "title": "Stage 1: Argument-Setter\n(PresetStatusField)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          123.63777525779282,
+          177.6803525821078
+        ],
+        [
+          352.92964937224497,
+          177.6803525821078
+        ],
+        [
+          352.92964937224497,
+          222.81280797719958
+        ],
+        [
+          123.63777525779282,
+          222.81280797719958
+        ]
+      ]
+    },
+    {
+      "title": "Stage 2: Implant Installer\n(inject.bin)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          124.38709510784005,
+          683.6488923728466
+        ],
+        [
+          428.7895030975342,
+          683.6488923728466
+        ],
+        [
+          428.7895030975342,
+          739.5576412379742
+        ],
+        [
+          124.38709510784005,
+          739.5576412379742
+        ]
+      ]
+    },
+    {
+      "title": "Stage 3: Backdoor Implant (imain.bin)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          124.1920816898346,
+          291.46546283364296
+        ],
+        [
+          464.8124694824219,
+          291.46546283364296
+        ],
+        [
+          464.8124694824219,
+          312.84233739972115
+        ],
+        [
+          124.1920816898346,
+          312.84233739972115
+        ]
+      ]
+    },
+    {
+      "title": "Stage 4: Missing OT Payload",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          124.38709510784005,
+          591.5181358113209
+        ],
+        [
+          373.5930223464966,
+          591.5181358113209
+        ],
+        [
+          373.5930223464966,
+          612.9407688081264
+        ],
+        [
+          124.38709510784005,
+          612.9407688081264
+        ]
+      ]
+    },
+    {
+      "title": "Case studies coming Soon",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          307.221138519364,
+          101.8484744951129
+        ],
+        [
+          424.864354976779,
+          101.8484744951129
+        ],
+        [
+          424.864354976779,
+          110.95650709768756
+        ],
+        [
+          307.221138519364,
+          110.95650709768756
+        ]
+      ]
+    },
+    {
+      "title": "Interested in working together?",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          53.9510292034005,
+          536.7895883915155
+        ],
+        [
+          537.2623324838634,
+          536.7895883915155
+        ],
+        [
+          537.2623324838634,
+          579.6421757340431
+        ],
+        [
+          53.9510292034005,
+          579.6421757340431
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          69
+        ],
+        [
+          "Span",
+          69
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          68
+        ],
+        [
+          "Span",
+          68
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          75
+        ],
+        [
+          "Span",
+          75
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          73
+        ],
+        [
+          "Span",
+          73
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          94
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          22
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Triton"
+}

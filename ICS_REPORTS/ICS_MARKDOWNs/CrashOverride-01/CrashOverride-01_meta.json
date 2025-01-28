@@ -1,0 +1,2607 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CRASHOVERRIDE\nAnalysis of the Threat\nto Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          57.0,
+          199.16015625
+        ],
+        [
+          496.5,
+          199.16015625
+        ],
+        [
+          496.5,
+          332.578125
+        ],
+        [
+          57.0,
+          332.578125
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE\nAnalyzing the Threat to\nElectric Grid Operations",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.5,
+          147.2431640625
+        ],
+        [
+          305.701171875,
+          147.2431640625
+        ],
+        [
+          305.701171875,
+          232.8046875
+        ],
+        [
+          34.5,
+          232.8046875
+        ]
+      ]
+    },
+    {
+      "title": "Contents",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.5,
+          251.560546875
+        ],
+        [
+          111.0146484375,
+          251.560546875
+        ],
+        [
+          111.0146484375,
+          269.736328125
+        ],
+        [
+          34.5,
+          269.736328125
+        ]
+      ]
+    },
+    {
+      "title": "Executive Summary",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          60.0,
+          100.4501953125
+        ],
+        [
+          225.9140625,
+          100.4501953125
+        ],
+        [
+          225.9140625,
+          118.6259765625
+        ],
+        [
+          60.0,
+          118.6259765625
+        ]
+      ]
+    },
+    {
+      "title": "Why Are We Publishing This",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          59.25,
+          280.37109375
+        ],
+        [
+          291.357421875,
+          280.37109375
+        ],
+        [
+          291.357421875,
+          299.3203125
+        ],
+        [
+          59.25,
+          299.3203125
+        ]
+      ]
+    },
+    {
+      "title": "Key Takeaways",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          33.75,
+          82.99951171875
+        ],
+        [
+          163.0107421875,
+          82.99951171875
+        ],
+        [
+          163.0107421875,
+          101.900390625
+        ],
+        [
+          33.75,
+          101.900390625
+        ]
+      ]
+    },
+    {
+      "title": "Background",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          34.5,
+          82.51611328125
+        ],
+        [
+          135.14501953125,
+          82.51611328125
+        ],
+        [
+          135.14501953125,
+          102.48046875
+        ],
+        [
+          34.5,
+          102.48046875
+        ]
+      ]
+    },
+    {
+      "title": "Introduction to Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          33.75,
+          82.8544921875
+        ],
+        [
+          322.734375,
+          82.8544921875
+        ],
+        [
+          322.734375,
+          99.8701171875
+        ],
+        [
+          33.75,
+          99.8701171875
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE: Threat to the Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          34.5,
+          33.3544921875
+        ],
+        [
+          448.541015625,
+          33.3544921875
+        ],
+        [
+          448.541015625,
+          52.15869140625
+        ],
+        [
+          34.5,
+          52.15869140625
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE: Threat to the Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          34.5,
+          33.30615234375
+        ],
+        [
+          447.64453125,
+          33.30615234375
+        ],
+        [
+          447.64453125,
+          52.06201171875
+        ],
+        [
+          34.5,
+          52.06201171875
+        ]
+      ]
+    },
+    {
+      "title": "Evolution of Tradecraft",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          34.5,
+          406.44140625
+        ],
+        [
+          225.7646484375,
+          406.44140625
+        ],
+        [
+          225.7646484375,
+          425.77734375
+        ],
+        [
+          34.5,
+          425.77734375
+        ]
+      ]
+    },
+    {
+      "title": "STUXNET",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          33.75,
+          525.1640625
+        ],
+        [
+          103.693359375,
+          525.1640625
+        ],
+        [
+          103.693359375,
+          541.40625
+        ],
+        [
+          33.75,
+          541.40625
+        ]
+      ]
+    },
+    {
+      "title": "Dragonfly/HAVEX",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          33.75,
+          281.91796875
+        ],
+        [
+          162.4130859375,
+          281.91796875
+        ],
+        [
+          162.4130859375,
+          298.93359375
+        ],
+        [
+          33.75,
+          298.93359375
+        ]
+      ]
+    },
+    {
+      "title": "BLACKENERGY 2",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          35.25,
+          82.37109375
+        ],
+        [
+          156.4365234375,
+          82.37109375
+        ],
+        [
+          156.4365234375,
+          99.7734375
+        ],
+        [
+          35.25,
+          99.7734375
+        ]
+      ]
+    },
+    {
+      "title": "Ukraine Cyber Attack 2015",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          33.75,
+          339.15234375
+        ],
+        [
+          228.75,
+          339.15234375
+        ],
+        [
+          228.75,
+          356.5546875
+        ],
+        [
+          33.75,
+          356.5546875
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE: Threat to the Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          34.5,
+          33.475341796875
+        ],
+        [
+          447.64453125,
+          33.475341796875
+        ],
+        [
+          447.64453125,
+          51.7236328125
+        ],
+        [
+          34.5,
+          51.7236328125
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          34.5,
+          82.7578125
+        ],
+        [
+          159.75,
+          82.7578125
+        ],
+        [
+          159.75,
+          99.6767578125
+        ],
+        [
+          34.5,
+          99.6767578125
+        ]
+      ]
+    },
+    {
+      "title": "Capabilities",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          34.5,
+          80.48583984375
+        ],
+        [
+          135.66796875,
+          80.48583984375
+        ],
+        [
+          135.66796875,
+          101.900390625
+        ],
+        [
+          34.5,
+          101.900390625
+        ]
+      ]
+    },
+    {
+      "title": "Capabilities Overview",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          34.5,
+          126.0703125
+        ],
+        [
+          191.25,
+          126.0703125
+        ],
+        [
+          191.25,
+          143.666015625
+        ],
+        [
+          34.5,
+          143.666015625
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE: Threat to the Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          34.5,
+          33.330322265625
+        ],
+        [
+          447.64453125,
+          33.330322265625
+        ],
+        [
+          447.64453125,
+          51.7236328125
+        ],
+        [
+          34.5,
+          51.7236328125
+        ]
+      ]
+    },
+    {
+      "title": "Module Commonalities",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          34.5,
+          82.564453125
+        ],
+        [
+          201.8583984375,
+          82.564453125
+        ],
+        [
+          201.8583984375,
+          99.580078125
+        ],
+        [
+          34.5,
+          99.580078125
+        ]
+      ]
+    },
+    {
+      "title": "Backdoor/RAT Module",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          34.5,
+          273.216796875
+        ],
+        [
+          198.123046875,
+          273.216796875
+        ],
+        [
+          198.123046875,
+          290.232421875
+        ],
+        [
+          34.5,
+          290.232421875
+        ]
+      ]
+    },
+    {
+      "title": "Key Features",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          34.5,
+          315.17578125
+        ],
+        [
+          112.2099609375,
+          315.17578125
+        ],
+        [
+          112.2099609375,
+          329.09765625
+        ],
+        [
+          34.5,
+          329.09765625
+        ]
+      ]
+    },
+    {
+      "title": "Details",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          35.18701171875,
+          500.80078125
+        ],
+        [
+          78.66650390625,
+          500.80078125
+        ],
+        [
+          78.66650390625,
+          515.49609375
+        ],
+        [
+          35.18701171875,
+          515.49609375
+        ]
+      ]
+    },
+    {
+      "title": "Launcher Module",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          33.75,
+          452.84765625
+        ],
+        [
+          160.5,
+          452.84765625
+        ],
+        [
+          160.5,
+          469.08984375
+        ],
+        [
+          33.75,
+          469.08984375
+        ]
+      ]
+    },
+    {
+      "title": "Key Features",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          34.5,
+          494.61328125
+        ],
+        [
+          113.7041015625,
+          494.61328125
+        ],
+        [
+          113.7041015625,
+          509.30859375
+        ],
+        [
+          34.5,
+          509.30859375
+        ]
+      ]
+    },
+    {
+      "title": "Details",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          35.25,
+          81.791015625
+        ],
+        [
+          79.787109375,
+          81.791015625
+        ],
+        [
+          79.787109375,
+          96.873046875
+        ],
+        [
+          35.25,
+          96.873046875
+        ]
+      ]
+    },
+    {
+      "title": "Data Wiper Module",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          33.75,
+          321.943359375
+        ],
+        [
+          172.5,
+          321.943359375
+        ],
+        [
+          172.5,
+          338.958984375
+        ],
+        [
+          33.75,
+          338.958984375
+        ]
+      ]
+    },
+    {
+      "title": "Key Features",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          34.5,
+          363.90234375
+        ],
+        [
+          114.0029296875,
+          363.90234375
+        ],
+        [
+          114.0029296875,
+          378.59765625
+        ],
+        [
+          34.5,
+          378.59765625
+        ]
+      ]
+    },
+    {
+      "title": "Details",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          35.0936279296875,
+          501.1875
+        ],
+        [
+          78.96533203125,
+          501.1875
+        ],
+        [
+          78.96533203125,
+          515.8828125
+        ],
+        [
+          35.0936279296875,
+          515.8828125
+        ]
+      ]
+    },
+    {
+      "title": "IEC 104 Module",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          33.75,
+          384.3984375
+        ],
+        [
+          147.7705078125,
+          384.3984375
+        ],
+        [
+          147.7705078125,
+          400.640625
+        ],
+        [
+          33.75,
+          400.640625
+        ]
+      ]
+    },
+    {
+      "title": "Key Features",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          34.5,
+          425.77734375
+        ],
+        [
+          114.15234375,
+          425.77734375
+        ],
+        [
+          114.15234375,
+          439.69921875
+        ],
+        [
+          34.5,
+          439.69921875
+        ]
+      ]
+    },
+    {
+      "title": "IEC 104 Module Contains Handling for\nAll Protocol Transmission Types",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          150.75,
+          133.224609375
+        ],
+        [
+          458.40234375,
+          133.224609375
+        ],
+        [
+          458.40234375,
+          171.31640625
+        ],
+        [
+          150.75,
+          171.31640625
+        ]
+      ]
+    },
+    {
+      "title": "IEC 104 Module Execution Flow",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          170.9296875,
+          118.142578125
+        ],
+        [
+          422.25,
+          118.142578125
+        ],
+        [
+          422.25,
+          139.21875
+        ],
+        [
+          170.9296875,
+          139.21875
+        ]
+      ]
+    },
+    {
+      "title": "Details",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          34.5,
+          517.81640625
+        ],
+        [
+          79.189453125,
+          517.81640625
+        ],
+        [
+          79.189453125,
+          533.28515625
+        ],
+        [
+          34.5,
+          533.28515625
+        ]
+      ]
+    },
+    {
+      "title": "IEC 101 Module",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          33.0,
+          317.689453125
+        ],
+        [
+          143.5869140625,
+          317.689453125
+        ],
+        [
+          143.5869140625,
+          335.865234375
+        ],
+        [
+          33.0,
+          335.865234375
+        ]
+      ]
+    },
+    {
+      "title": "IEC 61850 Module",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          33.75,
+          420.36328125
+        ],
+        [
+          167.642578125,
+          420.36328125
+        ],
+        [
+          167.642578125,
+          438.15234375
+        ],
+        [
+          33.75,
+          438.15234375
+        ]
+      ]
+    },
+    {
+      "title": "OPC DA Module",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          34.5,
+          580.078125
+        ],
+        [
+          146.724609375,
+          580.078125
+        ],
+        [
+          146.724609375,
+          597.8671875
+        ],
+        [
+          34.5,
+          597.8671875
+        ]
+      ]
+    },
+    {
+      "title": "SIPROTEC DoS Module",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          34.5,
+          82.2744140625
+        ],
+        [
+          199.916015625,
+          82.2744140625
+        ],
+        [
+          199.916015625,
+          99.8701171875
+        ],
+        [
+          34.5,
+          99.8701171875
+        ]
+      ]
+    },
+    {
+      "title": "Capability Conclusions",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          34.5,
+          188.8154296875
+        ],
+        [
+          201.41015625,
+          188.8154296875
+        ],
+        [
+          201.41015625,
+          206.12109375
+        ],
+        [
+          34.5,
+          206.12109375
+        ]
+      ]
+    },
+    {
+      "title": "Implications of capability",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          33.75,
+          456.328125
+        ],
+        [
+          245.63671875,
+          456.328125
+        ],
+        [
+          245.63671875,
+          476.4375
+        ],
+        [
+          33.75,
+          476.4375
+        ]
+      ]
+    },
+    {
+      "title": "Attack Option: De-energize substation",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          33.75,
+          550.30078125
+        ],
+        [
+          313.76953125,
+          550.30078125
+        ],
+        [
+          313.76953125,
+          566.54296875
+        ],
+        [
+          33.75,
+          566.54296875
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE: Threat to the Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          34.5,
+          33.64453125
+        ],
+        [
+          447.046875,
+          33.64453125
+        ],
+        [
+          447.046875,
+          51.86865234375
+        ],
+        [
+          34.5,
+          51.86865234375
+        ]
+      ]
+    },
+    {
+      "title": "Attack Option: Force an Islanding event",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          34.5,
+          420.75
+        ],
+        [
+          321.0,
+          420.75
+        ],
+        [
+          321.0,
+          436.21875
+        ],
+        [
+          34.5,
+          436.21875
+        ]
+      ]
+    },
+    {
+      "title": "Adding Amplification Attacks",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          34.5,
+          82.4677734375
+        ],
+        [
+          247.728515625,
+          82.4677734375
+        ],
+        [
+          247.728515625,
+          99.6767578125
+        ],
+        [
+          34.5,
+          99.6767578125
+        ]
+      ]
+    },
+    {
+      "title": "Using OPC to create a Denial of Visibility",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          34.5,
+          174.796875
+        ],
+        [
+          329.607421875,
+          174.796875
+        ],
+        [
+          329.607421875,
+          192.005859375
+        ],
+        [
+          34.5,
+          192.005859375
+        ]
+      ]
+    },
+    {
+      "title": "Using CVE-2015-5374 to Hamper Protective Relays",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          33.75,
+          82.32275390625
+        ],
+        [
+          408.796875,
+          82.32275390625
+        ],
+        [
+          408.796875,
+          99.4833984375
+        ],
+        [
+          33.75,
+          99.4833984375
+        ]
+      ]
+    },
+    {
+      "title": "Defense Recommendations",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          34.5,
+          82.564453125
+        ],
+        [
+          264.3134765625,
+          82.564453125
+        ],
+        [
+          264.3134765625,
+          101.126953125
+        ],
+        [
+          34.5,
+          101.126953125
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE: Threat to the Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          35.19140625,
+          33.5621337890625
+        ],
+        [
+          447.43359375,
+          33.5621337890625
+        ],
+        [
+          447.43359375,
+          52.182861328125
+        ],
+        [
+          35.19140625,
+          52.182861328125
+        ]
+      ]
+    },
+    {
+      "title": "Indicators",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          42.0,
+          62.0068359375
+        ],
+        [
+          119.689453125,
+          62.0068359375
+        ],
+        [
+          119.689453125,
+          78.21826171875
+        ],
+        [
+          42.0,
+          78.21826171875
+        ]
+      ]
+    },
+    {
+      "title": "CRASHOVERRIDE: Threat to the Electric Grid Operations",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          33.75,
+          33.99169921875
+        ],
+        [
+          447.046875,
+          33.99169921875
+        ],
+        [
+          447.046875,
+          51.62255859375
+        ],
+        [
+          33.75,
+          51.62255859375
+        ]
+      ]
+    },
+    {
+      "title": "Yara Rules",
+      "heading_level": null,
+      "page_id": 29,
+      "polygon": [
+        [
+          33.0,
+          83.0478515625
+        ],
+        [
+          112.5,
+          83.0478515625
+        ],
+        [
+          112.5,
+          99.6767578125
+        ],
+        [
+          33.0,
+          99.6767578125
+        ]
+      ]
+    },
+    {
+      "title": "YARA Rules",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          33.0,
+          83.337890625
+        ],
+        [
+          119.25,
+          83.337890625
+        ],
+        [
+          119.25,
+          99.0966796875
+        ],
+        [
+          33.0,
+          99.0966796875
+        ]
+      ]
+    },
+    {
+      "title": "YARA Rules",
+      "heading_level": null,
+      "page_id": 31,
+      "polygon": [
+        [
+          33.0,
+          82.41943359375
+        ],
+        [
+          118.634765625,
+          82.41943359375
+        ],
+        [
+          118.634765625,
+          99.38671875
+        ],
+        [
+          33.0,
+          99.38671875
+        ]
+      ]
+    },
+    {
+      "title": "YARA Rules",
+      "heading_level": null,
+      "page_id": 32,
+      "polygon": [
+        [
+          33.0,
+          82.951171875
+        ],
+        [
+          119.25,
+          82.951171875
+        ],
+        [
+          119.25,
+          99.193359375
+        ],
+        [
+          33.0,
+          99.193359375
+        ]
+      ]
+    },
+    {
+      "title": "YARA Rules",
+      "heading_level": null,
+      "page_id": 33,
+      "polygon": [
+        [
+          33.0,
+          82.32275390625
+        ],
+        [
+          119.25,
+          82.32275390625
+        ],
+        [
+          119.25,
+          99.4833984375
+        ],
+        [
+          33.0,
+          99.4833984375
+        ]
+      ]
+    },
+    {
+      "title": "YARA Rules",
+      "heading_level": null,
+      "page_id": 34,
+      "polygon": [
+        [
+          33.0,
+          82.8544921875
+        ],
+        [
+          119.30712890625,
+          82.8544921875
+        ],
+        [
+          119.30712890625,
+          99.2900390625
+        ],
+        [
+          33.0,
+          99.2900390625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          64
+        ],
+        [
+          "Span",
+          64
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          19
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          48
+        ],
+        [
+          "Span",
+          48
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          31
+        ],
+        [
+          "Span",
+          31
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          37
+        ],
+        [
+          "Span",
+          37
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          32
+        ],
+        [
+          "Span",
+          32
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          25
+        ],
+        [
+          "Span",
+          25
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          37
+        ],
+        [
+          "Span",
+          37
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          44
+        ],
+        [
+          "Span",
+          44
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          37
+        ],
+        [
+          "Span",
+          37
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          46
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          31
+        ],
+        [
+          "Span",
+          31
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          37
+        ],
+        [
+          "Span",
+          37
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          31
+        ],
+        [
+          "Span",
+          31
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          21
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          16
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          120
+        ],
+        [
+          "Span",
+          120
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 28,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          103
+        ],
+        [
+          "Span",
+          103
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 29,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 30,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          25
+        ],
+        [
+          "Span",
+          25
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 31,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          18
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 32,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          29
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 33,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          27
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 34,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          29
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CrashOverride-01"
+}
