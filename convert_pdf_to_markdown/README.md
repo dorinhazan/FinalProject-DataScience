@@ -18,7 +18,7 @@ If Poetry is not installed, install it using pip: `pip install poetry` , `poetry
 5. Running the Script:
    1. Export PATH (Optional)
       If needed, export the Poetry virtual environment path to your system PATH: `export PATH=$PATH:/Users/apiiro/Library/Caches/pypoetry/virtualenvs/marker-pdf-tnhLY2bl-py3.12/bin`
-   2. Execute the Conversion Script: `python3 /<path-to-repo>/FinalProject-DataScience/convert_pdf_to_markdown /<path-to-repo>/ICS_PDFs //<path-to-repo>/ICS_MARKDOWNs  --workers 2`
+   2. Execute the Conversion Script: `python3 /<path-to-repo>/FinalProject-DataScience/convert_pdf_to_markdown/convert_pdf_to_markdown.py /<path-to-repo>/ICS_PDFs //<path-to-repo>/ICS_MARKDOWNs  --workers 2`
 
 
 
