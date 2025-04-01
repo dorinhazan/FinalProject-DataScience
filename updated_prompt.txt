@@ -1,0 +1,94 @@
+prompt_template = """You will be given a text snippet converted from a markdown file which is a CTI report. Your mission is to analyze the snippet and identify observables,
+then categorize each into one of two groups: fully_described_observables or insufficient_observables.
+
+1. Fully Described Observables:
+   - These include data objects, physical objects, code snippets, or commands that are mentioned with enough detail (such as specific names, types, distinctive properties) to uniquely identify them.
+   - Examples:
+       • An IP address or domain name (e.g., 192.168.0.1, malicious-domain.com)
+       • A full code block enclosed in triple backticks
+       • A registry key path (e.g., HKEY_LOCAL_MACHINE\Software\Microsoft)
+       • A specifically named device or model
+       • A command or set of commands (e.g., shell commands, SQL commands, Linux commands such as sudo)
+   - Note: If the observable is of a specific type (for example, “SHA256” or “MD5”), classify it as a hash function and include the specific type in the “notes” field.
+
+2. Insufficient Observables:
+   - These are items mentioned in passing or without sufficient details to uniquely identify them.
+   - Examples:
+       • Generic mentions like “a remote controller device” with no additional details
+       • “malware” without a specific name or type
+       • “spoofed signals” or “man-in-the-middle technique” without further specifics
+   - If you are unsure whether something is fully described, err on the side of including it as an insufficient observable.
+
+Instructions for Output:
+
+For each fully described observable, provide a JSON object with:
+   1. observable_value: The exact name or description (or a close paraphrase) as stated in the snippet.
+   2. classification: The high-level category (e.g., "ICS Command", "Software/Tool", "Network Entity", "PLC", "Code snippet", etc.).
+   3. notes: Include any additional details or context if provided; if no further details are available but you are familiar with the observable type, add a brief explanation of its purpose, functionality, or common applications. Otherwise, leave this field empty.
+   4. report_name: The name of the report where this observable was found.
+   5. text/code_section: The specific text or code snippet context (e.g., the section, table, or code block) where the observable appears.
+
+For each insufficient observable, provide a JSON object with:
+   1. mentioned_value: The exact value as stated in the snippet.
+   2. notes: Additional context or an explanation if known, or leave blank.
+   3. report_name: The name of the report.
+   4. text/code_section: The specific text or code snippet context in which the observable is mentioned.
+
+Response Format:
+
+Output only a JSON object in the following format (no extra commentary):
+
+{
+  "fully_described_observables": [
+    {
+      "observable_value": "<VAL>",
+      "classification": "<the observable classification>",
+      "notes": "<any additional info or explanation>",
+      "report_name": "<the name of the report>",
+      "text/code_section": "<the section/snippet name or ID if available>"
+    },
+    ...
+  ],
+  "insufficient_observables": [
+    {
+      "mentioned_value": "<VAL>",
+      "notes": "<explanation if known, else blank>",
+      "report_name": "<the name of the report>",
+      "text/code_section": "<the section/snippet name or ID if available>"
+    },
+    ...
+  ]
+}
+
+Example:
+{
+  "fully_described_observables": [
+    {
+      "observable_value": "https://www.intego.com/antivirus-mac-internet-security",
+      "classification": "URL",
+      "notes": "Official site of the antivirus developer",
+      "report_name": "Calisto Trojan for macOS",
+      "text/code_section": "The software package appears to be invalid. Please download a new package from https://www.intego.com/antivirus-mac-internet-security"
+    }
+  ],
+  "insufficient_observables": [
+    {
+      "mentioned_value": "remote controller device",
+      "notes": "",
+      "report_name": "Calisto Trojan for macOS",
+      "text/code_section": "Context mentioning a remote controller device"
+    }
+  ]
+}
+
+Important:
+
+• Do not omit any observable you encounter.
+• If multiple observables are present, list them all (each unique item must be captured).
+• For code snippets, include the full code including triple backticks.
+• For commands, include the full command (for example, those that use 'sudo').
+• **Note:** Picture references (e.g., _page_5_Picture_0.jpeg) should not be considered as observables.
+• Double-check for any elements that could be considered observables; if uncertain, classify as insufficient.
+
+Finally, output only the JSON object in the specified format and ensure newline characters are correctly represented.
+"""
