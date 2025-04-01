@@ -8,7 +8,7 @@ from io import StringIO
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # File paths
-input_file_path = "/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience/ics-attack-16.1.json"
+input_file_path = "/ics-attack-16.1.json"
 output_folder = "/Users/nettayaakobi/Desktop/Final_project_codes/FinalProject-DataScience"
 filtered_file_path = f"{output_folder}/filtered_descriptions.json"
 output_csv_path = f"{output_folder}/analyzed_observables.csv"
