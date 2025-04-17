@@ -7,57 +7,88 @@ from openai import OpenAI
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Define base directories
-base_path = "/Users/nettayaakobi/Desktop/ICS_REPORTS/ICS_MARKDOWNs"
+base_path = "/Users/nettayaakobi/Desktop/ICS_REPORTS/validation"
 
 prompt_template = """
-You are a helpful assistant for identifying observables in text snippets.
+You are a helpful assistant for identifying observables in CTI text snippets.
 
-Task:
-You will be given a text snippet converted from a markdown file which is a CTI report. Your mission is to analyze the snippet and identify and list all observables (artifacts) in the text. Then, for each artifact you find, classify and provide the details as specified below.
+──────────────────────────────────────────────────
+### Task
 
-Definitions:
-1. Mentioned Observable - The artifact is referenced in a general or vague way, but without any specific or distinguishing details (like brand names, specific versions, unique identifiers, or an elaborated contextafterwards).These kind of observables are non-searchable.  Example: "remote controller device", "man-in-the-middle technique", "spoofed signals".
-2. Described Observable - Notable specific or distinguishing details about the artifact are described in the text. but without sufficient unique information that would allow to detect it.These kind of observables are non-searchable.
-3. Actionable Observable - The artifact is fully described with sufficient unique or specific information that would allow detecting it, these kinds of observables are searchable. The artifact can be used or executed immediately (e.g., an exact command, URL, api function, or file path), or the artifact requires additional data or some form of computation before it can be used or executed (e.g., a parameterized script, a hash that needs decoding, etc.).
-4. STIX Supported -  This evaluates whether the type of this artifact is documented as STIX Cyber Observables. Some Observables may not be documented in STIX, such as ICS commands, ICS Tags, API calls and more.
-5. Proprietary Artifact - Indicates whether the artifact relies on open standards or proprietary technology. Possible values: Open/Standard Technology, Proprietary-Documented Technology, or Proprietary-Undocumented Technology.
+1. Read the snippet (converted from Markdown) carefully.
+2. Extract **every observable** (artifact) mentioned—do **not** omit any.
+3. For each observable, output a JSON object with the exact fields listed in the **Response format** section.
 
-Instructions
-1. Read the procedure description provided to you carefully.
-2. Identify each observable (artifact) mentioned.
-3. For each artifact, fill out the following fields exactly:
-	1.observable_value: The name or description of the artifact as it appears (or a closely paraphrased version if needed).
-	2.artifact_details: One of the following: "Mentioned" (for Mentioned Observable), "Described" (for Described Observable), "Actionable"(for an Actionable Observable).
-	3. data_source: Indicate where this artifact could be observed or collected (e.g., network logs, system logs, ICS data, etc.).
-	4. classification: This specifies what is the type of the artifact, For example, "ICS Command", "Software/Tool", "Network Entity", "PLC", "Code snippet", etc.
-	5. STIX_supported: If supported in STIX, write: "Full: <STIX_Object_Name>". Otherwise, write: "No".
-	6. proprietary_artifact: One of the following: "Open/Standard Technology", "Proprietary-Documented Technology", "Proprietary-Undocumented Technology"
-	7. parser: If the artifact and its data source use a known network or file format with a publicly available parser, list the parser name(s). If no known parser exists, write "None"
-	8. notes: Any extra comments or context, if needed. Otherwise, set this to "None".
+──────────────────────────────────────────────────
+### Definitions
 
-Response Format:
- In your response, you should return a JSON format as follows:
- {
-	"observables":[
-		{"observable_value": <VAL>,
-		 "artifact_details": <choose one of the options:["Mentioned", "Described", "Actionable"]>,
-		 "data_source":<the data source this artifact can be found in, as mentioned in the instructions above>,
-		 "classification":<the observable classification as mentioned above>,
-		 "STIX_supported":<as mentioned in the instructions above>,
-		 "proprietary_artifact":<choose one of the options:["Open/Standard Technology", "Proprietary-Documented Technology", "Proprietary-Undocumented Technology"]>,
-		 "parser": <as mentioned in the instructions above>,
-		 "notes": <additional notes in string format, default value should be None>},
-		 ...
-	] // list of all observables found in the description
- } // Do not output any additional text outside this JSON.
+1. **Mentioned Observable**  
+   *Vaguely referenced; lacks unique details; not searchable.*  
+   e.g. "remote controller device", "spoofed signals".
+2. **Described Observable**  
+   *Has notable specifics, but still not unique enough for detection; not searchable.*
+3. **Actionable Observable**  
+   *Unique & specific* → a deterministic IDS/YARA/SIEM rule could match it with low FP.  
+   *Immediately operable* **as-is** (exact URL/command/path/API) **or** after one simple transform (e.g., Base64 decode, hash lookup, parameter substitution).  
+   *Searchable* and can drive automated response.  
+4. **STIX Supported**  
+   "Full" if the artifact’s type exists in STIX Cyber-Observable Objects; otherwise "No".
+5. **Proprietary Artifact**  
+   • Open/Standard Technology • Proprietary-Documented • Proprietary-Undocumented
 
-Important:
+──────────────────────────────────────────────────
+### Rubric for choosing `artifact_details`
 
-1. Do not omit any observable you encounter.
-2. If multiple observables are present, list them all (each unique item must be captured).
-3. For code snippets, include the full code including triple backticks.
-4. For commands, include the full command (for example, those that use 'sudo').
-5. **Note:** Picture references (e.g., _page_5_Picture_0.jpeg) should not be considered as observables.
+1. **Actionable check → "Actionable"**  
+   Does the observable stand alone as a unique data value that can be matched exactly or after one deterministic transform?  
+   • Yes → `artifact_details` = **"Actionable"**.
+
+2. **Else, Described check → "Described"**  
+   Does it contain distinguishing specifics but still lacks enough uniqueness for detection?  
+   • Yes → `artifact_details` = **"Described"**.
+
+3. **Else → "Mentioned"**  
+   If neither of the above applies, treat it as **"Mentioned"**.
+
+──────────────────────────────────────────────────
+### Fields to produce for **every** observable
+
+| Field                  | What to put                                                                                                |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `observable_value`     | Exact string (or faithful paraphrase). Include full code/commands inside \`\`\` back-ticks if needed.      |
+| `artifact_details`     | "Mentioned", "Described", or "Actionable".                                                                 |
+| `data_source`          | Where it can be observed or collected (see cheat-sheet below).                                             |
+| `classification`       | Short type label (e.g., "ICS Command", "URL", "Software/Tool").                                            |
+| `STIX_supported`       | "Full: \<STIX\_Object\_Name>" **or** “No”.                                                                 |
+| `proprietary_artifact` | "Open/Standard Technology", "Proprietary-Documented Technology", or "Proprietary-Undocumented Technology". |
+| `parser`               | Known open-source/commercial parser name(s) for the data format, else "None".                              |
+| `notes`                | Any extra comments or context, if needed. Otherwise, set this to "None".                                                                                   |
+
+──────────────────────────────────────────────────
+### Common `data_source` cheat-sheet
+
+Network traffic • Netflow • PCAP • DNS logs • Web proxy logs • Endpoint (EDR) logs • System logs (Windows Event, syslog) • ICS historian • PLC ladder logic • Firewall logs • Cloud API audit logs • Memory dump • None (if not observable via telemetry)
+
+──────────────────────────────────────────────────
+### Response format (return **only** this JSON)  
+
+```json
+{
+  "observables": [
+    {
+      "observable_value": "<VAL>",
+      "artifact_details": "Mentioned | Described | Actionable",
+      "data_source": "<text>",
+      "classification": "<text>",
+      "STIX_supported": "<text>",
+      "proprietary_artifact": "Open/Standard Technology | Proprietary-Documented Technology | Proprietary-Undocumented Technology",
+      "parser": "<text>",
+      "notes": "<text>"
+    }
+    // … repeat for each observable
+  ]
+}
+```
 """
 
 
@@ -104,15 +135,18 @@ def split_into_sections(md_content):
     print(sections)
     return sections
 
-def send_to_openai(prompt_text):
-    """Send the given prompt text to OpenAI's GPT model and return the response."""
-    response = client.chat.completions.create(
-        model="o3-mini-2025-01-31",
-        messages=[
-            {"role": "user", "content": prompt_text}
-        ]
-    )
-    return response
+def send_to_openai(prompt_template, section):
+  completion = client.chat.completions.create(
+  model="o3-mini-2025-01-31",
+  messages=[
+      {"role":"developer", "content": prompt_template},
+      {"role":"user", "content": section}
+  ],
+  reasoning_effort = "high",
+  response_format = { "type": "json_object" }
+  )
+  result = completion.choices[0].message.content
+  return result
 
 def remove_duplicates(observables_list):
     """Remove duplicate dictionaries from a list of observables."""
@@ -157,8 +191,7 @@ def main():
                 print(f"Processing section {idx + 1} of {len(sections)}")
                 print(f"Section {section}")
                 try:
-                    response = send_to_openai(section_prompt)
-                    raw_response = response.choices[0].message.content
+                    raw_response = send_to_openai(prompt_template, section_prompt)
 
                     if not raw_response.strip():
                         raise ValueError(f"Empty response for section {idx + 1} in file {md_file}")
