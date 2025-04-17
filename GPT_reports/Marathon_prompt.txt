@@ -36,7 +36,7 @@ For each insufficient observable, provide a JSON object with:
 
 Response Format:
 
-Output only a JSON object in the following format (no extra commentary):
+Output only a JSON object ian the following format (no extra commentary):
 
 {
   "fully_described_observables": [

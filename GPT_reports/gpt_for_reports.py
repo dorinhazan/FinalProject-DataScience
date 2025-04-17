@@ -9,101 +9,57 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Define base directories
 base_path = "/Users/nettayaakobi/Desktop/ICS_REPORTS/ICS_MARKDOWNs"
 
-# Prompt template remains the same
-prompt_template = """You will be given a text snippet converted from a markdown file which is a CTI report. Your mission is to analyze the snippet and identify observables, 
-then categorize each into one of two groups: fully_described_observables or insufficient_observables.
+prompt_template = """
+You are a helpful assistant for identifying observables in text snippets.
 
-1. Fully Described Observables:
-   - These include data objects, physical objects, code snippets, or commands that are mentioned with enough detail (such as specific names, types, distinctive properties) to uniquely identify them.
-   - Examples:
-       • An IP address or domain name (e.g., 192.168.0.1, malicious-domain.com)
-       • A full code block enclosed in triple backticks
-       • A registry key path (e.g., HKEY_LOCAL_MACHINE\Software\Microsoft)
-       • A specifically named device or model
-       • A command or set of commands (e.g., shell commands, SQL commands, Linux commands such as sudo)
-   - Note: If the observable is of a specific type (for example, “SHA256” or “MD5”), classify it as a hash function and include the specific type in the “notes” field.
+Task:
+You will be given a text snippet converted from a markdown file which is a CTI report. Your mission is to analyze the snippet and identify and list all observables (artifacts) in the text. Then, for each artifact you find, classify and provide the details as specified below.
 
-2. Insufficient Observables:
-   - These are items mentioned in passing or without sufficient details to uniquely identify them.
-   - Examples:
-       • Generic mentions like “a remote controller device” with no additional details
-       • “malware” without a specific name or type
-       • “spoofed signals” or “man-in-the-middle technique” without further specifics
-   - If you are unsure whether something is fully described, err on the side of including it as an insufficient observable.
+Definitions:
+1. Mentioned Observable - The artifact is referenced in a general or vague way, but without any specific or distinguishing details (like brand names, specific versions, unique identifiers, or an elaborated contextafterwards).These kind of observables are non-searchable.  Example: "remote controller device", "man-in-the-middle technique", "spoofed signals".
+2. Described Observable - Notable specific or distinguishing details about the artifact are described in the text. but without sufficient unique information that would allow to detect it.These kind of observables are non-searchable.
+3. Actionable Observable - The artifact is fully described with sufficient unique or specific information that would allow detecting it, these kinds of observables are searchable. The artifact can be used or executed immediately (e.g., an exact command, URL, api function, or file path), or the artifact requires additional data or some form of computation before it can be used or executed (e.g., a parameterized script, a hash that needs decoding, etc.).
+4. STIX Supported -  This evaluates whether the type of this artifact is documented as STIX Cyber Observables. Some Observables may not be documented in STIX, such as ICS commands, ICS Tags, API calls and more.
+5. Proprietary Artifact - Indicates whether the artifact relies on open standards or proprietary technology. Possible values: Open/Standard Technology, Proprietary-Documented Technology, or Proprietary-Undocumented Technology.
 
-Instructions for Output:
-
-For each fully described observable, provide a JSON object with:
-   1. observable_value: The exact name or description (or a close paraphrase) as stated in the snippet.
-   2. classification: The high-level category (e.g., "ICS Command", "Software/Tool", "Network Entity", "PLC", "Code snippet", etc.).
-   3. notes: Include any additional details or context if provided; if no further details are available but you are familiar with the observable type, add a brief explanation of its purpose, functionality, or common applications. Otherwise, leave this field empty.
-   4. report_name: The name of the report where this observable was found.
-   5. text/code_section: The specific text or code snippet context (e.g., the section, table, or code block) where the observable appears.
-
-For each insufficient observable, provide a JSON object with:
-   1. mentioned_value: The exact value as stated in the snippet.
-   2. notes: Additional context or an explanation if known, or leave blank.
-   3. report_name: The name of the report.
-   4. text/code_section: The specific text or code snippet context in which the observable is mentioned.
+Instructions
+1. Read the procedure description provided to you carefully.
+2. Identify each observable (artifact) mentioned.
+3. For each artifact, fill out the following fields exactly:
+	1.observable_value: The name or description of the artifact as it appears (or a closely paraphrased version if needed).
+	2.artifact_details: One of the following: "Mentioned" (for Mentioned Observable), "Described" (for Described Observable), "Actionable"(for an Actionable Observable).
+	3. data_source: Indicate where this artifact could be observed or collected (e.g., network logs, system logs, ICS data, etc.).
+	4. classification: This specifies what is the type of the artifact, For example, "ICS Command", "Software/Tool", "Network Entity", "PLC", "Code snippet", etc.
+	5. STIX_supported: If supported in STIX, write: "Full: <STIX_Object_Name>". Otherwise, write: "No".
+	6. proprietary_artifact: One of the following: "Open/Standard Technology", "Proprietary-Documented Technology", "Proprietary-Undocumented Technology"
+	7. parser: If the artifact and its data source use a known network or file format with a publicly available parser, list the parser name(s). If no known parser exists, write "None"
+	8. notes: Any extra comments or context, if needed. Otherwise, set this to "None".
 
 Response Format:
-
-Output only a JSON object in the following format (no extra commentary):
-
-{
-  "fully_described_observables": [
-    {
-      "observable_value": "<VAL>",
-      "classification": "<the observable classification>",
-      "notes": "<any additional info or explanation>",
-      "report_name": "<the name of the report>",
-      "text/code_section": "<the section/snippet name or ID if available>"
-    },
-    ...
-  ],
-  "insufficient_observables": [
-    {
-      "mentioned_value": "<VAL>",
-      "notes": "<explanation if known, else blank>",
-      "report_name": "<the name of the report>",
-      "text/code_section": "<the section/snippet name or ID if available>"
-    },
-    ...
-  ]
-}
-
-Example:
-{
-  "fully_described_observables": [
-    {
-      "observable_value": "https://www.intego.com/antivirus-mac-internet-security",
-      "classification": "URL",
-      "notes": "Official site of the antivirus developer",
-      "report_name": "Calisto Trojan for macOS",
-      "text/code_section": "The software package appears to be invalid. Please download a new package from https://www.intego.com/antivirus-mac-internet-security"
-    }
-  ],
-  "insufficient_observables": [
-    {
-      "mentioned_value": "remote controller device",
-      "notes": "",
-      "report_name": "Calisto Trojan for macOS",
-      "text/code_section": "Context mentioning a remote controller device"
-    }
-  ]
-}
+ In your response, you should return a JSON format as follows:
+ {
+	"observables":[
+		{"observable_value": <VAL>,
+		 "artifact_details": <choose one of the options:["Mentioned", "Described", "Actionable"]>,
+		 "data_source":<the data source this artifact can be found in, as mentioned in the instructions above>,
+		 "classification":<the observable classification as mentioned above>,
+		 "STIX_supported":<as mentioned in the instructions above>,
+		 "proprietary_artifact":<choose one of the options:["Open/Standard Technology", "Proprietary-Documented Technology", "Proprietary-Undocumented Technology"]>,
+		 "parser": <as mentioned in the instructions above>,
+		 "notes": <additional notes in string format, default value should be None>},
+		 ...
+	] // list of all observables found in the description
+ } // Do not output any additional text outside this JSON.
 
 Important:
 
-• Do not omit any observable you encounter.
-• If multiple observables are present, list them all (each unique item must be captured).
-• For code snippets, include the full code including triple backticks.
-• For commands, include the full command (for example, those that use 'sudo').
-• **Note:** Picture references (e.g., _page_5_Picture_0.jpeg) should not be considered as observables.
-• Double-check for any elements that could be considered observables; if uncertain, classify as insufficient.
-
-Finally, output only the JSON object in the specified format and ensure newline characters are correctly represented.
+1. Do not omit any observable you encounter.
+2. If multiple observables are present, list them all (each unique item must be captured).
+3. For code snippets, include the full code including triple backticks.
+4. For commands, include the full command (for example, those that use 'sudo').
+5. **Note:** Picture references (e.g., _page_5_Picture_0.jpeg) should not be considered as observables.
 """
+
 
 def find_md_files(base_path):
     """Recursively find all .md files in the directory."""
@@ -133,7 +89,7 @@ def split_into_sections(md_content):
     if not matches:
         # No headers found, return the full content as one section.
         sections.append(md_content)
-        print(sections)
+        # print(sections)
         return sections
 
     # Add any content before the first header as its own section if present.
@@ -188,8 +144,10 @@ def main():
 
             # Initialize an aggregated result for the current file
             aggregated_result = {
-                "fully_described_observables": [],
-                "insufficient_observables": []
+                "Actionable": [],
+                "Described": [],
+                "Mentioned": []
+
             }
 
             # Process each section separately
@@ -209,23 +167,22 @@ def main():
                     cleaned_response = raw_response.strip("```").strip("json").strip()
                     parsed_response = json.loads(cleaned_response)
 
-                    # Aggregate observables from the response.
-                    if "fully_described_observables" in parsed_response:
-                        aggregated_result["fully_described_observables"].extend(
-                            parsed_response["fully_described_observables"]
-                        )
-                    if "insufficient_observables" in parsed_response:
-                        aggregated_result["insufficient_observables"].extend(
-                            parsed_response["insufficient_observables"]
-                        )
+                    if "observables" in parsed_response:
+                        for obs in parsed_response["observables"]:
+                            category = obs.get("artifact_details")
+                            if category in aggregated_result:
+                                aggregated_result[category].append(obs)
+
 
                 except Exception as section_error:
                     print(f"Error processing section {idx + 1} of {md_file}: {section_error}")
                     continue
 
             # Remove duplicates from both observables lists.
-            aggregated_result["fully_described_observables"] = remove_duplicates(aggregated_result["fully_described_observables"])
-            aggregated_result["insufficient_observables"] = remove_duplicates(aggregated_result["insufficient_observables"])
+            aggregated_result["Actionable"] = remove_duplicates(aggregated_result["Actionable"])
+            aggregated_result["Described"] = remove_duplicates(aggregated_result["Described"])
+            aggregated_result["Mentioned"] = remove_duplicates(aggregated_result["Mentioned"])
+
 
             results[os.path.basename(md_file)] = aggregated_result
 
@@ -238,7 +195,7 @@ def main():
     print(f"\nTotal processing time: {total_elapsed:.2f} seconds.")
 
     # Save the aggregated results to a JSON file.
-    output_file_path = "/results-reports.json"
+    output_file_path = "results-reports-new-prompt.json"
     with open(output_file_path, "w") as output_file:
         json.dump(results, output_file, indent=4)
     print(f"Results saved to {output_file_path}.")

