@@ -1,0 +1,430 @@
+| 1 | UNITED STATES OF AMERICA → Mentioned | CORRECT | Country names are generic references and not actionable detection indicators. |
+| 2 | YURIY SERGEYEVICH ANDRIENKO → Described | CORRECT | A full person name in legal context is descriptive and not directly actionable for detection. |
+| 3 | SERGEY VLADIMIROVICH DETISTOV → Described | CORRECT | Full names of individuals are descriptive and require additional context for actionable detection. |
+| 4 | PAVEL VALERYEVICH FROLOV → Described | CORRECT | Person names from legal cases are non-unique and thus appropriately labeled as Described. |
+| 5 | ANATOLIY SERGEYEVICH KOVALEV → Described | CORRECT | The full name is descriptive and not a precise, unique indicator for automated detection. |
+| 6 | ARTEM VALERYEVICH OCHICHENKO → Described | CORRECT | As a full legal name, it serves as a descriptive reference rather than an actionable indicator. |
+| 7 | PETR NIKOLAYEVICH PLISKIN → Described | CORRECT | A legal full name is appropriately classified as Described, needing additional context for actionability. |
+| 8 | CLERK U.S. DISTRICT COURT WEST. DIST. OF PENNSYLVANIA → Mentioned | CORRECT | Court names in legal documents are conceptual references and not directly actionable. |
+| 9 | 18 U.S.C. § 371 → Mentioned | CORRECT | Legal statute citations are conceptual references and not intended for automated detection. |
+| 10 | 18 U.S.C. § 1030(a)(2)(C) → Mentioned | CORRECT | Statutory references are mentioned as legal pointers, not as actionable detection artifacts. |
+| 11 | 18 U.S.C. § 1030(a)(5)(A) → Mentioned | CORRECT | Legal code citations are descriptive references and do not directly serve as actionable indicators. |
+| 12 | 18 U.S.C. § 3559(g)(1) → Mentioned | CORRECT | Such legal citations are conceptual and serve as references rather than actionable items. |
+| 13 | 18 U.S.C. § 1349 → Mentioned | CORRECT | Statutory references are intended as conceptual markers and are appropriately labeled as Mentioned. |
+| 14 | 18 U.S.C. § 1343 → Mentioned | CORRECT | The legal code reference is a conceptual citation, making the Mentioned rank appropriate. |
+| 15 | 18 U.S.C. § 1030(c)(4)(B) → Mentioned | CORRECT | Legal statute citations are conceptual references, justifying the Mentioned classification. |
+| 16 | 18 U.S.C. § 1028A → Mentioned | CORRECT | As a legal citation, it is properly classified as Mentioned rather than actionable. |
+| 17 | 18 U.S.C. § 2 → Mentioned | CORRECT | Legal statute references are used conceptually and are not directly actionable indicators. |
+
+| 18 | Russian Federation → Mentioned | CORRECT | It’s a generic country name and not a technical, unique artifact suitable for automated detection. |
+| 19 | Main Intelligence Directorate of the General Staff of the Armed Forces → Mentioned | CORRECT | It is a full organization name used conceptually rather than as a precise technical indicator. |
+| 20 | GRU → Mentioned | CORRECT | As an alias for a threat actor, it is a conceptual reference not directly actionable for automated detection. |
+| 21 | Military Unit 74455 → Mentioned | CORRECT | The name of a military unit is a conceptual entity and not a unique technical identifier. |
+| 22 | Main Center for Special Technologies → Mentioned | CORRECT | It is an organizational alias presented as a plain text reference, not a detection artifact. |
+| 23 | GTsST → Mentioned | CORRECT | This alias is a textual reference that lacks the uniqueness or technical properties needed for actionability. |
+| 24 | Sandworm Team → Mentioned | CORRECT | As a threat actor alias, it is conceptually referenced rather than a concrete artifact for detection. |
+| 25 | Telebots → Mentioned | CORRECT | It is simply an alias name with conceptual meaning, not a specific technical indicator. |
+| 26 | Voodoo Bear → Mentioned | CORRECT | This is a threat actor alias that serves as a conceptual reference rather than an actionable indicator. |
+| 27 | Iron Viking → Mentioned | CORRECT | It is an alias name used conceptually and does not constitute a directly matchable technical artifact. |
+| 28 | 22 Kirova Street, Khimki, Moscow, Russia → Mentioned | CORRECT | Although a complete address, it is a physical location reference and not something used for automated detection. |
+| 29 | the Tower → Mentioned | CORRECT | As a nickname for a facility, it is a conceptual reference rather than a unique or technical artifact. |
+| 30 | Ukraine → Mentioned | CORRECT | A country name that is used conceptually and is not a unique technical indicator. |
+| 31 | Georgia → Mentioned | CORRECT | It is a generic country reference (here, the nation of Georgia), which is not actionable for technical detection. |
+| 32 | France → Mentioned | CORRECT | The reference to a country remains conceptual and is not a uniquely actionable artifact. |
+| 33 | YURIY SERGEYEVICH ANDRIENKO → Mentioned | CORRECT | As a person’s name, it is a generic identifier not suited as a directly actionable technical indicator. |
+| 34 | SERGEY VLADIMIROVICH DETISTOV → Mentioned | CORRECT | Personal names are inherently ambiguous and are correctly classified as merely mentioned. |
+| 35 | PAVEL VALERYEVICH FROLOV → Mentioned | CORRECT | This is a proper name that lacks the specificity required for an actionable technical indicator. |
+| 36 | ANATOLIY SERGEYEVICH KOVALEV → Mentioned | CORRECT | As a person’s name, it is conceptually referenced and not directly actionable for detection. |
+| 37 | АКТЕМ VALERYEVICH ОСНІСНЕNКО → Mentioned | CORRECT | Despite the mix of scripts, this person’s name is a conceptual reference rather than a technical indicator. |
+| 38 | PETR NIKOLAYEVICH PLISKIN → Mentioned | CORRECT | It is a personal name used to reference an individual and does not serve as a unique technical artifact. |
+
+| 39 | YURIY SERGEYEVICH ANDRIENKO → Mentioned | CORRECT | Person names are conceptual references that aren’t used for automated detection. |
+| 40 | PAVEL VALERYEVICH FROLOV → Mentioned | CORRECT | As a personal name, it is a non‑actionable observable used only for contextual reference. |
+| 41 | SERGEY VLADIMIROVICH DETISTOV → Mentioned | CORRECT | Personal names are generally referenced and not utilized for direct detection. |
+| 42 | PETR NIKOLAYEVICH PLISKIN → Mentioned | CORRECT | A person’s full name serves as a contextual identifier, making "Mentioned" appropriate. |
+| 43 | ANATOLIY SERGEYEVICH KOVALEV → Mentioned | CORRECT | As with other personal names, it is a reference entity rather than a unique detection token. |
+| 44 | ARTEM VALERYEVICH OCHICHENKO → Mentioned | CORRECT | This personal name is used in context and is not actionable for automated detection. |
+| 45 | Military Unit 74455 → Mentioned | CORRECT | Military unit designations are descriptive references not intended as direct detection indicators. |
+| 46 | federal indictment number 18-CR-215 → Mentioned | CORRECT | Legal identifiers, though unique in context, are used conceptually and aren’t actionable clues. |
+| 47 | 2018 Winter Olympics → Mentioned | CORRECT | Event names are broad contextual references, not specific enough for automated detection. |
+| 48 | Ukraine's Ministry of Finance and State Treasury Service → Mentioned | CORRECT | Government agency names are referenced for context rather than as actionable technical indicators. |
+| 49 | DSTL → Mentioned | CORRECT | Acronyms for agencies are conceptual references and do not serve as direct detection strings. |
+| 50 | Georgian media entity → Mentioned | CORRECT | A generic descriptive term that lacks the specificity needed for automated detection. |
+| 51 | Georgian government → Mentioned | CORRECT | Generic designations for government entities are used conceptually, making "Mentioned" accurate. |
+| 52 | Conspirators → Mentioned | CORRECT | Threat group names like this are contextual references and are not actionable detection indicators. |
+
+| 53 | unauthorized access (hacking) → Mentioned | CORRECT | The observable is a generic reference to a method and does not provide a unique or precise detection indicator. |
+| 54 | Russia → Mentioned | CORRECT | Country names offer attribution context rather than actionable technical indicators. |
+
+| 55 | `msrole.com/office conf` → `Actionable` | CORRECT | The URL, despite its unusual spacing, is a complete indicator extracted from logs that can be directly matched. |
+| 56 | `mafra.go.kr.jeojang.ga` → `Actionable` | CORRECT | The domain is fully specified and uniquely crafted for spoofing, making it directly searchable. |
+| 57 | `bitcoin` → `Mentioned` | CORRECT | The term is generic and conceptual, offering no specific actionable identifier for detection. |
+
+| 58 | BlackEnergy → Actionable | CORRECT | The malware family name is distinctive enough to be directly matched for detection. |
+| 59 | KillDisk → Actionable | CORRECT | The name uniquely identifies a specific malware variant, making it actionable. |
+| 60 | Industroyer → Actionable | CORRECT | The unique malware family name can be directly used in detection rules. |
+| 61 | .zip → Described | CORRECT | The file extension is generic and too common to be used as a standalone detection indicator. |
+| 62 | .exe → Described | CORRECT | The executable extension is non‑specific and cannot be reliably matched without additional context. |
+
+| 63 | `MoF critical IT needs eng.xls` → Actionable | CORRECT | The filename is unique and complete, making it directly usable for detection. |
+| 64 | `explorer.exe` → Described | CORRECT | As a generic Windows executable, it is not unique enough for automated detection. |
+| 65 | `mrR0b07` → Actionable | CORRECT | This distinct string from KillDisk malware is specific and can be used as a low false‑positive indicator. |
+| 66 | `fS0cie7y` → Actionable | CORRECT | The string is unique to the malware's activity and is directly actionable for detection. |
+| 67 | `FROLOV` → Mentioned | CORRECT | As a threat actor alias, it is conceptually referenced and not directly actionable. |
+
+| 68 | "Qui_peut_parler_aux_journalists.docx" → Actionable | CORRECT | The file name is a unique, exact indicator that can be directly matched in detection. |
+| 69 | "J KOVALEV" → Mentioned | CORRECT | As a threat actor’s name without technical specificity, it is conceptually referenced rather than directly actionable. |
+| 70 | "GRUcontrolled social media account" → Mentioned | CORRECT | The phrase is a generic descriptive reference lacking a specific, matchable identifier for automated detection. |
+| 71 | "email account mimicking Macron's press secretary" → Mentioned | CORRECT | Without the actual email address, the observable is only conceptually described and not directly actionable. |
+| 72 | "local French government email addresses" → Mentioned | CORRECT | This generic reference to a collection of emails does not provide a unique, concrete indicator for detection. |
+
+| 73 | M.E.Doc → Described | CORRECT | The product name is a software/tool label that, while specific in context, isn’t a unique technical indicator usable for direct automated detection. |
+| 74 | Update Server → Mentioned | CORRECT | “Update Server” is a generic descriptor and does not provide a concrete, unique value for detection. |
+| 75 | Certification Website → Mentioned | CORRECT | This is a conceptual reference to a website without a precise URL or unique identifier, making it non‑actionable. |
+| 76 | EDRPOU number → Mentioned | CORRECT | It refers to a generic legal identifier label without the specific numeric value needed for actionable detection. |
+| 77 | EternalBlue → Mentioned | CORRECT | Although a well‐known exploit name, it is used conceptually and isn’t a complete artifact for direct automated matching. |
+| 78 | EternalRomance → Mentioned | CORRECT | Similar to EternalBlue, it’s a known exploit name mentioned conceptually rather than as a unique, actionable string. |
+| 79 | M.E.Doc Malicious Update File (April 14, 2017) → Described | CORRECT | The file title is descriptive with contextual details but is not a precise identifier (e.g. hash or exact filename) for automated detection. |
+| 80 | M.E.Doc Malicious Update File (June 21, 2017) → Described | CORRECT | Like the April 14 version, this descriptive file title provides context but lacks a unique technical signature for detection. |
+| 81 | Conspirators → Mentioned | CORRECT | The term names a threat actor group conceptually without including actionable technical details. |
+| 82 | ANDRIENKO → Mentioned | CORRECT | This individual’s name is used for attribution and is not a concrete, unique indicator for automated detection. |
+| 83 | PLISKIN → Mentioned | CORRECT | The threat actor’s name is referenced conceptually, making it non‑actionable in detection systems. |
+| 84 | FROLOV → Mentioned | CORRECT | As an individual threat actor name, it serves as a reference without providing specific technical details for detection. |
+| 85 | DETISTOV → Mentioned | CORRECT | The name is mentioned as part of attribution and is not actionable due to the lack of additional technical indicators. |
+| 86 | Heritage Valley Health System → Mentioned | CORRECT | This organization name is cited as a victim entity without providing a unique technical artifact to be detected automatically. |
+| 87 | FedEx Corporation → Mentioned | CORRECT | The organization name is used in a descriptive context and isn’t suited for direct, automated technical detection. |
+| 88 | TNT Express B.V. → Mentioned | CORRECT | As an organization name, it is a conceptual reference rather than a specific, actionable indicator. |
+| 89 | France-based server → Mentioned | CORRECT | The descriptive phrase references a server by geographic context, which is too generic for actionable automated detection. |
+
+| 90 | Top Secret Doping: How Russia Makes its Winners → Mentioned | CORRECT | This documentary title is a conceptual reference, not a concrete detection value. |
+| 91 | World Anti-Doping Agency → Mentioned | CORRECT | An organization name that serves as a reference rather than a unique technical indicator. |
+| 92 | Independent Commission → Mentioned | CORRECT | The term is a generic commission designation, not actionable for automated detection. |
+| 93 | Russian Federal Security Service → Mentioned | CORRECT | A reference to a government agency; it is not a precise, actionable identifier. |
+| 94 | Independent Person → Mentioned | CORRECT | This role designation is ambiguous and non-unique, making it non‑actionable. |
+| 95 | McLaren Report → Mentioned | CORRECT | A report title that provides context but cannot be used for automated detection. |
+| 96 | International Paralympic Committee → Mentioned | CORRECT | An organizational reference that is descriptive but not directly actionable. |
+| 97 | Russian Olympic Committee → Mentioned | CORRECT | As an organization name, it is a conceptual reference rather than an actionable string. |
+| 98 | Schmid Commission → Mentioned | CORRECT | This commission title is used descriptively and does not offer a unique detector value. |
+| 99 | Russia's Ministry of Sport → Mentioned | CORRECT | A government agency name that serves as a non‑actionable, descriptive reference. |
+| 100 | International Olympic Committee → Mentioned | CORRECT | An organization name that is inherently non‑actionable for direct detection. |
+| 101 | Olympic Athletes from Russia → Mentioned | CORRECT | A designation reference that lacks the specificity needed for automated detection. |
+| 102 | Conspirators → Mentioned | CORRECT | A generic threat actor term that does not represent a unique, actionable indicator. |
+
+| 103 | olympicgameinfo@gmail.com → Actionable | CORRECT | Email addresses are complete and unique, making them directly matchable in detection rules. |
+| 104 | pyeongchang2018.com → Actionable | CORRECT | A fully qualified domain name is a unique and searchable indicator. |
+| 105 | pyeongchang2018.com/en/partners → Actionable | CORRECT | Complete URLs provide an exact, actionable string for automated detection. |
+| 106 | alert.safekorea@gmail.com → Actionable | CORRECT | Fully formed email addresses are distinct and directly actionable. |
+| 107 | templates-library.ml → Actionable | CORRECT | A complete domain string is inherently actionable for detection purposes. |
+| 108 | mafra.go.kr → Actionable | CORRECT | Domain names, when provided in full, are unique and easily matched. |
+| 109 | mafra.go.kr.jeojang.ga → Actionable | CORRECT | Although it mimics a known entity, the domain is complete and actionable. |
+| 110 | jeojang.ga → Actionable | CORRECT | This complete domain name qualifies as a direct indicator for detection. |
+| 111 | info@nctc.go.kr → Actionable | CORRECT | Standard email addresses are exact strings and thus highly actionable. |
+| 112 | planning.department(a)pyeongchang2018.com → Actionable | CORRECT | Even in its obfuscated form, the exact string can be matched in logs, making it actionable. |
+| 113 | planning.department@olympic.org → Actionable | CORRECT | A conventional, complete email address that is directly usable in detection rules. |
+| 114 | service.department@olympic.org → Actionable | CORRECT | Full email addresses are unique indicators suitable for automated matching. |
+| 115 | nctc.go@gmail.com → Actionable | CORRECT | A complete and unique email address that is actionable by design. |
+| 116 | info.kr@nctc.go.kr → Actionable | CORRECT | Standard email addresses are specific and immediately actionable. |
+| 117 | List of Delegates → Described | CORRECT | As a generic file name or email subject, it lacks specificity and is not directly actionable. |
+| 118 | CommercialOffers.zip → Described | CORRECT | Common attachment filenames are ambiguous and require additional context rather than direct matching. |
+| 119 | Bonuses.xls → Described | CORRECT | Generic file attachments are non‐unique, warranting a described rather than actionable rank. |
+| 120 | Breaking News - Earthquake → Described | CORRECT | Generic email subjects do not offer a precise, unique indicator, fitting the described classification. |
+| 121 | Accommodation conditions in hotel → Described | CORRECT | Vague email subject lines are ambiguous and thus correctly classified as described. |
+| 122 | msrole.com/office conf → Actionable | CORRECT | Although it includes a space, the URL is a complete, specific string suitable for direct matching. |
+| 123 | Invoke-PSImage → Actionable | CORRECT | The specific tool name is unique enough to serve as a direct detection indicator. |
+| 124 | Olympic Destroyer → Mentioned | CORRECT | Malware family names are conceptual labels and are inherently non‐actionable indicators. |
+
+| 125 | Seoul Bus Tracker → Actionable | CORRECT | The string is a unique mobile application display name that can be exactly matched. |
+| 126 | HanMail → Described | CORRECT | The name is ambiguous and mimics a legitimate service, requiring further context to avoid false positives. |
+| 127 | Hmail-App Naver Mail, Hanmail, Daum → Actionable | CORRECT | The complete composite string is unique and can be directly matched in detection systems. |
+
+| 128 | pyeongchang2018.com → Actionable | CORRECT | The domain is a complete, unique observable that can be directly matched in detection rules. |
+| 129 | dms.pyeongchang2018.com → Actionable | CORRECT | This fully qualified subdomain is a precise indicator, making it actionable. |
+| 130 | extranet.pyeongchang2018.com → Actionable | CORRECT | The complete domain string with a distinct subdomain is directly usable for detection. |
+| 131 | pwd.pyeongchang2018.com → Actionable | CORRECT | As a full and specific domain, it meets the criteria for an actionable observable. |
+| 132 | PyeongChang 2018 -Network architecture.docx → Actionable | CORRECT | The provided file name is complete and unique enough to be directly matched in endpoint logs. |
+| 133 | PyeongChang2018 Disaster Recovery Master Plan.docx → Actionable | CORRECT | The exact file name is identifiable and can be used in detection rules, making it actionable. |
+| 134 | PyeongChang2018-RnR ServerManagement.docx → Actionable | CORRECT | This unique file name is fully specified and thus qualifies as an actionable indicator. |
+| 135 | OCOG Domain Account Creation Form.xlsx → Actionable | CORRECT | The file name is complete and specific, allowing it to be used directly in detections. |
+| 136 | Tokyo 2020 environments overview.xlsx → Actionable | CORRECT | Even though it’s mentioned in a broader context, the exact file name makes it an actionable observable. |
+| 137 | Winter Olympics.rdg → Actionable | CORRECT | The complete filename for the Remote Desktop Connection file makes it actionable. |
+| 138 | Venues.rdg → Actionable | CORRECT | Despite its generic sound, the full file name is specific enough to be directly matched in logs. |
+| 139 | Pyeongchang.rdg → Actionable | CORRECT | The observable is a complete file name that can be uniquely identified, making it actionable. |
+| 140 | PyeongChang LAN Network Diagram.vsd → Actionable | CORRECT | The full Visio diagram file name is explicit and can serve as a direct detection indicator. |
+| 141 | Domain Administration Account → Described | CORRECT | The account name is generic and requires additional enrichment before it can drive automated detection. |
+| 142 | Deployer Account → Described | CORRECT | As a common account label without unique identifiers, it is appropriately marked as described. |
+| 143 | Computer 1 → Described | CORRECT | The generic computer name is ambiguous and not sufficiently unique to be actionable. |
+| 144 | BitLocker → Mentioned | CORRECT | BitLocker is a well-known software feature mentioned conceptually, not as a unique indicator. |
+| 145 | RDP → Mentioned | CORRECT | RDP refers to a generic protocol and is only conceptually referenced, making it mentioned. |
+
+| 146 | OPCW → Mentioned | CORRECT | "OPCW" is a standard organizational name referenced conceptually rather than a unique, matchable indicator. |
+| 147 | DSTL → Mentioned | CORRECT | "DSTL" is an organization name used for reference, not a unique artifact for automated detection. |
+| 148 | Porton Downs Science Campus → Mentioned | CORRECT | The facility name is descriptive and not a unique string for direct detection. |
+| 149 | United Kingdom's Ministry of Defence → Mentioned | CORRECT | It is an organizational name mentioned in context without a unique identifier property. |
+| 150 | Sergei Skripal → Mentioned | CORRECT | The person's name is cited for context and isn’t intended for automated matching. |
+| 151 | Novichok → Mentioned | CORRECT | "Novichok" denotes a generic chemical agent type and is conceptually referenced. |
+| 152 | KOVALEV → Mentioned | CORRECT | The threat actor name is used for attribution purposes and isn’t a uniquely actionable string. |
+| 153 | Conspirators → Mentioned | CORRECT | As a group name, it is referenced conceptually and isn’t precise enough for automated detection. |
+| 154 | Incident in Salisbury → Actionable | CORRECT | The complete email subject line can be exactly matched for detection in email logs. |
+| 155 | Salisbury Spy Poisoning Investigation → Actionable | CORRECT | This full email subject is exact and actionable for creating detection rules. |
+| 156 | Salisbury, England → Mentioned | CORRECT | The location name is used descriptively rather than as a unique, matchable identifier. |
+| 157 | United Kingdom → Mentioned | CORRECT | The country name is a general reference and not a precise, detection-ready indicator. |
+| 158 | United States → Mentioned | CORRECT | As a country name, it is used in context and is not a uniquely actionable observable. |
+| 159 | Chemical Weapons Convention of 1997 → Mentioned | CORRECT | The treaty name is conceptually referenced and cannot be directly used for automated detection. |
+| 160 | GRU → Mentioned | CORRECT | The agency name is mentioned for context and lacks the uniqueness needed for actionable detection. |
+
+| 161 | Email account with a username emulating a Georgian media entity → Described | CORRECT | The observable lacks a concrete email address, requiring enrichment which is characteristic of "Described". |
+| 162 | Domain of Georgian media entity → Described | CORRECT | The description does not provide a specific domain string, making it non-actionable and fitting the "Described" rank. |
+| 163 | Parliament of Georgia official internet domain → Described | CORRECT | Without a precise internet address, the observable remains a general description, appropriately ranked as "Described". |
+| 164 | Malware-laced attachment from spearphishing email → Described | CORRECT | The observable is a vague description of an attachment without specific identifiers, aligning with the "Described" rank. |
+| 165 | "I'll be back" defacement caption → Mentioned | CORRECT | The generic and widely-used nature of the defacement caption makes it unsuitable for precise detection, justifying the "Mentioned" rank. |
+
+| 166 | jeojang.ga → Actionable | CORRECT | The domain is a complete, unique identifier that can be directly detected. |
+| 167 | msrole.com → Actionable | CORRECT | The domain is a complete, unique identifier that can be directly detected. |
+
+| 168 | msrole.com → Actionable | CORRECT | Domain names are complete, unique identifiers suitable for direct detection. |
+| 169 | jeojang.ga → Actionable | CORRECT | Full domain names are actionable indicators that can be matched exactly. |
+
+| 170 | Heritage Valley Health System → Mentioned | CORRECT | As a victim organization name, it is merely informational and not a unique, actionable indicator. |
+| 171 | June 27, 2017 at 7:23 a.m. Eastern Daylight Time → Mentioned | CORRECT | Timestamps provide context but lack the uniqueness required for automated detection. |
+| 172 | June 27, 2017 at 7:24 a.m. Eastern Daylight Time → Mentioned | CORRECT | As with other timestamps, it is descriptive and not actionable on its own. |
+| 173 | YURIY SERGEYEVICH ANDRIENKO → Mentioned | CORRECT | Threat actor names serve as identity references and are not concrete detection indicators. |
+| 174 | SERGEY VLADIMIROVICH DETISTOV → Mentioned | CORRECT | Names of individuals in threat actor roles are informational and non-actionable. |
+| 175 | PAVEL VALERYEVICH FROLOV → Mentioned | CORRECT | Being a defendant's name, it is used for identification rather than direct automated detection. |
+| 176 | ANATOLIY SERGEYEVICH KOVALEV → Mentioned | CORRECT | As a personal name within a threat actor context, it remains descriptive and not uniquely actionable. |
+| 177 | ARTEM VALERYEVICH OCHICHENKO → Mentioned | CORRECT | The name is a generic identity reference and does not provide a concrete observable for detection. |
+| 178 | PETR NIKOLAYEVICH PLISKIN → Mentioned | CORRECT | Threat actor names are used conceptually and lack the unique traits required for actionable indicators.
+
+| 179 | Username and password for account used by K.S. → Described | CORRECT | The description is generic and does not include exact credential values for automated detection. |
+| 180 | Usernames and passwords for multiple employee accounts → Described | CORRECT | It generically describes multiple credentials without providing specific, actionable values. |
+| 181 | YURIY SERGEYEVICH ANDRIENKO → Mentioned | CORRECT | The observable is a person’s name cited in an indictment, making it conceptually referenced rather than uniquely actionable. |
+| 182 | SERGEY VLADIMIROVICH DETISTOV → Mentioned | CORRECT | It is a defendant's name provided in context, which is not directly usable for automated detection. |
+| 183 | PAVEL VALERYEVICH FROLOV → Mentioned | CORRECT | The person’s name is mentioned in the context of an indictment and is non-actionable. |
+| 184 | ANATOLIY SERGEYEVICH KOVALEV → Mentioned | CORRECT | As a defendant's name, it is contextually referenced without unique actionable indicators. |
+| 185 | ARTEM VALERYEVICH OCHICHENKO → Mentioned | CORRECT | The name is provided in a legal context and serves as a generic reference rather than an actionable indicator. |
+| 186 | PETR NIKOLAYEVICH PLISKIN → Mentioned | CORRECT | It is merely a person’s name mentioned in the context of an indictment, not a specific detection artifact. |
+| 187 | IT Company 1 → Mentioned | CORRECT | The observable is a generic organization name identified as a victim, which is conceptually referenced and non-actionable. |
+
+| 188 | "Title 18, United States Code, Sections 982(a)(2)(B)" → Mentioned | CORRECT | Legal citations are conceptual references and not directly actionable for automated detection. |
+| 189 | "Title 18, United States Code, Sections 1030(i)(1)(A)" → Mentioned | CORRECT | Legal citations serve as contextual references and do not provide a unique, actionable indicator. |
+| 190 | "Title 18, United States Code, Sections 1030(i)(1)(B)" → Mentioned | CORRECT | The citation is a conceptual legal reference, not suited for automated detection rules. |
+| 191 | "YURIY SERGEYEVICH ANDRIENKO" → Mentioned | CORRECT | Defendant names mentioned in an indictment are non-actionable descriptive indicators. |
+| 192 | "SERGEY VLADIMIROVICH DETISTOV" → Mentioned | CORRECT | Personal names in legal contexts are descriptive and are not intended as actionable indicators. |
+| 193 | "PAVEL VALERYEVICH FROLOV" → Mentioned | CORRECT | The observable is a person’s name from an indictment, making it non-actionable by design. |
+| 194 | "ANATOLIY SERGEYEVICH KOVALEV" → Mentioned | CORRECT | As a defendant’s name, this is a descriptive indicator without direct detection utility. |
+| 195 | "ARTEM VALERYEVICH OCHICHENKO" → Mentioned | CORRECT | Person names from legal documents are conceptual references rather than actionable indicators. |
+| 196 | "PETR NIKOLAYEVICH PLISKIN" → Mentioned | CORRECT | The observable is a legal reference to a person's name, which fits the "Mentioned" category. |
+
+| 1 | Andariel Threat Group → Mentioned | CORRECT | The threat actor name is a conceptual reference and not directly used for automated detection. |
+| 2 | Lazarus → Mentioned | CORRECT | As with other threat actor names, it’s a reference used for attribution rather than a concrete, actionable indicator. |
+| 3 | 220, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, South Korea → Mentioned | CORRECT | Physical addresses, while complete, are not typically used as actionable, directly matched indicators in detection systems. |
+| 4 | +82-31-722-8000 → Mentioned | CORRECT | Contact telephone numbers are informational and not engineered for direct automated detection. |
+| 5 | +82-31-722-8901 → Mentioned | CORRECT | Fax numbers fall under non-actionable contact details that are conceptually referenced. |
+| 6 | www.ahnlab.com → Actionable | CORRECT | Domain names are complete, unique technical indicators that can be directly used in detection rules. |
+| 7 | AhnLab, Inc. → Mentioned | CORRECT | Organization names are used for attribution and context rather than as specific, actionable indicators. |
+
+| 8 | `Spear Phishing` → `Mentioned` | CORRECT | It’s a generic, conceptual reference to an attack technique. |
+| 9 | `Watering Hole (Active-X Vulnerability)` → `Mentioned` | CORRECT | It refers to an attack method conceptually rather than a concrete, unique indicator. |
+| 10 | `Central Manaqement Solution` → `Mentioned` | INCORRECT — should be "Described" because it provides a specific product/tool name that, despite its ambiguity, can be further enriched for detection. | The observable names a tool rather than merely discussing a concept. |
+| 11 | `Supply Chain Attack` → `Mentioned` | CORRECT | It’s a generic reference to an attack strategy without a concrete, matchable identifier. |
+
+| 12 | Andariel group → Mentioned | CORRECT | As a threat actor group name, it’s a conceptual reference rather than a concrete detection indicator. |
+| 13 | Lazarus group → Mentioned | CORRECT | Threat actor names are inherently attributional and not used for direct automated detection. |
+| 14 | Operation Black Mine → Mentioned | CORRECT | Campaign names serve as contextual references and do not provide a unique, matchable indicator. |
+| 15 | DarkSeoul → Mentioned | CORRECT | As an alternate campaign designation, it is appropriately classified as conceptually mentioned. |
+| 16 | Aryan → Actionable | CORRECT | Despite being a common word, in this context it denotes a specific backdoor tool that can be matched exactly for detection. |
+| 17 | Gh0st RAT → Actionable | CORRECT | This well-known remote access trojan’s complete and unique name makes it a direct detection indicator. |
+| 18 | Andarat → Actionable | CORRECT | The self-developed backdoor name is a full, unique string suitable for automated matching. |
+| 19 | Andaratm → Actionable | CORRECT | As a complete backdoor tool identifier, the string is actionable for detection purposes. |
+| 20 | Rifdoor → Actionable | CORRECT | Its unique backdoor name provides an exact indicator that detection tools can reliably match. |
+| 21 | Phandoor → Actionable | CORRECT | The distinct backdoor tool name is a complete indicator, making it actionable in CTI detection. |
+
+| 22 | `Andariel group` → `Mentioned` | CORRECT | The observable is a generic threat actor name, which is conceptually referenced and not a unique, actionable indicator. |
+| 23 | `spear phishing` → `Mentioned` | CORRECT | It describes an attack technique conceptually rather than providing a specific, matchable detection indicator. |
+| 24 | `macro` → `Mentioned` | CORRECT | The term is generic and refers to a common technique, lacking the specificity required to be directly actionable. |
+| 25 | `attachment` → `Mentioned` | CORRECT | "Attachment" is used conceptually without unique identifiers, making it unsuitable for direct automated detection. |
+
+| 26 | watering hole technique → Mentioned | CORRECT | It’s a generic attack technique concept mentioned without any unique identifying detail. |
+| 27 | Active-X vulnerability → Mentioned | CORRECT | It’s a generic reference to a vulnerability and not a unique, actionable indicator. |
+| 28 | Internet Explorer → Described | INCORRECT — should be "Mentioned" because it’s a generic reference to a common software product rather than a specific, actionable artifact. | The observable is broadly descriptive and not sufficiently unique for direct detection. |
+| 29 | Moxel 2 XMLHTTP. 6.0 → Actionable | CORRECT | The garbled string is an exact artifact from the exploit code that can be matched directly. |
+| 30 | Msxall INLHTF 5.0 → Actionable | CORRECT | It is an exact string from the exploited code, making it unique and directly matchable. |
+| 31 | Msxm)2,XMLHTP,4,0 → Actionable | CORRECT | This distinct garbled command string can be directly used in detection rules. |
+| 32 | Msxm12 IMLHITP.3.0 → Actionable | CORRECT | It’s a unique artifact from the exploit code despite its garbled appearance. |
+| 33 | Mixw12.XMLHIP → Actionable | CORRECT | The string is a specific variant from the ActiveX exploit, allowing for exact matching. |
+| 34 | Microsoft. XMLHIIP → Actionable | CORRECT | Even though garbled, it precisely references the ActiveX object and is directly searchable. |
+| 35 | ADGE Strega → Actionable | CORRECT | This exact parameter string from the exploit serves as a clear, matchable indicator. |
+| 36 | Shell Application → Actionable | CORRECT | The literal string from the ActiveX instantiation is unique enough for detection. |
+| 37 | WwindowsPaystems. wir → Actionable | CORRECT | Despite being garbled, it’s an exact file path artifact extractable for detection. |
+| 38 | WWwindowsWsystes33Wcwd.axe → Actionable | CORRECT | It is a unique, garbled file path from a ShellExecute call that can serve as an indicator. |
+| 39 | 1n2.2 → Described | CORRECT | The file name is ambiguous and generic, making it insufficient for direct automated detection. |
+| 40 | c Windows Proysteas22000 Bd.ess → Actionable | CORRECT | This garbled file path is a concrete string from the exploit that can be matched directly. |
+| 41 | C Ww indowsPiceoffludate, is . → Actionable | CORRECT | The distinct, garbled command string provides a specific artifact to build detection rules on. |
+| 42 | MZ → Described | CORRECT | Although it’s an exact magic number, its common occurrence in PE files makes it non‐actionable on its own. |
+| 43 | Script file content: [full script content] → Actionable | CORRECT | The complete script file content offers a full code snippet amenable to exact matching in detection. |
+| 44 | Downloaded file hex dump: [hex dump content] → Actionable | CORRECT | The full hex dump is a specific artifact that can be directly utilized in detection rules. |
+| 45 | 5-byte recovered file → Mentioned | CORRECT | The reference is generic and lacks exact content details, making it non‐actionable. |
+| 46 | JavaScript file → Mentioned | CORRECT | It is a generic file type reference without specific indicators for automated detection. |
+| 47 | VBScript file → Mentioned | CORRECT | Like record 46, it’s a generic reference that cannot be turned into a concrete detection artifact. |
+
+| 48 | `v3pscan.exe` → `Actionable` | CORRECT | The file name is complete and unique enough to be directly matched. |
+| 49 | `nc.exe` → `Described` | CORRECT | "nc.exe" is generic and may occur in benign contexts, requiring extra context to be actionable. |
+| 50 | `nt.exe` → `Described` | CORRECT | "nt.exe" is ambiguous and generic, making it unsuitable for direct automated detection. |
+| 51 | `n5lic.exe` → `Actionable` | CORRECT | The unique and specific naming enables direct matching as an indicator. |
+| 52 | `nc5rt2.exe` → `Actionable` | CORRECT | Its distinctive name makes it directly actionable for detection. |
+| 53 | `Bin.exe` → `Described` | CORRECT | "Bin.exe" is too generic and ambiguous, requiring additional context. |
+| 54 | `vs 1.vbs` → `Described` | INCORRECT — should be "Actionable" because it is a complete, unique VBScript file name that can be directly matched. | Despite being a script file, "vs 1.vbs" is an exact filename that is uncommon, making it actionable. |
+| 55 | `winrm.vbs` → `Described` | CORRECT | The name resembles legitimate components, which introduces ambiguity that necessitates contextual validation. |
+| 56 | `main.exe` → `Described` | CORRECT | "main.exe" is a generic executable name, not sufficiently unique for direct automated detection. |
+| 57 | `winrm.ubs` → `Actionable` | CORRECT | Its unusual extension makes it a distinct and directly matched malicious artifact. |
+| 58 | `us1.ubs` → `Actionable` | CORRECT | The unique variant with an uncommon extension ensures it is actionable. |
+
+| 59 | Andariel group → Mentioned | CORRECT | The observable is a conceptual threat actor name that isn’t directly actionable for automated detection.  |
+
+| 60 | `Andariel group` → `Mentioned` | CORRECT | As a threat actor name, it is a conceptual label rather than a unique, matchable indicator. |
+| 61 | `Asset management solution` → `Described` | CORRECT | This is a generic product descriptor that requires further context to drive automated detection. |
+| 62 | `central management solution A` → `Described` | CORRECT | The observable is a vague, descriptive name rather than a complete, actionable identifier. |
+| 63 | `central management solution B` → `Described` | CORRECT | Similar to ID 62, it is a descriptive label that lacks the uniqueness needed for direct detection. |
+| 64 | `vaccine program management system` → `Described` | CORRECT | It is a broad, descriptive term rather than a specific, unique identifier. |
+| 65 | `internet cafe management system` → `Described` | CORRECT | The term is generic and would require additional context for precise automated matching. |
+| 66 | `internet cafe management program` → `Described` | CORRECT | It remains a generic descriptor that does not provide a complete, unique identifier. |
+| 67 | `Report A Active-X` → `Described` | CORRECT | This label is ambiguous and descriptive, thereby not directly actionable without additional enrichment. |
+| 68 | `Update on ERP product A` → `Described` | CORRECT | It is a descriptive reference to an update file, requiring more specific details for detection rules. |
+| 69 | `Remote support A installation file` → `Described` | CORRECT | The observable merely describes a file rather than providing a unique attribute for automated matching. |
+| 70 | `ERP product B` → `Described` | CORRECT | This is a generic product reference and lacks the distinctiveness needed for actionable detection. |
+| 71 | `DRM product` → `Described` | CORRECT | The term is a broad description of a product type, not a concrete identifier suitable for direct matching. |
+| 72 | `anti-virus management programs` → `Described` | CORRECT | It is a descriptive category rather than a unique, fully specified indicator for automation. |
+
+| 73 | F**k Hack Hound. → Actionable | CORRECT | The string is unique and distinctive enough to serve as a direct detection indicator. |
+| 74 | 175.117.144.67 → Actionable | CORRECT | A fully qualified IPv4 address is complete and actionable for detection. |
+| 75 | log.txt → Described | CORRECT | The filename is generic and ambiguous, necessitating further context for automated detection. |
+| 76 | Lafl need dic → Actionable | CORRECT | Despite its unusual appearance, the string fragment is sufficiently unique to be directly matched. |
+| 77 | Aryan → Mentioned | CORRECT | The malware family name is conceptually referenced and is not directly actionable on its own. |
+
+| 78 | Gh0st RAT → Mentioned | CORRECT | The malware family name is a conceptual reference rather than a directly unique, searchable artifact. |
+| 79 | Andariel group → Mentioned | CORRECT | As a threat actor group name, it is a conceptual reference and not a concrete detection indicator. |
+| 80 | Themida → Actionable | CORRECT | The packager’s name is a complete, unique string that can be matched directly in detection rules. |
+| 81 | C:\GhostContoler → Actionable | CORRECT | It is a full file path string that can be directly used in a detection rule. |
+| 82 | NCopy of gh0st3. → Actionable | CORRECT | This specific file name extracted from binary strings is complete enough for direct matching. |
+| 83 | 6 src\gh0st\Rele → Described | CORRECT | Being a truncated file path fragment, it is ambiguous and requires further context before automation. |
+| 84 | NABRSERIA - → Described | CORRECT | The string is ambiguous and lacks the specificity needed for a concrete indicator. |
+| 85 | ase \ghost . pdb → Described | CORRECT | Its uncertain formatting makes it ambiguous and unsuitable for direct actionable matching. |
+| 86 | Chilat RAT Beta 2.5 → Mentioned | CORRECT | As a variant name reference, it is conceptually noted rather than serving as a precise indicator. |
+| 87 | $168.9 监所确口 BO .. → Described | CORRECT | The mixed numeric and Chinese characters create ambiguity, preventing direct actionability. |
+| 88 | 蓝盛上球 0000 100 100 → Described | CORRECT | The observable’s ambiguous mix of characters and numbers means it cannot be reliably used for detection. |
+| 89 | 广西山 → Described | CORRECT | This ambiguous Chinese string lacks sufficient context for direct, automated detection. |
+| 90 | 南 上 → Described | CORRECT | The phrase is vague and does not provide a unique artifact for detection. |
+| 91 | 厂家庭气电源行 → Described | CORRECT | Its ambiguous nature and lack of specificity make it unsuitable as an actionable indicator. |
+| 92 | HENTER HEFFI → Described | CORRECT | The string is ambiguous and does not represent a unique, directly matchable artifact. |
+| 93 | MySermit → Described | CORRECT | The term is unclear and ambiguous, not providing a concrete string for direct detection. |
+| 94 | 代度主机 母声在 → Described | CORRECT | This ambiguous Chinese text lacks the specificity needed for an actionable indicator. |
+| 95 | 理海道多 国外安整 → Described | CORRECT | The string remains ambiguous with uncertain meaning and is not unique enough to be actionable. |
+| 96 | 20 18 → Described | CORRECT | The numeric string is ambiguous (possibly a year or range) and not uniquely actionable. |
+| 97 | 50400 → Described | CORRECT | Although it might represent a port, the numeric string is ambiguous without clearer context. |
+| 98 | 0000 → Described | CORRECT | The ambiguous numeric value does not provide a unique artifact for automated matching. |
+| 99 | 广 开展型 NEETPORT → Described | CORRECT | Its ambiguous mix of characters and potential port reference makes it non‑actionable as-is. |
+| 100 | 广 图사물容型 → Described | CORRECT | The mixed language characters and lack of clear context render it ambiguous and non‑actionable. |
+| 101 | HAT # 东线播示 元有在第四国家庭文学演出 → Described | CORRECT | Despite its length, the string remains ambiguous and lacks the precision required for direct detection. |
+| 102 | 医者思想書 本文章 -- → Described | CORRECT | The observable is ambiguous and appears to reference literature rather than being a unique indicator. |
+| 103 | 1200 → Described | CORRECT | The numeric value is ambiguous and could represent many things, thus lacking detection specificity. |
+| 104 | 第四 → Described | CORRECT | This single Chinese term is ambiguous and does not serve as a complete, actionable identifier. |
+| 105 | 00 四兰白花花 → Described | CORRECT | The combination of numbers and text is ambiguous and not uniquely matchable for detection. |
+| 106 | 广州市出版 二 → Described | CORRECT | The string is vague and likely refers to a publication without providing a concrete indicator. |
+| 107 | 三重八 → Described | CORRECT | The ambiguous Chinese string does not provide an actionable, unique identifier. |
+| 108 | पुर प् 117.0 → Described | CORRECT | The mix of non‑Latin characters and numerics makes the string ambiguous and non‑actionable. |
+| 109 | 1 12:00 → Described | CORRECT | Resembling a timestamp, the string is ambiguous and lacks sufficient context for direct matching. |
+| 110 | Coverboor - A Battleter ( Balt → Described | CORRECT | The truncated and corrupted text renders the string ambiguous and unsuitable for detection. |
+| 111 | 母健康 → Described | CORRECT | The Chinese string is ambiguous and does not furnish a unique, actionable indicator. |
+| 112 | 司日 → Described | CORRECT | Its lack of clarity and specificity makes the string ambiguous and non‑actionable. |
+| 113 | JT. 9 → Described | CORRECT | This short, unclear string is ambiguous and not complete enough for a detection rule. |
+| 114 | 11:04:41 → Described | CORRECT | As a generic timestamp, it is ambiguous and not directly useful for automated detection. |
+| 115 | 132 160 158 135 → Described | CORRECT | The observable requires normalization (spaces to dots) to become a complete IP address, making it ambiguous as given. |
+| 116 | 是力量 → Described | CORRECT | The Chinese string is vague and lacks the specificity needed for actionable detection. |
+| 117 | AA → Described | CORRECT | Being very short and ambiguous, the string does not provide enough context to be actionable. |
+| 118 | 最后进出山 → Described | CORRECT | The Chinese phrase is ambiguous and does not serve as a concrete indicator for detection. |
+| 119 | IP (Selection We QCPY); DAL not, Flaise put this Me to the same divelop of the peogram to thisky the terrate beating → Described | CORRECT | Despite containing “IP,” the long, corrupted text is too ambiguous for direct, actionable matching. |
+| 120 | Complimat > Settinar 17000 → Described | CORRECT | The ambiguous structure and unclear meaning of the string make it non‑actionable without further context. |
+| 121 | 10 WORLAND IN COMPANY → Described | CORRECT | The company-like text is ambiguous and lacks the concrete specificity needed for direct detection. |
+| 122 | Property Box 11 Cancertan II → Described | CORRECT | The string is ambiguous and appears to reference a product label rather than a precise, actionable indicator. |
+
+
+| 123 | E:\DatalMy Projects\Troy Source Code\tcp1st\rifle\Release\rifle.pdb → Actionable | CORRECT | The full file path is complete and unique, making it directly usable in detection. |
+| 124 | C:\Users\C8\Desktop\rifle\Release\rifle.pdb → Actionable | CORRECT | This complete Windows file path is specific enough for actionable detection. |
+| 125 | E:\Data\My Projects\Troy Source Code\tcp1st\rifle\Release\rifle.pdb → Actionable | CORRECT | A full, exact file path that uniquely identifies the artifact and is actionable. |
+| 126 | E:\Data\Mv Projects\Troy Source Code\tcp1st\server\Release\server.pdb → Actionable | CORRECT | The provided file path is complete and unambiguous, supporting direct detection. |
+| 127 | rfile.exe → Actionable | CORRECT | The executable name is a distinct artifact generated by the malware, which makes it actionable. |
+| 128 | WanSuc . exe → Actionable | CORRECT | Despite its formatting, the unique executable name is specific enough to trigger detection. |
+| 129 | $interval → Actionable | CORRECT | This specific malware command string is precise and can be directly used in detection rules. |
+| 130 | $downloadexec → Actionable | CORRECT | The command is an exact, unique string that enables actionable detection without ambiguity. |
+| 131 | $download → Actionable | CORRECT | As a specific malware command, the string is direct and actionable for rule creation. |
+| 132 | cmd.exe → Described | CORRECT | Although a complete identifier, its ubiquity makes it too generic to be actionable. |
+| 133 | Rifdoor → Mentioned | CORRECT | The malware family name is conceptually referenced and not intended for direct detection. |
+| 134 | Difdoor → Mentioned | CORRECT | As an alias referencing the malware family, it is appropriately classified as merely mentioned. |
+
+| 135 | S^%s\cmd.exe → Actionable | CORRECT | The file path pattern is unique and complete, making it directly matchable in detections. |
+| 136 | S^nehomegpa.dll → Actionable | CORRECT | The DLL name is a complete and unique identifier associated with the malware. |
+| 137 | Anonymous? → Actionable | CORRECT | The exact C2 check string is provided and can be matched directly despite being minimal. |
+| 138 | S^Anonymous? → Actionable | CORRECT | The inclusion of the unique prefix makes this check string a complete, actionable indicator. |
+| 139 | {E8433B72-5842-4d43-8645-BC2C35960837} → Actionable | CORRECT | This is a fully formed GUID (mutex) that is unique and directly usable in detection rules. |
+| 140 | 0x9 → Actionable | CORRECT | The hexadecimal command code is complete and specific to the malware’s C&C protocol. |
+| 141 | 0xA → Actionable | CORRECT | The command code is exact and uniquely identifies a malware function. |
+| 142 | 0xB → Actionable | CORRECT | A complete hexadecimal command string that is directly actionable for detection. |
+| 143 | 0x10 → Actionable | CORRECT | The command code is fully formed and can be directly used to flag malicious activity. |
+| 144 | 0x12 → Actionable | CORRECT | This hexadecimal code uniquely represents a malware command, making it actionable. |
+| 145 | 0x19 → Actionable | CORRECT | The command is complete and specific for detecting the malware's process list retrieval action. |
+| 146 | 0x1A → Actionable | CORRECT | A complete hexadecimal malware command that instructs a specific function, thus actionable. |
+| 147 | 0x1B → Actionable | CORRECT | The complete command code is unique and directly useful in malware detection. |
+
+| 148 | Andaratm → Mentioned | CORRECT | The malware family name is a conceptual reference and isn’t directly unique for detection. |
+| 149 | %s\cmd.exe /c echo | %s > %s → Described | CORRECT | The command string contains generic format specifiers making it ambiguous for direct matching. |
+| 150 | %s → Described | CORRECT | A standalone placeholder is too generic and requires additional context for actionable detection. |
+| 151 | addr socket → Described | CORRECT | The disassembled fragment is ambiguous and not uniquely identifiable for automated detection. |
+| 152 | connect %S\cmd.e → Described | CORRECT | This partial command string is truncated and ambiguous, precluding precise automated matching. |
+| 153 | xe /c echo   %s → Described | CORRECT | The partially reconstructed command segment with placeholders is non‑unique and requires enrichment. |
+| 154 | > %s → Described | CORRECT | A fragment indicating redirection with a placeholder is ambiguous and not directly actionable. |
+| 155 | wb Advapi32.dll → Described | CORRECT | Although it references a Windows library, the fragmented context makes it ambiguous for detection. |
+| 156 | GetUserNameH → Described | CORRECT | The mention of a common API function is generic and not unique enough to be directly actionable. |
+| 157 | %S*****%S → Described | CORRECT | The wildcard pattern is ambiguous and requires further context to become actionable. |
+| 158 | WSACleanup 27.1 → Described | CORRECT | The API reference with appended numerical data is too fragmentary to be directly matched. |
+| 159 | int16)(8 * v11)) & 0x7F8) << 20) → Actionable | CORRECT | This specific code snippet with a unique arithmetic pattern can be directly matched for detection. |
+
+| 160 | cmd.exe → Described | CORRECT | The indicator is a generic system executable and is not uniquely actionable, so “Described” is appropriate. |
+| 161 | Andaratm → Mentioned | CORRECT | As a malware family name used conceptually, it is not directly actionable, making “Mentioned” the proper rank. |
+
+| 162 | `Putty Link` → `Actionable` | INCORRECT — should be "Described" because it is a generic tool name that lacks a unique, exact signature for direct matching. | The string isn’t unique enough to drive automated detection. |
+| 163 | `TCP Port Scanner U1.1 By WinEggDrop` → `Actionable` | CORRECT | The complete tool name is unique and can be exactly matched. |
+| 164 | `Usage: s TCP/SYN StartIP [EndIP] Ports [Threads] [/Banner] [/Savel` → `Described` | CORRECT | It’s a command template with placeholders making it ambiguous for direct detection. |
+| 165 | `s TCP 12.12.12.12.12.12.254 80 512` → `Actionable` | CORRECT | The full command with specific parameters is concrete and matchable. |
+| 166 | `s TCP 12.12.12 1-65535 512` → `Actionable` | CORRECT | The exact command string can be directly used in detection rules. |
+| 167 | `s TCP 12.12.12.12.12.12.12.254 21,3389.5631 512` → `Actionable` | CORRECT | The complete command instance is specific and actionable. |
+| 168 | `s TCP 12.12.12.12 21,3389,5631 512` → `Actionable` | CORRECT | It’s a fully specified command string, making it directly matchable. |
+| 169 | `s SYN 12.12.12.12.12.12.254 80` → `Actionable` | CORRECT | The unique command invocation is complete and can be detected as-is. |
+| 170 | `s SYN 12.12.12 1-65535` → `Actionable` | CORRECT | The command string is fully specified and thus actionable. |
+| 171 | `s SYN 12.12.12.12.12.12.254 21.80.3389` → `Actionable` | CORRECT | The command instance is specific enough for automated detection. |
+| 172 | `s SYN 12.12.12.12 21.80.3389` → `Actionable` | CORRECT | The complete command can be directly matched by detection rules. |
+| 173 | `C = \\ MORK >s` → `Described` | CORRECT | As command prompt output, it lacks the precision needed for an exact detection rule. |
+| 174 | `C= < MORK>_` → `Described` | CORRECT | It is an ambiguous command prompt output not unique enough for automated matching. |
+| 175 | `c:\\work>zcon <ip> <port>` → `Described` | CORRECT | The use of placeholders makes this a template rather than an exact, matchable string. |
+| 176 | `c:\\work>zcon 127.0.0.1 1028` → `Actionable` | CORRECT | The specific command with defined parameters is unique and actionable. |
+| 177 | `c:\\work>zcon 127.0.0.1 890` → `Actionable` | CORRECT | It’s a complete, specific command string that can be directly detected. |
+| 178 | `c : \\work>_` → `Described` | CORRECT | This generic command prompt output isn’t sufficiently specific for automated matching. |
+| 179 | `pcon.exe` → `Actionable` | CORRECT | The exact executable filename is unique and can be directly keyed on. |
+| 180 | `portc.exe` → `Actionable` | CORRECT | The unique file name allows for precise detection using exact matching. |
+| 181 | `zcon.exe` → `Actionable` | CORRECT | As a distinct executable name, it provides a complete indicator for detection. |
+| 182 | `Crash.exe` → `Actionable` | CORRECT | The unique, full executable name makes it actionable for automated detection. |
+| 183 | `Test.exe` → `Actionable` | CORRECT | The exact filename is unique and can be fully matched in detection rules. |
+
+| 184 | `zcon.exe` → `Actionable` | CORRECT | The file name is a fully complete identifier that can be directly matched by detection rules. |
+| 185 | `Andariel group` → `Mentioned` | CORRECT | As a threat actor name, it is used conceptually and is not a concrete, unique identifier for detection. |
+| 186 | `Operation Black Mine` → `Mentioned` | CORRECT | Being a threat actor name, it is a generic reference rather than a unique, actionable indicator. |
+| 187 | `C2` → `Mentioned` | CORRECT | The term is generic and conceptual, making it unsuitable for direct automated detection. |
+
+| 188 | `Andariel group` → `Mentioned` | CORRECT | The threat actor name is used conceptually, not as a concrete detection indicator. |
+
+| 189 | "Andariel Group" → "Mentioned" | CORRECT | The name is a generic threat group reference without unique identifying characteristics. |
+| 190 | "central management solution" → "Mentioned" | CORRECT | It is a generic term for a type of software, lacking the specificity required for actionable detection. |
+| 191 | "management server" → "Mentioned" | CORRECT | The term is only a generic descriptor for a server component without unique identifiers. |
+| 192 | "aqent" → "Mentioned" | CORRECT | It is an ambiguous and generic reference (likely a misspelling of "agent"), which does not support precise detection. |
+
+| 193 | "dist=2&seq=26565" → Actionable | CORRECT | The complete query parameter string is unique and can be directly matched for detection. |
+| 194 | "upload/asecissue" → Actionable | CORRECT | The relative URL path is specific and unique enough to serve as an actionable indicator. |
+| 195 | "files/ASEC REPORT vol.89.pdf" → Actionable | CORRECT | The file path with its unique PDF name is a complete, directly matchable observable. |
