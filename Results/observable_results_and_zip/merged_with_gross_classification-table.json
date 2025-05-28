@@ -129,7 +129,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "OPC server information",
@@ -165,7 +165,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "OPC version",
@@ -849,7 +849,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "CODESYS protocol",
@@ -897,7 +897,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": "Wireshark",
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "CVE-2020-15368",
@@ -1089,7 +1089,7 @@
     "STIX_supported": "Full: network-traffic",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": "Wireshark",
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "NetManage protocol",
@@ -1305,7 +1305,7 @@
     "STIX_supported": "Full: File",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "command line parameter for payload DLL",
@@ -1353,7 +1353,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "DNS",
@@ -1629,7 +1629,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "ctlOperOff",
@@ -1641,7 +1641,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "ctlOperOn",
@@ -1653,7 +1653,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "ctlSelOff",
@@ -1665,7 +1665,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "ctlSelOn",
@@ -1677,7 +1677,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Execute packet (IEC 104)",
@@ -1689,7 +1689,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": "Wireshark",
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "external C2 server",
@@ -1713,7 +1713,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "First COM port from configuration file",
@@ -1773,7 +1773,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "IEC 61850 protocol module",
@@ -1965,7 +1965,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": "Wireshark",
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "IOPCBrowseServerAddressSpace",
@@ -1977,7 +1977,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "IOPCServer::GetStatus method",
@@ -2013,7 +2013,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "OPC protocol module",
@@ -2085,7 +2085,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "state of equipment",
@@ -2121,7 +2121,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "RTUs",
@@ -2133,7 +2133,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Select packet (IEC 104)",
@@ -2145,7 +2145,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": "Wireshark",
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "shift mode",
@@ -2229,7 +2229,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Siemens SIPROTEC relays",
@@ -2265,7 +2265,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "SIPROTEC DoS module",
@@ -2301,7 +2301,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Information Object Addresses (IOAs)",
@@ -2313,7 +2313,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": "Wireshark",
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "stVal requests",
@@ -2373,7 +2373,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Application Service Data Unit (ASDU) addresses",
@@ -2397,7 +2397,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Common Address (CA)",
@@ -2445,7 +2445,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "General Interrogation command",
@@ -2457,7 +2457,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "hardcoded list of remote-station IP addresses",
@@ -2529,7 +2529,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "IO state",
@@ -2541,7 +2541,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "ON/OFF value",
@@ -2565,7 +2565,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "PService_PDD.exe",
@@ -2613,7 +2613,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Select/Execute",
@@ -2625,7 +2625,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "compromised device",
@@ -2649,7 +2649,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "multiple priority levels",
@@ -2673,7 +2673,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "KillDisk",
@@ -2829,7 +2829,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Norsk Hydro production systems",
@@ -2841,7 +2841,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "SMBv1-targeting MS17-010 vulnerability",
@@ -3033,7 +3033,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Siemens S7 PLC device",
@@ -3069,7 +3069,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "TCP connection",
@@ -3105,7 +3105,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "TRCV",
@@ -3117,7 +3117,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "TSEND",
@@ -3129,7 +3129,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "user program",
@@ -3261,7 +3261,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "phishing emails .zip attachment",
@@ -3777,7 +3777,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Input area of an I/O image",
@@ -3933,7 +3933,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Frequency converter drives",
@@ -3945,7 +3945,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Maximum frequency change record",
@@ -3957,7 +3957,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Network bursts",
@@ -4413,7 +4413,7 @@
     "STIX_supported": "Full: File",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "I/O image",
@@ -4425,7 +4425,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "process input",
@@ -4437,7 +4437,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "peripheral output",
@@ -4449,7 +4449,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "process image output",
@@ -4461,7 +4461,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Open/Standard Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "DP_RECV",
@@ -4593,7 +4593,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "TsHi.ExplReadRam(Ex)",
@@ -4605,7 +4605,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "TsHi.ExplWriteRam(Ex)",
@@ -4617,7 +4617,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Triconex Safety Instrumented System",
@@ -4629,7 +4629,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "TriStation protocol",
@@ -4689,7 +4689,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "UDP broadcast packet over port 1502",
@@ -4713,7 +4713,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "dummy program",
@@ -4809,7 +4809,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "Tricon",
@@ -4845,7 +4845,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "py2exe",
@@ -4941,7 +4941,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "arbitrary address access",
@@ -5001,7 +5001,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "program upload",
@@ -5025,7 +5025,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "program allocation API",
@@ -5109,7 +5109,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Industrial control system"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "firmware RAM/ROM consistency check",
@@ -5133,7 +5133,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Undocumented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "specifically crafted packet body",
@@ -5157,7 +5157,7 @@
     "STIX_supported": "No",
     "proprietary_artifact": "Proprietary-Documented Technology",
     "parser": NaN,
-    "gross_classification": "Unknown"
+    "gross_classification": "Industrial control systems - new"
   },
   {
     "observable_value": "command value and arguments",

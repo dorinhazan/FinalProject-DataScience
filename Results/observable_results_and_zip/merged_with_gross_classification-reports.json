@@ -2031,7 +2031,7 @@
         "observable_id": 4,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CODESYS library",
@@ -2055,7 +2055,7 @@
         "observable_id": 6,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "DRAGOS",
@@ -2115,7 +2115,7 @@
         "observable_id": 11,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX1P2 Compact Machine Controller",
@@ -2127,7 +2127,7 @@
         "observable_id": 12,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX-SL3300 Safety Controller",
@@ -2139,7 +2139,7 @@
         "observable_id": 13,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NJ501-1300 Automation Controller",
@@ -2151,7 +2151,7 @@
         "observable_id": 14,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX-ECC EtherCAT Coupler",
@@ -2163,7 +2163,7 @@
         "observable_id": 15,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX-EIC202 Ethernet/IP Coupler",
@@ -2175,7 +2175,7 @@
         "observable_id": 16,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX-ECC203 EtherCAT Coupler",
@@ -2187,7 +2187,7 @@
         "observable_id": 17,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S8VK Power Supply",
@@ -2199,7 +2199,7 @@
         "observable_id": 18,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "1 S-series Servo Drives",
@@ -2211,7 +2211,7 @@
         "observable_id": 19,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider",
@@ -2235,7 +2235,7 @@
         "observable_id": 21,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM241 PLC",
@@ -2247,7 +2247,7 @@
         "observable_id": 22,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM22 PPC",
@@ -2259,7 +2259,7 @@
         "observable_id": 23,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM258 PLC",
@@ -2271,7 +2271,7 @@
         "observable_id": 24,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM238 PLC",
@@ -2283,7 +2283,7 @@
         "observable_id": 25,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "LMC058 Motion Controller",
@@ -2295,7 +2295,7 @@
         "observable_id": 26,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "LMC078 Motion Controller",
@@ -2307,7 +2307,7 @@
         "observable_id": 27,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ICS Protocols",
@@ -2439,7 +2439,7 @@
         "observable_id": 38,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX-EIC202 Ethernet IP Coupler",
@@ -2451,7 +2451,7 @@
         "observable_id": 39,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX-ECC201 EtherCat Coupler",
@@ -2463,7 +2463,7 @@
         "observable_id": 40,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SL3300 Safety Controller",
@@ -2475,7 +2475,7 @@
         "observable_id": 41,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "R88D-1SN10F-ECT Servo Drive",
@@ -2487,7 +2487,7 @@
         "observable_id": 42,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "R88D-1SN01L-ECT Servo Drive",
@@ -2499,7 +2499,7 @@
         "observable_id": 43,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "R88M-1M10030S-S2 AC Servo Motor",
@@ -2511,7 +2511,7 @@
         "observable_id": 44,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modicon TM241 PLC (4.0.X firmware)",
@@ -2667,7 +2667,7 @@
         "observable_id": 57,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ERS",
@@ -2871,7 +2871,7 @@
         "observable_id": 74,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Component",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TCP/4840",
@@ -3039,7 +3039,7 @@
         "observable_id": 88,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider PLCs",
@@ -3051,7 +3051,7 @@
         "observable_id": 89,
         "artifact_details": "Described",
         "fine_classification": "ICS Device (PLC)",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CODESYS",
@@ -3303,7 +3303,7 @@
         "observable_id": 110,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SSH",
@@ -3351,7 +3351,7 @@
         "observable_id": 114,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PLC",
@@ -3411,7 +3411,7 @@
         "observable_id": 119,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS API",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "FINS protocol",
@@ -3483,7 +3483,7 @@
         "observable_id": 125,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Omron devices",
@@ -3495,7 +3495,7 @@
         "observable_id": 126,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Denial-of-service (DoS) attack",
@@ -3519,7 +3519,7 @@
         "observable_id": 128,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ladder logic",
@@ -4071,7 +4071,7 @@
         "observable_id": 174,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Parameter",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "4020.01",
@@ -4083,7 +4083,7 @@
         "observable_id": 175,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Parameter",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "4020.03",
@@ -4095,7 +4095,7 @@
         "observable_id": 176,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Parameter",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "3B50.05",
@@ -4107,7 +4107,7 @@
         "observable_id": 177,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Parameter",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "3B60.04",
@@ -4119,7 +4119,7 @@
         "observable_id": 178,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Parameter",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "3B70.01",
@@ -4131,7 +4131,7 @@
         "observable_id": 179,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Parameter",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NX1P2",
@@ -4791,7 +4791,7 @@
         "observable_id": 234,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Mode",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "debug stop",
@@ -4803,7 +4803,7 @@
         "observable_id": 235,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Debuq Run",
@@ -4815,7 +4815,7 @@
         "observable_id": 236,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Mode",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Safety Validation",
@@ -4827,7 +4827,7 @@
         "observable_id": 237,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "run mode",
@@ -4839,7 +4839,7 @@
         "observable_id": 238,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Mode",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SYSMAC Safety Program Download",
@@ -4863,7 +4863,7 @@
         "observable_id": 240,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Function",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "BADOMEN",
@@ -4887,7 +4887,7 @@
         "observable_id": 242,
         "artifact_details": "Described",
         "fine_classification": "ICS Endpoint",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ECAT",
@@ -4899,7 +4899,7 @@
         "observable_id": 243,
         "artifact_details": "Described",
         "fine_classification": "ICS Endpoint",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Safety Programs",
@@ -4935,7 +4935,7 @@
         "observable_id": 246,
         "artifact_details": "Described",
         "fine_classification": "ICS Endpoint",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Servo",
@@ -5095,7 +5095,7 @@
         "observable_id": 1,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "OMRON Sysmac NEX PLCs",
@@ -5107,7 +5107,7 @@
         "observable_id": 2,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Open Platform Communications Unified Architecture (OPC UA) servers",
@@ -5119,7 +5119,7 @@
         "observable_id": 3,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ASRock motherboard driver",
@@ -5155,7 +5155,7 @@
         "observable_id": 6,
         "artifact_details": "Described",
         "fine_classification": "ICS/SCADA Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider Electric MODICON Nano PLCs",
@@ -5167,7 +5167,7 @@
         "observable_id": 7,
         "artifact_details": "Described",
         "fine_classification": "ICS/SCADA Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM251",
@@ -5251,7 +5251,7 @@
         "observable_id": 14,
         "artifact_details": "Described",
         "fine_classification": "ICS/SCADA Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NEX NX1P2",
@@ -5335,7 +5335,7 @@
         "observable_id": 21,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS/SCADA Server",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "AsrDrv103.sys",
@@ -6227,7 +6227,7 @@
         "observable_id": 1,
         "artifact_details": "Described",
         "fine_classification": "ICS Attack Tool",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PIPEDREAM",
@@ -6239,7 +6239,7 @@
         "observable_id": 2,
         "artifact_details": "Described",
         "fine_classification": "ICS Attack Tool",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TRITON",
@@ -6251,7 +6251,7 @@
         "observable_id": 3,
         "artifact_details": "Described",
         "fine_classification": "ICS Attack Tool",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "AA22-103A",
@@ -6371,7 +6371,7 @@
         "observable_id": 13,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Service",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider Electric Modicon M251",
@@ -6455,7 +6455,7 @@
         "observable_id": 20,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Malware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TAGRUN",
@@ -6479,7 +6479,7 @@
         "observable_id": 22,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Server",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CODECALL",
@@ -6587,7 +6587,7 @@
         "observable_id": 31,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Omron NX1P2",
@@ -6599,7 +6599,7 @@
         "observable_id": 32,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NJ501",
@@ -6611,7 +6611,7 @@
         "observable_id": 33,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "R88D-1SN10F-ECT servo drive",
@@ -6623,7 +6623,7 @@
         "observable_id": 34,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "NJ/NX product lines",
@@ -6635,7 +6635,7 @@
         "observable_id": 35,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Product Line",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "HTTP",
@@ -6983,7 +6983,7 @@
         "observable_id": 64,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "INCONTROLLER",
@@ -6995,7 +6995,7 @@
         "observable_id": 65,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "OPC UA endpoints",
@@ -8031,7 +8031,7 @@
         "observable_id": 20,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "global variable",
@@ -8091,7 +8091,7 @@
         "observable_id": 25,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System (ICS) Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7-1200",
@@ -8379,7 +8379,7 @@
         "observable_id": 49,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "static DB POU",
@@ -8535,7 +8535,7 @@
         "observable_id": 62,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "POU POKE",
@@ -8547,7 +8547,7 @@
         "observable_id": 63,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "process image",
@@ -8559,7 +8559,7 @@
         "observable_id": 64,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Process Memory",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TIA portal",
@@ -8583,7 +8583,7 @@
         "observable_id": 66,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "POUs",
@@ -8619,7 +8619,7 @@
         "observable_id": 69,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "original user program",
@@ -8643,7 +8643,7 @@
         "observable_id": 71,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TIA portal",
@@ -8667,7 +8667,7 @@
         "observable_id": 73,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PLC",
@@ -8679,7 +8679,7 @@
         "observable_id": 74,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "OB9999",
@@ -8751,7 +8751,7 @@
         "observable_id": 80,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7",
@@ -8763,7 +8763,7 @@
         "observable_id": 81,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "38,5KB RAM",
@@ -8919,7 +8919,7 @@
         "observable_id": 94,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "M = 0x28,0x6f,0x76,0x5c,0x6e,0x3b,0x1e,0x4c,\n    0xd0,0x8e,0x42,0x31,0x43,0x7b,0x8e,0xbf",
@@ -9039,7 +9039,7 @@
         "observable_id": 104,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "challenge response authentication",
@@ -24350,7 +24350,7 @@
         "observable_id": 12,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM241/TM251",
@@ -24362,7 +24362,7 @@
         "observable_id": 13,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM258/LMC058",
@@ -24374,7 +24374,7 @@
         "observable_id": 14,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "LMC078",
@@ -24386,7 +24386,7 @@
         "observable_id": 15,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TM238",
@@ -24398,7 +24398,7 @@
         "observable_id": 16,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PacDrive LMC",
@@ -24410,7 +24410,7 @@
         "observable_id": 17,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modbus",
@@ -25738,7 +25738,7 @@
         "observable_id": 6,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Malware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CHERNOVITE",
@@ -25942,7 +25942,7 @@
         "observable_id": 23,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control Systems Technology Table",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PIPEDREAM",
@@ -25954,7 +25954,7 @@
         "observable_id": 24,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Attack Module",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modbus TCP",
@@ -26086,7 +26086,7 @@
         "observable_id": 35,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Software",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "| INITIAL<br>ACCESS                        | EXECUTION                       | PERSISTENCE                 | PRIVILEGE<br>ESCALATION                     | EVASION                         | DISCOVERY                                 | LATERAL<br>MOVEMENT                   | COLLECTION                               | COMMAND &<br>CONTROL                      | INHIBIT<br>RESPONSE<br>FUNCTION     | IMPAIR<br>PROCESS<br>CONTROL       | IMPACT                                 |\n|------------------------------------------|---------------------------------|-----------------------------|---------------------------------------------|---------------------------------|-------------------------------------------|---------------------------------------|------------------------------------------|-------------------------------------------|-------------------------------------|------------------------------------|----------------------------------------|\n| Data Historian<br>Compromise             | Change<br>Operating<br>Mode     | Modify<br>Program           | Exploitation<br>for Privilege<br>Escalation | Change<br>Operating<br>Mode     | Network<br>Connection<br>Enumeration      | Default<br>Credentials                | Automated<br>Collection                  | Commonly<br>Used Port                     | Activate<br>Firmware<br>Update Mode | Brute Force<br>I/O                 | Damage to<br>Property                  |\n| Drive-by<br>Compromise                   | Command -<br>Line Interface     | Module<br>Firmware          | Hooking                                     | Exploitation<br>for Evasion     | Network<br>Sniffing                       | Exploitation<br>of Remote<br>Services | Data from<br>Information<br>Repositories | Connection<br>Proxy                       | Alarm<br>Suppression                | Modify<br>Parameter                | Denial of<br>Control                   |\n| Engineering<br>Workstation<br>Compromise | Execution<br>through API        | Project File<br>Information |                                             | Indicator<br>Removal on<br>Host | Remote<br>System<br>Discovery             | Lateral Tool<br>Transter              | Detect<br>Operating<br>Mode              | Standard<br>Application<br>Layer Protocol | Block<br>Command<br>Message         | Modify<br>Formware                 | Denial of View                         |\n| Exploit<br>Public-Facing<br>Application  | Graphical User<br>Interface     | System<br>Firmware          |                                             | Masquerading                    | Remote System<br>Information<br>Discovery | Program<br>Download                   | I/O Image                                |                                           | Blockk<br>Reporting<br>Message      | Spoof<br>Reporting<br>Message      | Loss of<br>Availability                |\n| Exploitation<br>of Remote<br>Services    | Hooking                         | Valid Accounts              |                                             | Rootkit                         | Wireless<br>Sniffing                      | Remote<br>Services                    | Man in the<br>Middle                     |                                           | Block Serial<br>com                 | Unauthorized<br>Command<br>Message | Loss of<br>Control                     |\n| Internet<br>Accessible<br>Device         | Modify<br>Controller<br>Tasking |                             |                                             | Spoot<br>Reporting<br>Message   |                                           | Valid Accounts                        | Monitor<br>Process State                 |                                           | Data<br>Destruction                 |                                    | Loss of<br>Productivity<br>and Revenue |\n| Remote<br>Services                       | Native API                      |                             |                                             |                                 |                                           |                                       | Point & Tag<br>Identification            |                                           | Denial of<br>Service                |                                    | Loss of<br>Protection                  |\n| Replication<br>via Removable<br>Media    | Scripting                       |                             |                                             |                                 |                                           |                                       | Program<br>Upload                        |                                           | Device<br>Restart/<br>Shutdown      |                                    | Loss of Safety                         |\n| Rogue Master                             | User<br>Execution               |                             |                                             |                                 |                                           |                                       | Screen<br>Capture                        |                                           | Manipulate<br>l/O Image             |                                    | Loss of View                           |\n| Spearphishing<br>Attachment              |                                 |                             |                                             |                                 |                                           |                                       | Wireless<br>Sniffing                     |                                           | Modify Alarm<br>Settings            |                                    | Manipulation<br>of Control             |\n| Supply Chain<br>Compromise               |                                 |                             |                                             |                                 |                                           |                                       |                                          |                                           | Rootkit                             |                                    | Manipulation<br>of View                |\n| Wireless<br>Compromise                   |                                 |                             |                                             |                                 |                                           |                                       |                                          |                                           | Service Stop                        |                                    | Theft of<br>Operational<br>Information |\n|                                          |                                 |                             |                                             |                                 |                                           |                                       |                                          |                                           | System<br>Firmware                  |                                    |                                        |\n\nFigure 1 - Mapping for CHERNOVITE/PIPEDREAM MITRE ATT&CK for ICS Techniques",
@@ -26242,7 +26242,7 @@
         "observable_id": 48,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Service",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "EVILSCHOLAR",
@@ -26278,7 +26278,7 @@
         "observable_id": 51,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Omron PLCs",
@@ -26290,7 +26290,7 @@
         "observable_id": 52,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "EVILSCHOLAR",
@@ -26422,7 +26422,7 @@
         "observable_id": 63,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "firmware 5.0",
@@ -27202,7 +27202,7 @@
         "observable_id": 128,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device Vendor",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider Electric",
@@ -27214,7 +27214,7 @@
         "observable_id": 129,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device Vendor",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "OPC-UA",
@@ -27878,7 +27878,7 @@
         "observable_id": 43,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Ports",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Open Platform Communication (OPC) standard",
@@ -28070,7 +28070,7 @@
         "observable_id": 59,
         "artifact_details": "Described",
         "fine_classification": "ICS Utility",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "OPC enumeration payload",
@@ -28646,7 +28646,7 @@
         "observable_id": 107,
         "artifact_details": "Described",
         "fine_classification": "ICS Tool",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "port scanners",
@@ -28670,7 +28670,7 @@
         "observable_id": 109,
         "artifact_details": "Described",
         "fine_classification": "ICS Capability",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "remote access profiles",
@@ -34478,7 +34478,7 @@
         "observable_id": 4,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Asset",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "6 ELECTRUM - Dragos",
@@ -34682,7 +34682,7 @@
         "observable_id": 21,
         "artifact_details": "Described",
         "fine_classification": "ICS Device / Protective Relay",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SIPROTEC Compact",
@@ -34694,7 +34694,7 @@
         "observable_id": 22,
         "artifact_details": "Described",
         "fine_classification": "ICS Device / Protective Relay",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "UDP 50000",
@@ -34766,7 +34766,7 @@
         "observable_id": 28,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CRASHOVERRIDE",
@@ -34802,7 +34802,7 @@
         "observable_id": 31,
         "artifact_details": "Described",
         "fine_classification": "ICS Device (Remote Terminal Unit)",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SCADA devices",
@@ -34814,7 +34814,7 @@
         "observable_id": 32,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "protective relays",
@@ -34826,7 +34826,7 @@
         "observable_id": 33,
         "artifact_details": "Described",
         "fine_classification": "ICS Device (Protective Relay)",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CRASHOVERRIDE",
@@ -34886,7 +34886,7 @@
         "observable_id": 38,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Attack Framework",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CRASHOVERRIDE",
@@ -35114,7 +35114,7 @@
         "observable_id": 57,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Attack Framework",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       }
     ]
   },
@@ -38802,7 +38802,7 @@
         "observable_id": 15,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CVSS V3: 9.8",
@@ -39114,7 +39114,7 @@
         "observable_id": 41,
         "artifact_details": "Described",
         "fine_classification": "ICS Gateway",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TMSB",
@@ -39126,7 +39126,7 @@
         "observable_id": 42,
         "artifact_details": "Described",
         "fine_classification": "ICS Gateway",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "sbk",
@@ -39474,7 +39474,7 @@
         "observable_id": 71,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SSH",
@@ -39678,7 +39678,7 @@
         "observable_id": 88,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "dedicated serial bus",
@@ -39726,7 +39726,7 @@
         "observable_id": 92,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Meter-Bus channel",
@@ -40066,7 +40066,7 @@
         "observable_id": 3,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Software",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Plant Design",
@@ -40090,7 +40090,7 @@
         "observable_id": 5,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Industrial Controllers",
@@ -40102,7 +40102,7 @@
         "observable_id": 6,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Overpressure Attack",
@@ -40174,7 +40174,7 @@
         "observable_id": 12,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "IR-1 centrifuge",
@@ -40234,7 +40234,7 @@
         "observable_id": 17,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "production systems",
@@ -40282,7 +40282,7 @@
         "observable_id": 21,
         "artifact_details": "Described",
         "fine_classification": "ICS System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "centrifuge",
@@ -40450,7 +40450,7 @@
         "observable_id": 35,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PROFIBUS fieldbus",
@@ -40570,7 +40570,7 @@
         "observable_id": 45,
         "artifact_details": "Described",
         "fine_classification": "ICS System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens S7-417",
@@ -40582,7 +40582,7 @@
         "observable_id": 46,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SCADA",
@@ -40642,7 +40642,7 @@
         "observable_id": 51,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Sensor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "stage exhaust valves",
@@ -40714,7 +40714,7 @@
         "observable_id": 57,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Sensor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "centrifuges",
@@ -40738,7 +40738,7 @@
         "observable_id": 59,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Sensor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Rotor Speed Attack",
@@ -40774,7 +40774,7 @@
         "observable_id": 62,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "USB stick",
@@ -40834,7 +40834,7 @@
         "observable_id": 67,
         "artifact_details": "Described",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MS Windows exploits",
@@ -40906,7 +40906,7 @@
         "observable_id": 73,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Controller",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "portable engineering system",
@@ -40966,7 +40966,7 @@
         "observable_id": 78,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7-315",
@@ -40978,7 +40978,7 @@
         "observable_id": 79,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens WinCC SCADA system",
@@ -41014,7 +41014,7 @@
         "observable_id": 82,
         "artifact_details": "Described",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "frequency converters",
@@ -41086,7 +41086,7 @@
         "observable_id": 88,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Safety System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "gas centrifuges",
@@ -41122,7 +41122,7 @@
         "observable_id": 91,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Controller Model",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "WinCC",
@@ -41206,7 +41206,7 @@
         "observable_id": 98,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Centrifuge Drive System",
@@ -41218,7 +41218,7 @@
         "observable_id": 99,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "| ths in office, President Obama                                | FACEBOOK        |  |  |  |  |  |\n|---------------------------------------------------------------|-----------------|--|--|--|--|--|\n| ated attacks on the computer                                  | TWITTER         |  |  |  |  |  |\n| enrichment facilities,                                        | GOOGLE+         |  |  |  |  |  |\n| t sustained use of<br>ts in the program.                      | T<br>SAVE       |  |  |  |  |  |\n|                                                               | X<br>E-MAIL     |  |  |  |  |  |\n| ama decided to accelerate the<br>- begun in the Bush          | +<br>SHARE      |  |  |  |  |  |\n| stration and code-named                                       | 를<br>PRINT      |  |  |  |  |  |\n| ic Games - even after an                                      | SINGLE PAGE     |  |  |  |  |  |\n| t of the program accidentally                                 | t<br>REPRINTS   |  |  |  |  |  |\n| public in the summer of 2010<br>e of a programming error that | Enough Said     |  |  |  |  |  |\n| d it to escape Iran's Natanz                                  | Coming Soon     |  |  |  |  |  |\n| nd sent it around the world on                                | Watch Trailer ► |  |  |  |  |  |\n| ernet. Computer security                                      |                 |  |  |  |  |  |\n| s who began studying the worm, which had been                 |                 |  |  |  |  |  |\n| ped by the United States and Israel, gave it a name:          |                 |  |  |  |  |  |\n|                                                               |                 |  |  |  |  |  |\n\nFigure 13: Coming out about Stuxnet's Modus Operandi and intention: Reporting by David Sanger in the New York Times on June 1, 2012",
@@ -41266,7 +41266,7 @@
         "observable_id": 103,
         "artifact_details": "Described",
         "fine_classification": "ICS Control System",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Centrifuge Drive System",
@@ -41278,7 +41278,7 @@
         "observable_id": 104,
         "artifact_details": "Described",
         "fine_classification": "ICS Control System",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "driver DLL",
@@ -41350,7 +41350,7 @@
         "observable_id": 110,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "uranium hexafluoride",
@@ -41458,7 +41458,7 @@
         "observable_id": 119,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Diagram",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Cascade Protection System monitoring application",
@@ -41470,7 +41470,7 @@
         "observable_id": 120,
         "artifact_details": "Described",
         "fine_classification": "ICS Application",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Red piping",
@@ -41626,7 +41626,7 @@
         "observable_id": 133,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Centrifuge monitor area",
@@ -41770,7 +41770,7 @@
         "observable_id": 145,
         "artifact_details": "Described",
         "fine_classification": "ICS Equipment",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "IR-1 cascade",
@@ -41782,7 +41782,7 @@
         "observable_id": 146,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Design",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "IR-1 centrifuges",
@@ -41842,7 +41842,7 @@
         "observable_id": 151,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "connector pipes",
@@ -41914,7 +41914,7 @@
         "observable_id": 157,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component – Exhaust Valve",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "EP-",
@@ -41938,7 +41938,7 @@
         "observable_id": 159,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "pressure sensor",
@@ -41950,7 +41950,7 @@
         "observable_id": 160,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "pneumatic pump",
@@ -41962,7 +41962,7 @@
         "observable_id": 161,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "M",
@@ -42058,7 +42058,7 @@
         "observable_id": 169,
         "artifact_details": "Described",
         "fine_classification": "ICS Sensor Label",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Pressure Transducer",
@@ -42070,7 +42070,7 @@
         "observable_id": 170,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Sensor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MKS Baratron sensors",
@@ -42082,7 +42082,7 @@
         "observable_id": 171,
         "artifact_details": "Described",
         "fine_classification": "ICS Sensor Model",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MKS clones",
@@ -42094,7 +42094,7 @@
         "observable_id": 172,
         "artifact_details": "Described",
         "fine_classification": "ICS Sensor Model",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Differential pressure sensor",
@@ -42106,7 +42106,7 @@
         "observable_id": 173,
         "artifact_details": "Described",
         "fine_classification": "ICS Sensor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Industrial Controllers",
@@ -42130,7 +42130,7 @@
         "observable_id": 175,
         "artifact_details": "Described",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens S7-315",
@@ -42142,7 +42142,7 @@
         "observable_id": 176,
         "artifact_details": "Described",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens S7-315",
@@ -42154,7 +42154,7 @@
         "observable_id": 177,
         "artifact_details": "Described",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens S7-417",
@@ -42166,7 +42166,7 @@
         "observable_id": 178,
         "artifact_details": "Described",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "57-315",
@@ -42178,7 +42178,7 @@
         "observable_id": 179,
         "artifact_details": "Described",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "417H",
@@ -42190,7 +42190,7 @@
         "observable_id": 180,
         "artifact_details": "Described",
         "fine_classification": "ICS Controller Variant",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Centrifuge Drive System",
@@ -42202,7 +42202,7 @@
         "observable_id": 181,
         "artifact_details": "Described",
         "fine_classification": "ICS System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Cascade Protection System",
@@ -42214,7 +42214,7 @@
         "observable_id": 182,
         "artifact_details": "Described",
         "fine_classification": "ICS System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens Field PG",
@@ -42226,7 +42226,7 @@
         "observable_id": 183,
         "artifact_details": "Described",
         "fine_classification": "ICS Programming Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SIMATIC Manager",
@@ -42274,7 +42274,7 @@
         "observable_id": 187,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens S7-417",
@@ -42350,7 +42350,7 @@
         "observable_id": 4,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Malware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider Electric's Triconex safety instrumented system (SIS)",
@@ -42362,7 +42362,7 @@
         "observable_id": 5,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System (ICS) Product",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider Electric's Triconex safety instrumented system (SIS)",
@@ -42374,7 +42374,7 @@
         "observable_id": 6,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Product",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex SIS Controller",
@@ -42386,7 +42386,7 @@
         "observable_id": 7,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Controller",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "IEC-61131",
@@ -42422,7 +42422,7 @@
         "observable_id": 10,
         "artifact_details": "Described",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Cyber Security Implications of SIS Integration with Control Networks  2011%20mod%20jan%202013.pdf",
@@ -42506,7 +42506,7 @@
         "observable_id": 17,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Equipment",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "safety controller",
@@ -42518,7 +42518,7 @@
         "observable_id": 18,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "standard PLC",
@@ -42554,7 +42554,7 @@
         "observable_id": 21,
         "artifact_details": "Described",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "X.509 mutual authentication",
@@ -42614,7 +42614,7 @@
         "observable_id": 26,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex 3008 processor modules",
@@ -42626,7 +42626,7 @@
         "observable_id": 27,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SIS device",
@@ -42638,7 +42638,7 @@
         "observable_id": 28,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TRISIS",
@@ -42662,7 +42662,7 @@
         "observable_id": 30,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TRISIS",
@@ -42770,7 +42770,7 @@
         "observable_id": 39,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ladder logic",
@@ -42782,7 +42782,7 @@
         "observable_id": 40,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Code",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Start Code",
@@ -42794,7 +42794,7 @@
         "observable_id": 41,
         "artifact_details": "Described",
         "fine_classification": "ICS Code",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Figure 4: TRISIS Attack Flow",
@@ -42830,7 +42830,7 @@
         "observable_id": 44,
         "artifact_details": "Described",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex Controllers",
@@ -42842,7 +42842,7 @@
         "observable_id": 45,
         "artifact_details": "Described",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Tristation terminals (Triconex programming software)",
@@ -42866,7 +42866,7 @@
         "observable_id": 47,
         "artifact_details": "Described",
         "fine_classification": "ICS Hardware Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TRISIS",
@@ -42890,7 +42890,7 @@
         "observable_id": 49,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "L2: Process LAN",
@@ -42938,7 +42938,7 @@
         "observable_id": 53,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TRISIS attack",
@@ -42998,7 +42998,7 @@
         "observable_id": 58,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider Electric",
@@ -43010,7 +43010,7 @@
         "observable_id": 59,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Vendor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SIS",
@@ -44710,7 +44710,7 @@
         "observable_id": 26,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "RTU",
@@ -45346,7 +45346,7 @@
         "observable_id": 79,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Module",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "configuration file",
@@ -45670,7 +45670,7 @@
         "observable_id": 106,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Parameter Type",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "IEC 101 module",
@@ -45814,7 +45814,7 @@
         "observable_id": 118,
         "artifact_details": "Described",
         "fine_classification": "ICS Module",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "IEC 104 master portion",
@@ -45826,7 +45826,7 @@
         "observable_id": 119,
         "artifact_details": "Described",
         "fine_classification": "ICS Module",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Crash function",
@@ -45886,7 +45886,7 @@
         "observable_id": 124,
         "artifact_details": "Described",
         "fine_classification": "ICS Status Code",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "0×10",
@@ -45898,7 +45898,7 @@
         "observable_id": 125,
         "artifact_details": "Described",
         "fine_classification": "ICS Status Code",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "0×08",
@@ -45910,7 +45910,7 @@
         "observable_id": 126,
         "artifact_details": "Described",
         "fine_classification": "ICS Status Code",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "0×04",
@@ -45922,7 +45922,7 @@
         "observable_id": 127,
         "artifact_details": "Described",
         "fine_classification": "ICS Status Code",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "0×02",
@@ -45934,7 +45934,7 @@
         "observable_id": 128,
         "artifact_details": "Described",
         "fine_classification": "ICS Status Code",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "0×01",
@@ -45946,7 +45946,7 @@
         "observable_id": 129,
         "artifact_details": "Described",
         "fine_classification": "ICS Status Code",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CVE-2015-5374",
@@ -45982,7 +45982,7 @@
         "observable_id": 132,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "IEC 104",
@@ -46478,7 +46478,7 @@
         "observable_id": 2,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Tricon firmware",
@@ -46502,7 +46502,7 @@
         "observable_id": 4,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Tricon key switch",
@@ -46574,7 +46574,7 @@
         "observable_id": 10,
         "artifact_details": "Described",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PROGRAM",
@@ -46598,7 +46598,7 @@
         "observable_id": 12,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Hatman/Triton malware",
@@ -47314,7 +47314,7 @@
         "observable_id": 1,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control Systems Operations",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "EKANS",
@@ -49126,7 +49126,7 @@
         "observable_id": 152,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Software",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "HMIWeb Solutions",
@@ -49138,7 +49138,7 @@
         "observable_id": 153,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Software",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ThingWorx Industrial Connectivity",
@@ -56417,7 +56417,7 @@
         "observable_id": 2,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Malware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CRASHOVERRIDE Modules",
@@ -59865,7 +59865,7 @@
         "observable_id": 22,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Software",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "STEP 7",
@@ -59877,7 +59877,7 @@
         "observable_id": 23,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Software",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Microsoft Patch",
@@ -65181,7 +65181,7 @@
         "observable_id": 52,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TRCV",
@@ -65193,7 +65193,7 @@
         "observable_id": 53,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7CommPlus",
@@ -65253,7 +65253,7 @@
         "observable_id": 58,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Start/Stop CPU",
@@ -65265,7 +65265,7 @@
         "observable_id": 59,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Read/Write process variables",
@@ -65277,7 +65277,7 @@
         "observable_id": 60,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "|                                                                           |    |      |          |                             |  | Magic                         |         | Len |                         | Reserved |          |                                                      |  |\n|---------------------------------------------------------------------------|----|------|----------|-----------------------------|--|-------------------------------|---------|-----|-------------------------|----------|----------|------------------------------------------------------|--|\n|                                                                           |    | TPKT |          | SO8073                      |  |                               | Version |     | Type                    |          | Sub-Type |                                                      |  |\n| 0000023                                                                   |    |      |          |                             |  |                               |         |     |                         |          |          | 03 00 00 df 02 £0 80 72 001 00 d0 31 00 00 04 ca r 1 |  |\n| Seq no.                                                                   |    |      | 00 00 00 | 02 00 00 01 20              |  |                               |         |     | 36 00 00 01 1d 00 04 00 |          |          |                                                      |  |\n|                                                                           | 00 |      | 00 00 00 |                             |  | a1 00 00 00 d3 82             |         | 1 F | 00 00                   |          | a3 81 69 |                                                      |  |\n| 00000053                                                                  |    |      |          |                             |  | 00 15 16 53 65 72 76 65 72 53 |         |     |                         |          |          | 65 73 73 69 6f 6e Serve rSession                     |  |\n| 00000063 5f 33 33 32 33 34 41 37                                          |    |      |          |                             |  |                               | 41 aB   |     |                         |          |          | 82 21 00 15 2c 31  33234A7 A                         |  |\n| 00000073  3a 3a 3a 36 2e 30 3a  54 48 50 2f 49 50 20 2d :::6.0:: TCP/IP - |    |      |          |                             |  |                               |         |     |                         |          |          |                                                      |  |\n| 00000083 3e 20 49 6e 74 65 6c 28                                          |    |      |          |                             |  |                               |         |     |                         |          |          | 52 79 20 50 52 4f 2f 31 > Intel( R) PRO/1            |  |\n| 00000093 30 30 30 30 20 4d 54 20 44                                       |    |      |          |                             |  |                               |         |     |                         |          |          | 2e 2e 2e a3 82 28 00 15 000 MT D (                   |  |\n| 000000A3 000 a3 82 29 00 15 00 a3                                         |    |      |          |                             |  |                               |         |     |                         |          |          | 82 2a 00 15 0f 4d 41 49 ) .*MAI                      |  |\n| 000000B3                                                                  |    |      |          | 4b 2d 50 43 5f 32 32 33     |  |                               |         |     |                         |          |          | 30 39 30 36 a3 82 2b 00 K-PC 223 0906+.              |  |\n| 0000000C3                                                                 |    |      |          | 04 01 a3 82 2c 00 12 00     |  |                               | 2d      |     | c6 c0 a3 82 2d 00 15    |          |          |                                                      |  |\n| OOOOOOOOOOOO                                                              |    |      |          | 00 a1 00 00 00 00 d3 81 7ff |  |                               | 0 0     |     |                         |          |          | 00 a3 81 69 00 15 15                                 |  |\n| 0000000003  53 75 62 73 63 72 69 70                                       |    |      |          |                             |  |                               |         |     |                         |          |          | 69 6f 6e 43 6f 6e 74 Subscrip tionCont               |  |\n| 000000F3 61 69 6e 65 72 a2 a2 00                                          |    |      |          |                             |  |                               |         |     |                         |          |          | 00 00 72 01 00 00    ainer r                         |  |\n|                                                                           |    |      |          |                             |  |                               |         |     | Frame-End-Delimiter     |          |          |                                                      |  |",
@@ -66033,7 +66033,7 @@
         "observable_id": 123,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "pcaps",
@@ -66321,7 +66321,7 @@
         "observable_id": 147,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "DISCON",
@@ -66333,7 +66333,7 @@
         "observable_id": 148,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7-Protocol",
@@ -66357,7 +66357,7 @@
         "observable_id": 150,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TRCV",
@@ -66369,7 +66369,7 @@
         "observable_id": 151,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PLC-Blaster",
@@ -66669,7 +66669,7 @@
         "observable_id": 176,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Override worm OB",
@@ -66681,7 +66681,7 @@
         "observable_id": 177,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TIA-Portal",
@@ -66885,7 +66885,7 @@
         "observable_id": 194,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Component",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SSA-833048",
@@ -66933,7 +66933,7 @@
         "observable_id": 198,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Transfer Program to PLC",
@@ -66945,7 +66945,7 @@
         "observable_id": 199,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Retrieve Program from PLC",
@@ -66957,7 +66957,7 @@
         "observable_id": 200,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Edit  Output/Input/Memory",
@@ -66969,7 +66969,7 @@
         "observable_id": 201,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Read Identification",
@@ -66981,7 +66981,7 @@
         "observable_id": 202,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Assign IP-Adress",
@@ -66993,7 +66993,7 @@
         "observable_id": 203,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Set time of day",
@@ -67005,7 +67005,7 @@
         "observable_id": 204,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Reset",
@@ -67017,7 +67017,7 @@
         "observable_id": 205,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "TCON",
@@ -67101,7 +67101,7 @@
         "observable_id": 212,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Vendor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Mitsubishi Electric",
@@ -67113,7 +67113,7 @@
         "observable_id": 213,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Vendor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Schneider Electric",
@@ -67125,7 +67125,7 @@
         "observable_id": 214,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Vendor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Rockwell Automation",
@@ -67137,7 +67137,7 @@
         "observable_id": 215,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Vendor",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7-300",
@@ -67149,7 +67149,7 @@
         "observable_id": 216,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7-400",
@@ -67161,7 +67161,7 @@
         "observable_id": 217,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7-1200",
@@ -67173,7 +67173,7 @@
         "observable_id": 218,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "S7-1500",
@@ -67185,7 +67185,7 @@
         "observable_id": 219,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MELSEC iQ-R",
@@ -67197,7 +67197,7 @@
         "observable_id": 220,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MELSEC iQ-F",
@@ -67209,7 +67209,7 @@
         "observable_id": 221,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MELSEC-Q",
@@ -67221,7 +67221,7 @@
         "observable_id": 222,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MELSEC-L",
@@ -67233,7 +67233,7 @@
         "observable_id": 223,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MELSEC-F",
@@ -67245,7 +67245,7 @@
         "observable_id": 224,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MELSEC-QS/WS",
@@ -67257,7 +67257,7 @@
         "observable_id": 225,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modicon Easy M",
@@ -67269,7 +67269,7 @@
         "observable_id": 226,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modicon M",
@@ -67281,7 +67281,7 @@
         "observable_id": 227,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modicon LM",
@@ -67293,7 +67293,7 @@
         "observable_id": 228,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modicon Premium",
@@ -67305,7 +67305,7 @@
         "observable_id": 229,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Modicon Quantum",
@@ -67317,7 +67317,7 @@
         "observable_id": 230,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Preventa XPS Quantum",
@@ -67329,7 +67329,7 @@
         "observable_id": 231,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ControlLogix",
@@ -67341,7 +67341,7 @@
         "observable_id": 232,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "CompactLogix",
@@ -67353,7 +67353,7 @@
         "observable_id": 233,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "MicroLogix",
@@ -67365,7 +67365,7 @@
         "observable_id": 234,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SmartGuard 600",
@@ -67377,7 +67377,7 @@
         "observable_id": 235,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "SLC 500",
@@ -67389,7 +67389,7 @@
         "observable_id": 236,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "PLC-5",
@@ -67401,7 +67401,7 @@
         "observable_id": 237,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "GuardPLC",
@@ -67413,7 +67413,7 @@
         "observable_id": 238,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Micro800",
@@ -67425,7 +67425,7 @@
         "observable_id": 239,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Siemens S7-300",
@@ -75229,7 +75229,7 @@
         "observable_id": 7,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Safety Controller",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex",
@@ -75241,7 +75241,7 @@
         "observable_id": 8,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Product",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Tricon",
@@ -75253,7 +75253,7 @@
         "observable_id": 9,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex MP3008",
@@ -75265,7 +75265,7 @@
         "observable_id": 10,
         "artifact_details": "Described",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "10.0-10.4",
@@ -75325,7 +75325,7 @@
         "observable_id": 15,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Safety systems",
@@ -75337,7 +75337,7 @@
         "observable_id": 16,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Concept",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "safety instrumented systems (SIS)",
@@ -75349,7 +75349,7 @@
         "observable_id": 17,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "safety programmable logic controllers (PLCs)",
@@ -75361,7 +75361,7 @@
         "observable_id": 18,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "traditional PLCs",
@@ -75373,7 +75373,7 @@
         "observable_id": 19,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "safety PLCs",
@@ -75385,7 +75385,7 @@
         "observable_id": 20,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "script_test.py",
@@ -76009,7 +76009,7 @@
         "observable_id": 72,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "download changes",
@@ -76021,7 +76021,7 @@
         "observable_id": 73,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "append action",
@@ -76033,7 +76033,7 @@
         "observable_id": 74,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "run command",
@@ -76045,7 +76045,7 @@
         "observable_id": 75,
         "artifact_details": "Actionable",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "dummy program",
@@ -76429,7 +76429,7 @@
         "observable_id": 107,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex controllers",
@@ -76441,7 +76441,7 @@
         "observable_id": 108,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Controller",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "VirusTotal",
@@ -76657,7 +76657,7 @@
         "observable_id": 10,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex",
@@ -76669,7 +76669,7 @@
         "observable_id": 11,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Product",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Tricon",
@@ -76681,7 +76681,7 @@
         "observable_id": 12,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Product",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "HatMan",
@@ -76729,7 +76729,7 @@
         "observable_id": 16,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "firmware versions 10.0-10.4",
@@ -76765,7 +76765,7 @@
         "observable_id": 19,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "ARM-based",
@@ -76789,7 +76789,7 @@
         "observable_id": 21,
         "artifact_details": "Described",
         "fine_classification": "Industrial Control System Device",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Safety systems",
@@ -76801,7 +76801,7 @@
         "observable_id": 22,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "safety instrumented systems (SIS)",
@@ -76813,7 +76813,7 @@
         "observable_id": 23,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "safety programmable logic controllers (PLCs)",
@@ -76825,7 +76825,7 @@
         "observable_id": 24,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "traditional PLCs",
@@ -76837,7 +76837,7 @@
         "observable_id": 25,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "safety PLCs",
@@ -76849,7 +76849,7 @@
         "observable_id": 26,
         "artifact_details": "Mentioned",
         "fine_classification": "ICS Hardware",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "script_test.py",
@@ -77101,7 +77101,7 @@
         "observable_id": 47,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "inject.bin",
@@ -77449,7 +77449,7 @@
         "observable_id": 76,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "download changes",
@@ -77461,7 +77461,7 @@
         "observable_id": 77,
         "artifact_details": "Described",
         "fine_classification": "ICS Command",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "dummy",
@@ -77509,7 +77509,7 @@
         "observable_id": 81,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "trilog. exe",
@@ -77857,7 +77857,7 @@
         "observable_id": 110,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Equipment",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "Triconex controllers",
@@ -77869,7 +77869,7 @@
         "observable_id": 111,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System Equipment",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "crc. pyc",
@@ -78609,7 +78609,7 @@
         "observable_id": 5,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "malware",
@@ -78657,7 +78657,7 @@
         "observable_id": 9,
         "artifact_details": "Mentioned",
         "fine_classification": "Industrial Control System",
-        "gross_classification": "Industrial control system"
+        "gross_classification": "Industrial control systems - new"
       }
     ]
   },
@@ -81909,7 +81909,7 @@
         "observable_id": 111,
         "artifact_details": "Described",
         "fine_classification": "ICS Device",
-        "gross_classification": "Unknown"
+        "gross_classification": "Industrial control systems - new"
       },
       {
         "observable_value": "50000",
